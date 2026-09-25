@@ -1,0 +1,32 @@
+[0.005s] Invoking command in '/home/jon/ws01/build/cpp01_topic': AMENT_PREFIX_PATH=/home/jon/ws01/install/base_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp01_topic -- -j24 -l24
+[0.030s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker[0m
+[0.041s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o[0m
+[1.118s] [01m[K/home/jon/ws01/src/cpp01_topic/src/demo01_talker.cpp:34:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.118s]    34 |   }
+[1.118s]       |    [01;31m[K^[m[K
+[1.118s] [01m[K/home/jon/ws01/src/cpp01_topic/src/demo01_talker.cpp:25:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.118s]    25 | [01;36m[K{[m[K
+[1.118s]       | [01;36m[K^[m[K
+[1.118s] [01m[K/home/jon/ws01/src/cpp01_topic/src/demo01_talker.cpp:[m[K In constructor ‘[01m[KTalker::Talker()[m[K’:
+[1.118s] [01m[K/home/jon/ws01/src/cpp01_topic/src/demo01_talker.cpp:27:30:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KTalker[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[1.119s]    27 |   Talker() : Node("talker"), [01;31m[Kcount_[m[K(0)
+[1.119s]       |                              [01;31m[K^~~~~~[m[K
+[1.123s] [01m[K/home/jon/ws01/src/cpp01_topic/src/demo01_talker.cpp:30:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.123s]    30 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+[1.123s]       |     [01;31m[K^~~~~~~~~~[m[K
+[1.124s]       |     [32m[Krmw_publisher_t[m[K
+[1.127s] [01m[K/home/jon/ws01/src/cpp01_topic/src/demo01_talker.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.128s]    32 |     [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[1.128s]       |     [01;31m[K^~~~~~[m[K
+[1.128s]       |     [32m[Ktimer_t[m[K
+[1.128s] [01m[K/home/jon/ws01/src/cpp01_topic/src/demo01_talker.cpp:33:35:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KTalker[m[K’
+[1.128s]    33 |         500ms, std::bind(&Talker::[01;31m[Ktimer_callback[m[K, this));
+[1.128s]       |                                   [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.128s] [01m[K/home/jon/ws01/src/cpp01_topic/src/demo01_talker.cpp:[m[K At global scope:
+[1.128s] [01m[K/home/jon/ws01/src/cpp01_topic/src/demo01_talker.cpp:34:4:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.128s]    34 |   }
+[1.128s]       |    [01;31m[K^[m[K
+[1.425s] gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76：CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] 错误 1
+[1.425s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo01_talker.dir/all] 错误 2
+[1.426s] gmake: *** [Makefile:146：all] 错误 2
+[1.428s] Invoked command in '/home/jon/ws01/build/cpp01_topic' returned '2': AMENT_PREFIX_PATH=/home/jon/ws01/install/base_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp01_topic -- -j24 -l24

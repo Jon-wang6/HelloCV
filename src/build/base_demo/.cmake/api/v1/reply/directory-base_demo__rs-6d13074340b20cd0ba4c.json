@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "base_demo__rs",
+		"source" : "/home/jon/ws01/src/build/base_demo/base_demo__rs"
+	}
+}

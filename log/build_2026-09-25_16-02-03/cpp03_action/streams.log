@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/jon/ws01/build/cpp03_action': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp03_action -- -j24 -l24
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target demo02_client[0m
+[0.044s] [ 50%] Built target demo01_server
+[0.051s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[1.282s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionClient::send_goal(int)[m[K’:
+[1.282s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:35:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.282s]    35 |     void send_goal([01;35m[Kint num[m[K){
+[1.282s]       |                    [01;35m[K~~~~^~~[m[K
+[1.790s] [100%] [32m[1mLinking CXX executable demo02_client[0m
+[1.867s] [100%] Built target demo02_client
+[1.877s] Invoked command in '/home/jon/ws01/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp03_action -- -j24 -l24
+[1.877s] Invoking command in '/home/jon/ws01/build/cpp03_action': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp03_action
+[1.881s] -- Install configuration: ""
+[1.881s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/lib/cpp03_action/demo01_server
+[1.881s] -- Installing: /home/jon/ws01/install/cpp03_action/lib/cpp03_action/demo02_client
+[1.882s] -- Set runtime path of "/home/jon/ws01/install/cpp03_action/lib/cpp03_action/demo02_client" to ""
+[1.882s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[1.882s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[1.882s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[1.882s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[1.882s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/cpp03_action/environment/path.sh
+[1.882s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[1.883s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/cpp03_action/local_setup.bash
+[1.883s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/cpp03_action/local_setup.sh
+[1.883s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[1.883s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[1.883s] -- Installing: /home/jon/ws01/install/cpp03_action/share/cpp03_action/package.dsv
+[1.883s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[1.883s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[1.883s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[1.883s] -- Up-to-date: /home/jon/ws01/install/cpp03_action/share/cpp03_action/package.xml
+[1.884s] Invoked command in '/home/jon/ws01/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp03_action

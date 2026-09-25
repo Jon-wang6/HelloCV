@@ -1,0 +1,26 @@
+[0.006s] Invoking command in '/home/jon/ws01/src/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/src/build/cpp04_param -- -j24 -l24
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target demo00_param[0m
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o[0m
+[1.143s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.143s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.143s]                  from [01m[K/home/jon/ws01/src/cpp04_param/src/demo00_param.cpp:14[m[K:
+[1.143s] [01m[K/home/jon/ws01/src/cpp04_param/src/demo00_param.cpp:[m[K In constructor ‘[01m[KMyParam::MyParam()[m[K’:
+[1.143s] [01m[K/home/jon/ws01/src/cpp04_param/src/demo00_param.cpp:29:71:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kp2.rclcpp::Parameter::as_double()[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+[1.143s]    29 |         RCLCPP_INFO(this->get_logger(),"height = %.2f",p2.as_double().[01;31m[Kc_str[m[K());
+[1.143s]       |                                                                       [01;31m[K^~~~~[m[K
+[1.143s] [01m[K/home/jon/ws01/src/cpp04_param/src/demo00_param.cpp:30:68:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kp3.rclcpp::Parameter::as_int()[m[K’, which is of non-class type ‘[01m[Kint64_t[m[K’ {aka ‘[01m[Klong int[m[K’}
+[1.143s]    30 |         RCLCPP_INFO(this->get_logger(),"wheels = %ld" ,p3.as_int().[01;31m[Kc_str[m[K());
+[1.143s]       |                                                                    [01;31m[K^~~~~[m[K
+[1.342s] gmake[2]: *** [CMakeFiles/demo00_param.dir/build.make:76：CMakeFiles/demo00_param.dir/src/demo00_param.cpp.o] 错误 1
+[1.342s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo00_param.dir/all] 错误 2
+[1.342s] gmake: *** [Makefile:146：all] 错误 2
+[1.344s] Invoked command in '/home/jon/ws01/src/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/src/build/cpp04_param -- -j24 -l24

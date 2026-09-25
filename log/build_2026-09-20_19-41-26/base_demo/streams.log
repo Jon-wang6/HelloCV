@@ -1,0 +1,20 @@
+[0.006s] Invoking command in '/home/jon/ws01/build/base_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/base_demo -- -j24 -l24
+[0.031s] Invoked command in '/home/jon/ws01/build/base_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/base_demo -- -j24 -l24
+[0.039s] Invoking command in '/home/jon/ws01/build/base_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/base_demo
+[0.043s] -- Install configuration: ""
+[0.043s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/ament_index/resource_index/package_run_dependencies/base_demo
+[0.043s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/ament_index/resource_index/parent_prefix_path/base_demo
+[0.043s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/ament_prefix_path.sh
+[0.043s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/ament_prefix_path.dsv
+[0.043s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/path.sh
+[0.044s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/path.dsv
+[0.044s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.bash
+[0.044s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.sh
+[0.044s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.zsh
+[0.044s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.dsv
+[0.044s] -- Installing: /home/jon/ws01/install/base_demo/share/base_demo/package.dsv
+[0.044s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/ament_index/resource_index/packages/base_demo
+[0.044s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demoConfig.cmake
+[0.044s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demoConfig-version.cmake
+[0.044s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/package.xml
+[0.046s] Invoked command in '/home/jon/ws01/build/base_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/base_demo

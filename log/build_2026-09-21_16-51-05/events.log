@@ -1,0 +1,306 @@
+[0.000000] (-) TimerEvent: {}
+[0.000197] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000218] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000228] (base_demo) JobQueued: {'identifier': 'base_demo', 'dependencies': OrderedDict()}
+[0.000237] (base_demo) JobStarted: {'identifier': 'base_demo'}
+[0.005446] (base_demo) JobProgress: {'identifier': 'base_demo', 'progress': 'cmake'}
+[0.005735] (base_demo) JobProgress: {'identifier': 'base_demo', 'progress': 'build'}
+[0.006062] (base_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jon/ws01/build/base_demo', '--', '-j24', '-l24'], 'cwd': '/home/jon/ws01/build/base_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jon'), ('all_proxy', 'socks5h://127.0.0.1:7890'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/jon/ws01/src'), ('TERM_PROGRAM_VERSION', '1.138.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2524'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2988'), ('BUNDLED_DEBUGPY_PATH', '/home/jon/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7907'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/jon/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jon'), ('ALL_PROXY', 'socks5h://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:24710'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/jon/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/jon/.local/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/WJ:@/tmp/.ICE-unix/2955,unix/WJ:/tmp/.ICE-unix/2955'), ('INVOCATION_ID', '1d189db428d24fe8a86155818ed7c0d9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/jon/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7470e327368da0bd.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/jon/.config/Code/User/workspaceStorage/1f60e15f81795b7429f56f0c0e99fe64/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-81883a5c4f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jon/ws01/build/base_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '20fc3c0b33e88ebaf2914c4d51f59b28'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble')]), 'shell': False}
+[0.021987] (base_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.086932] (base_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.087280] (base_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.088248] (base_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.099493] (-) TimerEvent: {}
+[0.100502] (base_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199600] (-) TimerEvent: {}
+[0.244206] (base_demo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.299688] (-) TimerEvent: {}
+[0.348971] (base_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.399802] (-) TimerEvent: {}
+[0.493420] (base_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.499929] (-) TimerEvent: {}
+[0.507043] (base_demo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.526673] (base_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.526818] (base_demo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.526846] (base_demo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.565064] (base_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.572516] (base_demo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.572923] (base_demo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.576861] (base_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.592325] (base_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[0.596885] (base_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/jon/ws01/build/base_demo\n'}
+[0.599996] (-) TimerEvent: {}
+[0.615201] (base_demo) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.622840] (base_demo) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[0.622980] (base_demo) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.627706] (base_demo) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_copy_base_demo\n'}
+[0.701273] (-) TimerEvent: {}
+[0.737275] (base_demo) StdoutLine: {'line': b'[  7%] Built target base_demo__rs\n'}
+[0.737816] (base_demo) StdoutLine: {'line': b'running egg_info\n'}
+[0.737882] (base_demo) StdoutLine: {'line': b'writing base_demo.egg-info/PKG-INFO\n'}
+[0.737909] (base_demo) StdoutLine: {'line': b'writing dependency_links to base_demo.egg-info/dependency_links.txt\n'}
+[0.737931] (base_demo) StdoutLine: {'line': b'writing top-level names to base_demo.egg-info/top_level.txt\n'}
+[0.739717] (base_demo) StdoutLine: {'line': b"reading manifest file 'base_demo.egg-info/SOURCES.txt'\n"}
+[0.742493] (base_demo) StdoutLine: {'line': b"writing manifest file 'base_demo.egg-info/SOURCES.txt'\n"}
+[0.755883] (base_demo) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_base_demo_egg\n'}
+[0.756557] (base_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_demo__rosidl_generator_c\x1b[0m\n'}
+[0.762346] (base_demo) StdoutLine: {'line': b'[  7%] Built target base_demo__cpp\n'}
+[0.762464] (base_demo) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/base_demo__rosidl_generator_c.dir/rosidl_generator_c/base_demo/msg/detail/student__functions.c.o\x1b[0m\n'}
+[0.762951] (base_demo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/base_demo__rosidl_generator_c.dir/rosidl_generator_c/base_demo/srv/detail/addints__functions.c.o\x1b[0m\n'}
+[0.767723] (base_demo) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.767815] (base_demo) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.767928] (base_demo) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.801467] (-) TimerEvent: {}
+[0.803747] (base_demo) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libbase_demo__rosidl_generator_c.so\x1b[0m\n'}
+[0.833393] (base_demo) StdoutLine: {'line': b'[ 22%] Built target base_demo__rosidl_generator_c\n'}
+[0.838260] (base_demo) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.838914] (base_demo) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.838950] (base_demo) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[0.877156] (base_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.882620] (base_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.884254] (base_demo) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/base_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_demo/msg/student__type_support.cpp.o\x1b[0m\n'}
+[0.884789] (base_demo) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/base_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_demo/srv/addints__type_support.cpp.o\x1b[0m\n'}
+[0.889345] (base_demo) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/base_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_demo/msg/detail/student__type_support.cpp.o\x1b[0m\n'}
+[0.889512] (base_demo) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/base_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_demo/srv/detail/addints__type_support.cpp.o\x1b[0m\n'}
+[0.893888] (base_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.899730] (base_demo) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/base_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_demo/srv/detail/dds_fastrtps/addints__type_support.cpp.o\x1b[0m\n'}
+[0.899825] (base_demo) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/base_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o\x1b[0m\n'}
+[0.901509] (-) TimerEvent: {}
+[0.944456] (base_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_c\x1b[0m\n'}
+[0.953921] (base_demo) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/msg/student__type_support.cpp.o\x1b[0m\n'}
+[0.954073] (base_demo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/addints__type_support.cpp.o\x1b[0m\n'}
+[0.960808] (base_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.967791] (base_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.968691] (base_demo) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/base_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_demo/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[0.968826] (base_demo) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/base_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_demo/srv/detail/addints__type_support.c.o\x1b[0m\n'}
+[0.973704] (base_demo) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libbase_demo__rosidl_typesupport_c.so\x1b[0m\n'}
+[0.974629] (base_demo) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__type_support_c.cpp.o\x1b[0m\n'}
+[0.974670] (base_demo) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/addints__type_support_c.cpp.o\x1b[0m\n'}
+[0.988961] (base_demo) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking C shared library libbase_demo__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.001898] (base_demo) StdoutLine: {'line': b'[ 65%] Built target base_demo__rosidl_typesupport_c\n'}
+[1.002089] (-) TimerEvent: {}
+[1.005179] (base_demo) StdoutLine: {'line': b'[ 65%] Built target base_demo__rosidl_typesupport_introspection_c\n'}
+[1.042972] (base_demo) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libbase_demo__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.068330] (base_demo) StdoutLine: {'line': b'[ 67%] Built target base_demo__rosidl_typesupport_cpp\n'}
+[1.088978] (base_demo) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libbase_demo__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.102187] (-) TimerEvent: {}
+[1.104254] (base_demo) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libbase_demo__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.140085] (base_demo) StdoutLine: {'line': b'[ 72%] Built target base_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[1.141557] (base_demo) StdoutLine: {'line': b'[ 72%] Built target base_demo__rosidl_typesupport_introspection_cpp\n'}
+[1.142559] (base_demo) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libbase_demo__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.181952] (base_demo) StdoutLine: {'line': b'[ 75%] Built target base_demo__rosidl_typesupport_fastrtps_c\n'}
+[1.198227] (base_demo) StdoutLine: {'line': b'[ 75%] Built target base_demo\n'}
+[1.202241] (-) TimerEvent: {}
+[1.207663] (base_demo) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.302364] (-) TimerEvent: {}
+[1.383294] (base_demo) StdoutLine: {'line': b'[ 77%] Built target base_demo__py\n'}
+[1.387839] (base_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_demo__rosidl_generator_py\x1b[0m\n'}
+[1.394566] (base_demo) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/base_demo__rosidl_generator_py.dir/rosidl_generator_py/base_demo/srv/_addints_s.c.o\x1b[0m\n'}
+[1.394699] (base_demo) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/base_demo__rosidl_generator_py.dir/rosidl_generator_py/base_demo/msg/_student_s.c.o\x1b[0m\n'}
+[1.402980] (-) TimerEvent: {}
+[1.455574] (base_demo) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_demo/libbase_demo__rosidl_generator_py.so\x1b[0m\n'}
+[1.475789] (base_demo) StdoutLine: {'line': b'[ 85%] Built target base_demo__rosidl_generator_py\n'}
+[1.483194] (base_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.483288] (base_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.483317] (base_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.487887] (base_demo) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/base_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.488640] (base_demo) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/base_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.490377] (base_demo) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.503073] (-) TimerEvent: {}
+[1.536316] (base_demo) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_demo/base_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.538927] (base_demo) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_demo/base_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.543892] (base_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_demo/base_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.556703] (base_demo) StdoutLine: {'line': b'[100%] Built target base_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[1.556844] (base_demo) StdoutLine: {'line': b'[100%] Built target base_demo__rosidl_typesupport_c__pyext\n'}
+[1.562555] (base_demo) StdoutLine: {'line': b'[100%] Built target base_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.569581] (base_demo) CommandEnded: {'returncode': 0}
+[1.570343] (base_demo) JobProgress: {'identifier': 'base_demo', 'progress': 'install'}
+[1.578548] (base_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jon/ws01/build/base_demo'], 'cwd': '/home/jon/ws01/build/base_demo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jon'), ('all_proxy', 'socks5h://127.0.0.1:7890'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/jon/ws01/src'), ('TERM_PROGRAM_VERSION', '1.138.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2524'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2988'), ('BUNDLED_DEBUGPY_PATH', '/home/jon/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '7907'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/jon/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'jon'), ('ALL_PROXY', 'socks5h://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:24710'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/jon/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/jon/.local/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/WJ:@/tmp/.ICE-unix/2955,unix/WJ:/tmp/.ICE-unix/2955'), ('INVOCATION_ID', '1d189db428d24fe8a86155818ed7c0d9'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/jon/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-7470e327368da0bd.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/jon/.config/Code/User/workspaceStorage/1f60e15f81795b7429f56f0c0e99fe64/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-81883a5c4f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jon/ws01/build/base_demo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '20fc3c0b33e88ebaf2914c4d51f59b28'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble')]), 'shell': False}
+[1.580067] (base_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.580120] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/ament_index/resource_index/rosidl_interfaces/base_demo\n'}
+[1.580149] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo\n'}
+[1.580173] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg\n'}
+[1.580194] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/student.h\n'}
+[1.580214] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail\n'}
+[1.580234] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__struct.h\n'}
+[1.580360] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__functions.c\n'}
+[1.580386] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__functions.h\n'}
+[1.580408] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__type_support.h\n'}
+[1.580428] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.580447] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv\n'}
+[1.580465] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/addints.h\n'}
+[1.580482] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail\n'}
+[1.580502] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__type_support.h\n'}
+[1.580519] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__functions.h\n'}
+[1.580536] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__struct.h\n'}
+[1.580552] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__functions.c\n'}
+[1.580569] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/library_path.sh\n'}
+[1.580587] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/environment/library_path.dsv\n'}
+[1.581039] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_generator_c.so\n'}
+[1.581092] (base_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_generator_c.so" to ""\n'}
+[1.581235] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo\n'}
+[1.581264] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg\n'}
+[1.581287] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.581309] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail\n'}
+[1.581330] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h\n'}
+[1.581350] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv\n'}
+[1.581370] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail\n'}
+[1.581388] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__rosidl_typesupport_fastrtps_c.h\n'}
+[1.581407] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[1.581425] (base_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[1.581443] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo\n'}
+[1.581465] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg\n'}
+[1.581483] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail\n'}
+[1.581501] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__rosidl_typesupport_introspection_c.h\n'}
+[1.581520] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__type_support.c\n'}
+[1.581539] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.582552] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv\n'}
+[1.582579] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail\n'}
+[1.582598] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__type_support.c\n'}
+[1.582618] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__rosidl_typesupport_introspection_c.h\n'}
+[1.582636] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_introspection_c.so\n'}
+[1.582654] (base_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_introspection_c.so" to ""\n'}
+[1.582671] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_c.so\n'}
+[1.582688] (base_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_c.so" to ""\n'}
+[1.582704] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo\n'}
+[1.582721] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg\n'}
+[1.582737] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/student.hpp\n'}
+[1.582754] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail\n'}
+[1.582772] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__type_support.hpp\n'}
+[1.582790] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__struct.hpp\n'}
+[1.582808] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__traits.hpp\n'}
+[1.582826] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__builder.hpp\n'}
+[1.582844] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.582880] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv\n'}
+[1.582898] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/addints.hpp\n'}
+[1.582915] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail\n'}
+[1.582931] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__traits.hpp\n'}
+[1.582949] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__type_support.hpp\n'}
+[1.582965] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__builder.hpp\n'}
+[1.582981] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__struct.hpp\n'}
+[1.582997] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo\n'}
+[1.583012] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg\n'}
+[1.583029] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.583044] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail\n'}
+[1.583060] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/dds_fastrtps\n'}
+[1.583075] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.583093] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv\n'}
+[1.583109] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail\n'}
+[1.583125] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.583140] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/dds_fastrtps\n'}
+[1.583156] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.583171] (base_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[1.583187] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo\n'}
+[1.583204] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg\n'}
+[1.583220] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail\n'}
+[1.583235] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.583253] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__type_support.cpp\n'}
+[1.583269] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv\n'}
+[1.583285] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail\n'}
+[1.583300] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__type_support.cpp\n'}
+[1.583316] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.583332] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[1.583348] (base_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.583870] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_cpp.so\n'}
+[1.583898] (base_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_cpp.so" to ""\n'}
+[1.583976] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/pythonpath.sh\n'}
+[1.583997] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/environment/pythonpath.dsv\n'}
+[1.584016] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo-0.0.0-py3.10.egg-info\n'}
+[1.584034] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.584052] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.584069] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.584086] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.584104] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo\n'}
+[1.584121] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/__init__.py\n'}
+[1.584137] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg\n'}
+[1.584152] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg/__init__.py\n'}
+[1.584167] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg/_student.py\n'}
+[1.584182] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg/_student_s.c\n'}
+[1.584197] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.584212] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.584228] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/_base_demo_s.ep.rosidl_typesupport_c.c\n'}
+[1.584243] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.584258] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.584273] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/_base_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.584288] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/libbase_demo__rosidl_generator_py.so\n'}
+[1.584303] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv\n'}
+[1.584318] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv/__init__.py\n'}
+[1.584333] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv/_addints.py\n'}
+[1.584348] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv/_addints_s.c\n'}
+[1.602872] (base_demo) StdoutLine: {'line': b"Listing '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo'...\n"}
+[1.602951] (base_demo) StdoutLine: {'line': b"Compiling '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/__init__.py'...\n"}
+[1.602984] (base_demo) StdoutLine: {'line': b"Listing '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg'...\n"}
+[1.603007] (base_demo) StdoutLine: {'line': b"Compiling '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg/__init__.py'...\n"}
+[1.603028] (base_demo) StdoutLine: {'line': b"Compiling '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg/_student.py'...\n"}
+[1.603047] (base_demo) StdoutLine: {'line': b"Listing '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv'...\n"}
+[1.603066] (-) TimerEvent: {}
+[1.603157] (base_demo) StdoutLine: {'line': b"Compiling '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv/__init__.py'...\n"}
+[1.603240] (base_demo) StdoutLine: {'line': b"Compiling '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv/_addints.py'...\n"}
+[1.604817] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.604849] (base_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.604928] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.604961] (base_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.604986] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.605007] (base_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.605871] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_generator_py.so\n'}
+[1.605897] (base_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_generator_py.so" to ""\n'}
+[1.605915] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust\n'}
+[1.605934] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/rust/Cargo.toml\n'}
+[1.605956] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/rust/build.rs\n'}
+[1.605975] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src\n'}
+[1.605996] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/msg\n'}
+[1.606015] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/msg/rmw.rs\n'}
+[1.606036] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/msg.rs\n'}
+[1.606055] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/lib.rs\n'}
+[1.606075] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/srv.rs\n'}
+[1.606093] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/srv\n'}
+[1.606113] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/srv/rmw.rs\n'}
+[1.606132] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/msg/Student.idl\n'}
+[1.606150] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/srv/Addints.idl\n'}
+[1.606169] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/msg/Student.msg\n'}
+[1.606186] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/srv/Addints.srv\n'}
+[1.606204] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/srv/Addints_Request.msg\n'}
+[1.606222] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/srv/Addints_Response.msg\n'}
+[1.606240] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/ament_index/resource_index/package_run_dependencies/base_demo\n'}
+[1.606278] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/ament_index/resource_index/parent_prefix_path/base_demo\n'}
+[1.606296] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/ament_prefix_path.sh\n'}
+[1.606313] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/environment/ament_prefix_path.dsv\n'}
+[1.606330] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/path.sh\n'}
+[1.606347] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/environment/path.dsv\n'}
+[1.606363] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.bash\n'}
+[1.606380] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.sh\n'}
+[1.606397] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.zsh\n'}
+[1.606413] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.dsv\n'}
+[1.606432] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/package.dsv\n'}
+[1.606447] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/ament_index/resource_index/packages/base_demo\n'}
+[1.606463] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_generator_cExport.cmake\n'}
+[1.606480] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.606581] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.606603] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.606632] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.606662] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.606722] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_cExport.cmake\n'}
+[1.606750] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.606804] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_generator_cppExport.cmake\n'}
+[1.606879] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.606914] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.606991] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.607022] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.607099] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_cppExport.cmake\n'}
+[1.607132] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.607226] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_generator_pyExport.cmake\n'}
+[1.607264] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.607286] (base_demo) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/base_demo/share/base_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[1.607336] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.607395] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.607446] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.607515] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.607542] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.607560] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.607578] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[1.607594] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demoConfig.cmake\n'}
+[1.607610] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demoConfig-version.cmake\n'}
+[1.607627] (base_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/package.xml\n'}
+[1.608891] (base_demo) CommandEnded: {'returncode': 0}
+[1.620171] (base_demo) JobEnded: {'identifier': 'base_demo', 'rc': 0}
+[1.620931] (-) EventReactorShutdown: {}

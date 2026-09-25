@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/jon/ws01/build/cpp03_action': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp03_action -- -j24 -l24
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[0.054s] [ 50%] Built target demo02_client
+[0.054s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[1.232s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Progress> >)[m[K’:
+[1.232s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:94:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kbing[m[K’ is not a member of ‘[01m[Kstd[m[K’; did you mean ‘[01m[Kbind[m[K’?
+[1.232s]    94 |         std::thread(std::[01;31m[Kbing[m[K(&ProgressActionServer::execute,this,goal_handle)).detach();
+[1.232s]       |                          [01;31m[K^~~~[m[K
+[1.232s]       |                          [32m[Kbind[m[K
+[1.525s] gmake[2]: *** [CMakeFiles/demo01_server.dir/build.make:76：CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o] 错误 1
+[1.525s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_server.dir/all] 错误 2
+[1.525s] gmake: *** [Makefile:146：all] 错误 2
+[1.527s] Invoked command in '/home/jon/ws01/build/cpp03_action' returned '2': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp03_action -- -j24 -l24

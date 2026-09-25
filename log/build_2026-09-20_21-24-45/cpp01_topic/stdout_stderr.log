@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target demo03_talker[0m
+[35m[1mConsolidate compiler generated dependencies of target demo04_listener[0m
+[ 12%] [32m[1mLinking CXX executable demo03_talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo04_listener.dir/src/demo04_listener.cpp.o[0m
+[ 50%] Built target demo02_listener
+[ 75%] Built target demo01_talker
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/demo03_talker.dir/build.make:167：demo03_talker] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/demo03_talker.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[K/home/jon/ws01/src/cpp01_topic/src/demo04_listener.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kbase_interfaces_demo/msg/student.hpp: 没有那个文件或目录
+   15 | #include [01;31m[K"base_interfaces_demo/msg/student.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/demo04_listener.dir/build.make:76：CMakeFiles/demo04_listener.dir/src/demo04_listener.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/demo04_listener.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

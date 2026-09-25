@@ -1,0 +1,32 @@
+[0.006s] Invoking command in '/home/jon/ws01/src/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/src/build/cpp04_param -- -j24 -l24
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target demo01_sever[0m
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target demo02_client[0m
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target demo00_param[0m
+[0.054s] [ 16%] [32mBuilding CXX object CMakeFiles/demo01_sever.dir/src/demo01_sever.cpp.o[0m
+[0.059s] [ 50%] Built target demo02_client
+[0.063s] [ 83%] Built target demo00_param
+[1.533s] [100%] [32m[1mLinking CXX executable demo01_sever[0m
+[1.597s] [100%] Built target demo01_sever
+[1.606s] Invoked command in '/home/jon/ws01/src/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/src/build/cpp04_param -- -j24 -l24
+[1.612s] Invoking command in '/home/jon/ws01/src/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/src/build/cpp04_param
+[1.617s] -- Install configuration: ""
+[1.617s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/lib/cpp04_param/demo00_param
+[1.617s] -- Installing: /home/jon/ws01/src/install/cpp04_param/lib/cpp04_param/demo01_sever
+[1.618s] -- Set runtime path of "/home/jon/ws01/src/install/cpp04_param/lib/cpp04_param/demo01_sever" to ""
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/lib/cpp04_param/demo02_client
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/ament_index/resource_index/package_run_dependencies/cpp04_param
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/ament_index/resource_index/parent_prefix_path/cpp04_param
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.sh
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/environment/ament_prefix_path.dsv
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/environment/path.sh
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/environment/path.dsv
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/local_setup.bash
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/local_setup.sh
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/local_setup.zsh
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/local_setup.dsv
+[1.618s] -- Installing: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/package.dsv
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/ament_index/resource_index/packages/cpp04_param
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig.cmake
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/cmake/cpp04_paramConfig-version.cmake
+[1.618s] -- Up-to-date: /home/jon/ws01/src/install/cpp04_param/share/cpp04_param/package.xml
+[1.619s] Invoked command in '/home/jon/ws01/src/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/src/build/cpp04_param

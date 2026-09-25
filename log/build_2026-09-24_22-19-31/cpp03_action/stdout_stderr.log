@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[ 50%] Built target demo02_client
+[ 75%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Progress> >)[m[K’:
+[01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:87:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp_action::ServerGoalHandle<base_demo::action::Progress>::canceled()[m[K’
+   87 |             [01;31m[Kgoal_handle->canceled()[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:35[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:29[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+                 from [01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:23[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:208:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp_action::ServerGoalHandle<ActionT>::canceled(typename ActionT::Result::SharedPtr) [with ActionT = base_demo::action::Progress; typename ActionT::Result::SharedPtr = std::shared_ptr<base_demo::action::Progress_Result_<std::allocator<void> > >; typename ActionT::Result = base_demo::action::Progress_Result_<std::allocator<void> >][m[K’
+  208 |   [01;36m[Kcanceled[m[K(typename ActionT::Result::SharedPtr result_msg)
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:208:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/demo01_server.dir/build.make:76：CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

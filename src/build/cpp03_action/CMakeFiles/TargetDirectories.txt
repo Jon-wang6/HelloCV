@@ -1,0 +1,11 @@
+/home/jon/ws01/src/build/cpp03_action/CMakeFiles/uninstall.dir
+/home/jon/ws01/src/build/cpp03_action/CMakeFiles/cpp03_action_uninstall.dir
+/home/jon/ws01/src/build/cpp03_action/CMakeFiles/demo01_server.dir
+/home/jon/ws01/src/build/cpp03_action/CMakeFiles/demo02_client.dir
+/home/jon/ws01/src/build/cpp03_action/CMakeFiles/test.dir
+/home/jon/ws01/src/build/cpp03_action/CMakeFiles/edit_cache.dir
+/home/jon/ws01/src/build/cpp03_action/CMakeFiles/rebuild_cache.dir
+/home/jon/ws01/src/build/cpp03_action/CMakeFiles/list_install_components.dir
+/home/jon/ws01/src/build/cpp03_action/CMakeFiles/install.dir
+/home/jon/ws01/src/build/cpp03_action/CMakeFiles/install/local.dir
+/home/jon/ws01/src/build/cpp03_action/CMakeFiles/install/strip.dir

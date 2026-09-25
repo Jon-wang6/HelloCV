@@ -1,0 +1,27 @@
+[0.007s] Invoking command in '/home/jon/ws01/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp01_topic -- -j24 -l24
+[0.053s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_listener.dir/src/demo02_listener.cpp.o[0m
+[0.053s] [ 75%] Built target demo01_talker
+[3.935s] [100%] [32m[1mLinking CXX executable demo02_listener[0m
+[4.115s] [100%] Built target demo02_listener
+[4.128s] Invoked command in '/home/jon/ws01/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp01_topic -- -j24 -l24
+[4.137s] Invoking command in '/home/jon/ws01/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp01_topic
+[4.141s] -- Install configuration: ""
+[4.141s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/lib/cpp01_topic/demo01_talker
+[4.141s] -- Installing: /home/jon/ws01/install/cpp01_topic/lib/cpp01_topic/demo02_listener
+[4.143s] -- Set runtime path of "/home/jon/ws01/install/cpp01_topic/lib/cpp01_topic/demo02_listener" to ""
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[4.143s] -- Installing: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.dsv
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[4.143s] -- Up-to-date: /home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.xml
+[4.145s] Invoked command in '/home/jon/ws01/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp01_topic

@@ -1,0 +1,74 @@
+[0.005s] Invoking command in '/home/jon/ws01/src/build/cpp02_service': AMENT_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/src/install/base_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jon/ws01/src/install/base_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jon/ws01/src/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/src/install/cpp02_service
+[0.038s] -- The C compiler identification is GNU 11.4.0
+[0.067s] -- The CXX compiler identification is GNU 11.4.0
+[0.070s] -- Detecting C compiler ABI info
+[0.111s] -- Detecting C compiler ABI info - done
+[0.112s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.112s] -- Detecting C compile features
+[0.112s] -- Detecting C compile features - done
+[0.115s] -- Detecting CXX compiler ABI info
+[0.164s] -- Detecting CXX compiler ABI info - done
+[0.164s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.164s] -- Detecting CXX compile features
+[0.164s] -- Detecting CXX compile features - done
+[0.165s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.287s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.306s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.308s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.311s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.317s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.323s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.346s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.348s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.402s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.416s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.435s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.440s] -- Looking for pthread.h
+[0.481s] -- Looking for pthread.h - found
+[0.481s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.524s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.524s] -- Found Threads: TRUE  
+[0.554s] -- Found base_demo: 0.0.0 (/home/jon/ws01/src/install/base_demo/share/base_demo/cmake)
+[0.572s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.608s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.608s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jon/ws01/src/cpp02_service/include>
+[0.608s] -- Configured cppcheck exclude dirs and/or files: 
+[0.608s] -- Added test 'lint_cmake' to check CMake code style
+[0.608s] -- Added test 'uncrustify' to check C / C++ code style
+[0.608s] -- Configured uncrustify additional arguments: 
+[0.608s] -- Added test 'xmllint' to check XML markup files
+[0.608s] -- Configuring done
+[0.614s] -- Generating done
+[0.617s] -- Build files have been written to: /home/jon/ws01/src/build/cpp02_service
+[0.625s] Invoked command in '/home/jon/ws01/src/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/src/install/base_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jon/ws01/src/install/base_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jon/ws01/src/cpp02_service -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/src/install/cpp02_service
+[0.625s] Invoking command in '/home/jon/ws01/src/build/cpp02_service': AMENT_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/src/install/base_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jon/ws01/src/install/base_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jon/ws01/src/build/cpp02_service -- -j24 -l24
+[0.652s] [ 25%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[0.652s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[2.393s] [ 75%] [32m[1mLinking CXX executable demo01_server[0m
+[2.474s] [100%] [32m[1mLinking CXX executable demo02_client[0m
+[2.488s] [100%] Built target demo01_server
+[2.569s] [100%] Built target demo02_client
+[2.581s] Invoked command in '/home/jon/ws01/src/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/src/install/base_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jon/ws01/src/install/base_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jon/ws01/src/build/cpp02_service -- -j24 -l24
+[2.582s] Invoking command in '/home/jon/ws01/src/build/cpp02_service': AMENT_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/src/install/base_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jon/ws01/src/install/base_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jon/ws01/src/build/cpp02_service
+[2.587s] -- Install configuration: ""
+[2.587s] -- Installing: /home/jon/ws01/src/install/cpp02_service/lib/cpp02_service/demo01_server
+[2.587s] -- Set runtime path of "/home/jon/ws01/src/install/cpp02_service/lib/cpp02_service/demo01_server" to ""
+[2.587s] -- Installing: /home/jon/ws01/src/install/cpp02_service/lib/cpp02_service/demo02_client
+[2.587s] -- Set runtime path of "/home/jon/ws01/src/install/cpp02_service/lib/cpp02_service/demo02_client" to ""
+[2.588s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[2.588s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[2.588s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[2.588s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[2.588s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/environment/path.sh
+[2.588s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[2.588s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/local_setup.bash
+[2.588s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/local_setup.sh
+[2.588s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[2.588s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[2.589s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/package.dsv
+[2.589s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[2.589s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[2.589s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[2.589s] -- Installing: /home/jon/ws01/src/install/cpp02_service/share/cpp02_service/package.xml
+[2.592s] Invoked command in '/home/jon/ws01/src/build/cpp02_service' returned '0': AMENT_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jon/ws01/src/install/base_demo:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/src/install/base_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jon/ws01/src/install/base_demo/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jon/ws01/src/build/cpp02_service

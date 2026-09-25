@@ -1,0 +1,17 @@
+[01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ProgressActionServer::handle_goal(const GoalUUID&, std::shared_ptr<const base_demo::action::Progress_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:48:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kuuid[m[K’ was not declared in this scope
+   48 |         (void)[01;31m[Kuuid[m[K;
+      |               [01;31m[K^~~~[m[K
+[01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse ProgressActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Progress> >)[m[K’:
+[01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:59:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   59 | sponse handle_cancel([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle[m[K){
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+[01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Progress> >)[m[K’:
+[01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:63:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   63 | void handle_accepted([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Progress>> goal_handle[m[K){
+      |                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/demo01_server.dir/build.make:76：CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

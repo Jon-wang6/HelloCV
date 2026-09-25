@@ -1,0 +1,53 @@
+[0.010s] Invoking command in '/home/jon/ws01/build/cpp02_service': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp02_service -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp02_service
+[0.019s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.099s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.120s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.121s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.126s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.163s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.168s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.226s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.260s] -- Found base_demo: 0.0.0 (/home/jon/ws01/install/base_demo/share/base_demo/cmake)
+[0.268s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.307s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.307s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jon/ws01/src/cpp02_service/include>
+[0.307s] -- Configured cppcheck exclude dirs and/or files: 
+[0.307s] -- Added test 'lint_cmake' to check CMake code style
+[0.307s] -- Added test 'uncrustify' to check C / C++ code style
+[0.307s] -- Configured uncrustify additional arguments: 
+[0.307s] -- Added test 'xmllint' to check XML markup files
+[0.308s] -- Configuring done
+[0.318s] -- Generating done
+[0.321s] -- Build files have been written to: /home/jon/ws01/build/cpp02_service
+[0.325s] Invoked command in '/home/jon/ws01/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp02_service -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp02_service
+[0.327s] Invoking command in '/home/jon/ws01/build/cpp02_service': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp02_service -- -j24 -l24
+[0.362s] Consolidate compiler generated dependencies of target demo01_server
+[0.363s] Consolidate compiler generated dependencies of target demo02_client
+[0.371s] [ 50%] Built target demo01_server
+[0.372s] [ 75%] Building CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o
+[1.979s] [100%] Linking CXX executable demo02_client
+[2.057s] [100%] Built target demo02_client
+[2.068s] Invoked command in '/home/jon/ws01/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp02_service -- -j24 -l24
+[2.077s] Invoking command in '/home/jon/ws01/build/cpp02_service': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp02_service
+[2.082s] -- Install configuration: ""
+[2.082s] -- Up-to-date: /home/jon/ws01/install/cpp02_service/lib/cpp02_service/demo01_server
+[2.083s] -- Installing: /home/jon/ws01/install/cpp02_service/lib/cpp02_service/demo02_client
+[2.083s] -- Set runtime path of "/home/jon/ws01/install/cpp02_service/lib/cpp02_service/demo02_client" to ""
+[2.083s] -- Up-to-date: /home/jon/ws01/install/cpp02_service/share/ament_index/resource_index/package_run_dependencies/cpp02_service
+[2.083s] -- Installing: /home/jon/ws01/install/cpp02_service/share/ament_index/resource_index/parent_prefix_path/cpp02_service
+[2.083s] -- Up-to-date: /home/jon/ws01/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.sh
+[2.083s] -- Installing: /home/jon/ws01/install/cpp02_service/share/cpp02_service/environment/ament_prefix_path.dsv
+[2.083s] -- Up-to-date: /home/jon/ws01/install/cpp02_service/share/cpp02_service/environment/path.sh
+[2.083s] -- Installing: /home/jon/ws01/install/cpp02_service/share/cpp02_service/environment/path.dsv
+[2.083s] -- Up-to-date: /home/jon/ws01/install/cpp02_service/share/cpp02_service/local_setup.bash
+[2.083s] -- Up-to-date: /home/jon/ws01/install/cpp02_service/share/cpp02_service/local_setup.sh
+[2.083s] -- Up-to-date: /home/jon/ws01/install/cpp02_service/share/cpp02_service/local_setup.zsh
+[2.083s] -- Installing: /home/jon/ws01/install/cpp02_service/share/cpp02_service/local_setup.dsv
+[2.083s] -- Installing: /home/jon/ws01/install/cpp02_service/share/cpp02_service/package.dsv
+[2.083s] -- Up-to-date: /home/jon/ws01/install/cpp02_service/share/ament_index/resource_index/packages/cpp02_service
+[2.083s] -- Up-to-date: /home/jon/ws01/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig.cmake
+[2.083s] -- Up-to-date: /home/jon/ws01/install/cpp02_service/share/cpp02_service/cmake/cpp02_serviceConfig-version.cmake
+[2.083s] -- Up-to-date: /home/jon/ws01/install/cpp02_service/share/cpp02_service/package.xml
+[2.084s] Invoked command in '/home/jon/ws01/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp02_service

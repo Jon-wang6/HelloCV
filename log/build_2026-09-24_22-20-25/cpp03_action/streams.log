@@ -1,0 +1,20 @@
+[0.012s] Invoking command in '/home/jon/ws01/build/cpp03_action': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp03_action -- -j24 -l24
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target demo01_server[0m
+[0.059s] [ 50%] Built target demo02_client
+[0.061s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o[0m
+[1.169s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Progress> >)[m[K’:
+[1.169s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:87:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp_action::ServerGoalHandle<base_demo::action::Progress>::canceled()[m[K’
+[1.169s]    87 |             [01;31m[Kgoal_handle->canceled()[m[K;
+[1.169s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[1.169s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:35[m[K,
+[1.169s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:29[m[K,
+[1.169s]                  from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[1.169s]                  from [01m[K/home/jon/ws01/src/cpp03_action/src/demo01_server.cpp:23[m[K:
+[1.169s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:208:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp_action::ServerGoalHandle<ActionT>::canceled(typename ActionT::Result::SharedPtr) [with ActionT = base_demo::action::Progress; typename ActionT::Result::SharedPtr = std::shared_ptr<base_demo::action::Progress_Result_<std::allocator<void> > >; typename ActionT::Result = base_demo::action::Progress_Result_<std::allocator<void> >][m[K’
+[1.169s]   208 |   [01;36m[Kcanceled[m[K(typename ActionT::Result::SharedPtr result_msg)
+[1.169s]       |   [01;36m[K^~~~~~~~[m[K
+[1.169s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:208:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[1.509s] gmake[2]: *** [CMakeFiles/demo01_server.dir/build.make:76：CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o] 错误 1
+[1.509s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_server.dir/all] 错误 2
+[1.509s] gmake: *** [Makefile:146：all] 错误 2
+[1.512s] Invoked command in '/home/jon/ws01/build/cpp03_action' returned '2': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp03_action -- -j24 -l24

@@ -1,0 +1,8 @@
+{
+  "package_name": "base_demo",
+  "non_idl_tuples": [
+    "/home/jon/ws01/src/base_demo:msg/Student.msg",
+    "/home/jon/ws01/src/base_demo:srv/Addints.srv",
+    "/home/jon/ws01/src/base_demo:action/Progress.action"
+  ]
+}

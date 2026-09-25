@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target demo03_talker[0m
+[35m[1mConsolidate compiler generated dependencies of target demo04_listener[0m
+[ 12%] [32m[1mLinking CXX executable demo03_talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/demo04_listener.dir/src/demo04_listener.cpp.o[0m
+[ 50%] Built target demo02_listener
+[ 75%] Built target demo01_talker

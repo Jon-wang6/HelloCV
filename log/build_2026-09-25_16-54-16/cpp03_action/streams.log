@@ -1,0 +1,47 @@
+[0.014s] Invoking command in '/home/jon/ws01/build/cpp03_action': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp03_action -- -j24 -l24
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target demo02_client[0m
+[0.057s] [ 50%] Built target demo01_server
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o[0m
+[1.242s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:121:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.242s]    62 |     void feedback_callback(rclcpp_action::ClientGoalHandle<Progress>::SharedPtr goal_handle,const std::shared_ptr<const [01;31m[KProgress[m[K::Feadback> feadback){
+[1.242s]       |                                                                                                                         [01;31m[K^~~~~~~~[m[K
+[1.242s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:139:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.242s]    62 |     void feedback_callback(rclcpp_action::ClientGoalHandle<Progress>::SharedPtr goal_handle,const std::shared_ptr<const Progress::Feadback[01;31m[K>[m[K feadback){
+[1.242s]       |                                                                                                                                           [01;31m[K^[m[K
+[1.242s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:121:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.242s]    62 |     void feedback_callback(rclcpp_action::ClientGoalHandle<Progress>::SharedPtr goal_handle,const std::shared_ptr<const [01;31m[KProgress[m[K::Feadback> feadback){
+[1.242s]       |                                                                                                                         [01;31m[K^~~~~~~~[m[K
+[1.242s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:139:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.242s]    62 |     void feedback_callback(rclcpp_action::ClientGoalHandle<Progress>::SharedPtr goal_handle,const std::shared_ptr<const Progress::Feadback[01;31m[K>[m[K feadback){
+[1.242s]       |                                                                                                                                           [01;31m[K^[m[K
+[1.243s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:121:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.243s]    62 |     void feedback_callback(rclcpp_action::ClientGoalHandle<Progress>::SharedPtr goal_handle,const std::shared_ptr<const [01;31m[KProgress[m[K::Feadback> feadback){
+[1.243s]       |                                                                                                                         [01;31m[K^~~~~~~~[m[K
+[1.243s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:139:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[1.243s]    62 |     void feedback_callback(rclcpp_action::ClientGoalHandle<Progress>::SharedPtr goal_handle,const std::shared_ptr<const Progress::Feadback[01;31m[K>[m[K feadback){
+[1.243s]       |                                                                                                                                           [01;31m[K^[m[K
+[1.243s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:99:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[1.243s]    62 |     void feedback_callback(rclcpp_action::ClientGoalHandle<Progress>::SharedPtr goal_handle,const [01;31m[Kstd[m[K::shared_ptr<const Progress::Feadback> feadback){
+[1.243s]       |                                                                                                   [01;31m[K^~~[m[K
+[1.243s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:121:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.243s]    62 |     void feedback_callback(rclcpp_action::ClientGoalHandle<Progress>::SharedPtr goal_handle,const std::shared_ptr<const [01;31m[KProgress[m[K::Feadback> feadback){
+[1.243s]       |                                                                                                                         [01;31m[K^~~~~~~~[m[K
+[1.243s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:115:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[1.245s]    62 |     void feedback_callback(rclcpp_action::ClientGoalHandle<Progress>::SharedPtr goal_handle,const std::shared_ptr<[01;31m[Kconst[m[K Progress::Feadback> feadback){
+[1.245s]       |                                                                                                                   [01;31m[K^~~~~[m[K
+[1.245s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:115:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[1.245s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:93:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[1.245s]    62 |     void feedback_callback(rclcpp_action::ClientGoalHandle<Progress>::SharedPtr goal_handle,[01;31m[Kconst[m[K std::shared_ptr<const Progress::Feadback> feadback){
+[1.245s]       |                                                                                             [01;31m[K^~~~~[m[K
+[1.260s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionClient::feedback_callback(...)[m[K’:
+[1.260s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:62:81:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.260s]    62 |     void feedback_callback([01;35m[Krclcpp_action::ClientGoalHandle<Progress>::SharedPtr goal_handle[m[K,const std::shared_ptr<const Progress::Feadback> feadback){
+[1.260s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[1.260s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionClient::result_callback(const rclcpp_action::ClientGoalHandle<base_demo::action::Progress>::WrappedResult&)[m[K’:
+[1.260s] [01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:66:91:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.260s]    66 |     void result_callback([01;35m[Kconst rclcpp_action::ClientGoalHandle<Progress>::WrappedResult & result[m[K){
+[1.260s]       |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[1.622s] gmake[2]: *** [CMakeFiles/demo02_client.dir/build.make:76：CMakeFiles/demo02_client.dir/src/demo02_client.cpp.o] 错误 1
+[1.622s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/demo02_client.dir/all] 错误 2
+[1.622s] gmake: *** [Makefile:146：all] 错误 2
+[1.625s] Invoked command in '/home/jon/ws01/build/cpp03_action' returned '2': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ros2_ws/install/hellovscode_cpp:/home/jon/ros2_ws/install/hello_cpp:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp03_action -- -j24 -l24
