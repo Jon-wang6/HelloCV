@@ -68,6 +68,8 @@ public:
         param_client_->set_parameters({ 
             rclcpp::Parameter("car_name","mouse"),
             rclcpp::Parameter("width",3.0),
+            //设置一个参数服务端不存在的参数
+            //注意:如果允许此种操作,那么参数服务端必须声明:"param_server_node_cpp",rclcpp::NodeOptions().allow_undeclared_parameters(true)被调用
             rclcpp::Parameter("length",5.0),
         });
     }
