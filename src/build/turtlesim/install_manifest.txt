@@ -1,0 +1,16 @@
+/home/jon/ws01/src/install/turtlesim/lib/turtlesim/turtlesim_node
+/home/jon/ws01/src/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+/home/jon/ws01/src/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/environment/path.sh
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/environment/path.dsv
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/local_setup.bash
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/local_setup.sh
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/local_setup.zsh
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/local_setup.dsv
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/package.dsv
+/home/jon/ws01/src/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+/home/jon/ws01/src/install/turtlesim/share/turtlesim/package.xml

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-73d0ade039da6b7566d9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp04_param",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp04_param_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp04_param_uninstall-fd3d9131b38e5079d12b.json",
+					"name" : "cpp04_param_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo00_param::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo00_param-d2982658187534d9dd53.json",
+					"name" : "demo00_param",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_sever::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_sever-7612f3e8b03306bec8a5.json",
+					"name" : "demo01_sever",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_client-fa12fcd49719d3387736.json",
+					"name" : "demo02_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-f0df25b8ef178cd08283.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jon/ws01/build/cpp04_param",
+		"source" : "/home/jon/ws01/src/cpp04_param"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

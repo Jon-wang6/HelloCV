@@ -1,6 +1,15 @@
-# HelloCV
+# HelloCV · ws01
 
-一个基于 ROS 2 Humble 的 C++ 学习与示例工作区，涵盖话题通信、服务通信、动作通信、参数以及自定义接口。
+本分支保存 `~/ws01` 的完整快照。它是一个基于 ROS 2 Humble 的 C++ 学习与示例工作区，涵盖话题通信、服务通信、动作通信、参数以及自定义接口。
+
+分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ws00](https://github.com/Jon-wang6/HelloCV/tree/ws00) · **ws01**
+
+## 获取本分支
+
+```bash
+git clone --branch ws01 --single-branch https://github.com/Jon-wang6/HelloCV.git ws01
+cd ws01
+```
 
 ## 项目内容
 
@@ -23,7 +32,7 @@
 
 ```bash
 source /opt/ros/humble/setup.bash
-cd HelloCV
+cd ws01
 colcon build
 source install/setup.bash
 ```

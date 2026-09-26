@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/jon/ws01/src/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/src/build/turtlesim -- -j24 -l24
+[0.037s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[0.048s] [100%] Built target turtlesim_node
+[0.060s] Invoked command in '/home/jon/ws01/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/src/build/turtlesim -- -j24 -l24
+[0.067s] Invoking command in '/home/jon/ws01/src/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/src/build/turtlesim
+[0.072s] -- Install configuration: ""
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/lib/turtlesim/turtlesim_node
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/environment/path.sh
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/environment/path.dsv
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/local_setup.bash
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/local_setup.sh
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/local_setup.zsh
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/local_setup.dsv
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/package.dsv
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[0.072s] -- Up-to-date: /home/jon/ws01/src/install/turtlesim/share/turtlesim/package.xml
+[0.073s] Invoked command in '/home/jon/ws01/src/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/src/build/turtlesim
