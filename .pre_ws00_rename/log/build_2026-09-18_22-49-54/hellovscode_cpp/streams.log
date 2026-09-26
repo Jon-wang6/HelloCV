@@ -1,0 +1,25 @@
+[0.009s] Invoking command in '/home/jon/ros2_ws/build/hellovscode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ros2_ws/build/hellovscode_cpp -- -j24 -l24
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/hellovscode.dir/src/hellovscode.cpp.o[0m
+[1.383s] [100%] [32m[1mLinking CXX executable hellovscode[0m
+[1.443s] [100%] Built target hellovscode
+[1.450s] Invoked command in '/home/jon/ros2_ws/build/hellovscode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ros2_ws/build/hellovscode_cpp -- -j24 -l24
+[1.455s] Invoking command in '/home/jon/ros2_ws/build/hellovscode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ros2_ws/build/hellovscode_cpp
+[1.460s] -- Install configuration: ""
+[1.460s] -- Installing: /home/jon/ros2_ws/install/hellovscode_cpp/lib/hellovscode_cpp/hellovscode
+[1.460s] -- Set runtime path of "/home/jon/ros2_ws/install/hellovscode_cpp/lib/hellovscode_cpp/hellovscode" to ""
+[1.460s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/ament_index/resource_index/package_run_dependencies/hellovscode_cpp
+[1.460s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/ament_index/resource_index/parent_prefix_path/hellovscode_cpp
+[1.460s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/environment/ament_prefix_path.sh
+[1.460s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/environment/ament_prefix_path.dsv
+[1.460s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/environment/path.sh
+[1.460s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/environment/path.dsv
+[1.460s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/local_setup.bash
+[1.460s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/local_setup.sh
+[1.461s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/local_setup.zsh
+[1.462s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/local_setup.dsv
+[1.462s] -- Installing: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/package.dsv
+[1.462s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/ament_index/resource_index/packages/hellovscode_cpp
+[1.462s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/cmake/hellovscode_cppConfig.cmake
+[1.462s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/cmake/hellovscode_cppConfig-version.cmake
+[1.462s] -- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/package.xml
+[1.463s] Invoked command in '/home/jon/ros2_ws/build/hellovscode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ros2_ws/build/hellovscode_cpp

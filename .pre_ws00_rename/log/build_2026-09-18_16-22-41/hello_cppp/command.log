@@ -1,0 +1,6 @@
+Invoking command in '/home/jon/ros2_ws/build/hello_cppp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jon/ros2_ws/src/hello_cppp -DCMAKE_INSTALL_PREFIX=/home/jon/ros2_ws/install/hello_cppp
+Invoked command in '/home/jon/ros2_ws/build/hello_cppp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jon/ros2_ws/src/hello_cppp -DCMAKE_INSTALL_PREFIX=/home/jon/ros2_ws/install/hello_cppp
+Invoking command in '/home/jon/ros2_ws/build/hello_cppp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jon/ros2_ws/build/hello_cppp -- -j24 -l24
+Invoked command in '/home/jon/ros2_ws/build/hello_cppp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jon/ros2_ws/build/hello_cppp -- -j24 -l24
+Invoking command in '/home/jon/ros2_ws/build/hello_cppp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jon/ros2_ws/build/hello_cppp
+Invoked command in '/home/jon/ros2_ws/build/hello_cppp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jon/ros2_ws/build/hello_cppp

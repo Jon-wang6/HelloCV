@@ -1,0 +1,6 @@
+Invoking command in '/home/jon/ros2_ws/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jon/ros2_ws/src/pkg01_helloworld_cpp -DCMAKE_INSTALL_PREFIX=/home/jon/ros2_ws/install/pkg01_helloworld_cpp
+Invoked command in '/home/jon/ros2_ws/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jon/ros2_ws/src/pkg01_helloworld_cpp -DCMAKE_INSTALL_PREFIX=/home/jon/ros2_ws/install/pkg01_helloworld_cpp
+Invoking command in '/home/jon/ros2_ws/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jon/ros2_ws/build/pkg01_helloworld_cpp -- -j24 -l24
+Invoked command in '/home/jon/ros2_ws/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jon/ros2_ws/build/pkg01_helloworld_cpp -- -j24 -l24
+Invoking command in '/home/jon/ros2_ws/build/pkg01_helloworld_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jon/ros2_ws/build/pkg01_helloworld_cpp
+Invoked command in '/home/jon/ros2_ws/build/pkg01_helloworld_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jon/ros2_ws/build/pkg01_helloworld_cpp

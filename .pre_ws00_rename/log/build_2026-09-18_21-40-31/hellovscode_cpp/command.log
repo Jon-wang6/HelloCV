@@ -1,0 +1,6 @@
+Invoking command in '/home/jon/ros2_ws/build/hellovscode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ros2_ws/src/hellovscode_cpp -DCMAKE_INSTALL_PREFIX=/home/jon/ros2_ws/install/hellovscode_cpp
+Invoked command in '/home/jon/ros2_ws/build/hellovscode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ros2_ws/src/hellovscode_cpp -DCMAKE_INSTALL_PREFIX=/home/jon/ros2_ws/install/hellovscode_cpp
+Invoking command in '/home/jon/ros2_ws/build/hellovscode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ros2_ws/build/hellovscode_cpp -- -j24 -l24
+Invoked command in '/home/jon/ros2_ws/build/hellovscode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ros2_ws/build/hellovscode_cpp -- -j24 -l24
+Invoking command in '/home/jon/ros2_ws/build/hellovscode_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ros2_ws/build/hellovscode_cpp
+Invoked command in '/home/jon/ros2_ws/build/hellovscode_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ros2_ws/build/hellovscode_cpp

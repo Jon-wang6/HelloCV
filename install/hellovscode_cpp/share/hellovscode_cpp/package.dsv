@@ -1,0 +1,8 @@
+source;share/hellovscode_cpp/hook/cmake_prefix_path.ps1
+source;share/hellovscode_cpp/hook/cmake_prefix_path.dsv
+source;share/hellovscode_cpp/hook/cmake_prefix_path.sh
+source;share/hellovscode_cpp/local_setup.bash
+source;share/hellovscode_cpp/local_setup.dsv
+source;share/hellovscode_cpp/local_setup.ps1
+source;share/hellovscode_cpp/local_setup.sh
+source;share/hellovscode_cpp/local_setup.zsh

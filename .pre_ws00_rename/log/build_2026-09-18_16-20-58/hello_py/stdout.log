@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/hello_py/hello_py.egg-info
+writing ../../build/hello_py/hello_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/hello_py/hello_py.egg-info/dependency_links.txt
+writing entry points to ../../build/hello_py/hello_py.egg-info/entry_points.txt
+writing requirements to ../../build/hello_py/hello_py.egg-info/requires.txt
+writing top-level names to ../../build/hello_py/hello_py.egg-info/top_level.txt
+writing manifest file '../../build/hello_py/hello_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/hello_py/hello_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/hello_py/hello_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jon/ros2_ws/build/hello_py/build
+creating /home/jon/ros2_ws/build/hello_py/build/lib
+creating /home/jon/ros2_ws/build/hello_py/build/lib/hello_py
+copying hello_py/__init__.py -> /home/jon/ros2_ws/build/hello_py/build/lib/hello_py
+copying hello_py/hello_node.py -> /home/jon/ros2_ws/build/hello_py/build/lib/hello_py
+running install
+running install_lib
+creating /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py
+copying /home/jon/ros2_ws/build/hello_py/build/lib/hello_py/__init__.py -> /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py
+copying /home/jon/ros2_ws/build/hello_py/build/lib/hello_py/hello_node.py -> /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py
+byte-compiling /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py/hello_node.py to hello_node.cpython-310.pyc
+running install_data
+creating /home/jon/ros2_ws/install/hello_py/share/ament_index
+creating /home/jon/ros2_ws/install/hello_py/share/ament_index/resource_index
+creating /home/jon/ros2_ws/install/hello_py/share/ament_index/resource_index/packages
+copying resource/hello_py -> /home/jon/ros2_ws/install/hello_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/jon/ros2_ws/install/hello_py/share/hello_py
+running install_egg_info
+Copying ../../build/hello_py/hello_py.egg-info to /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing hello_node script to /home/jon/ros2_ws/install/hello_py/lib/hello_py
+writing list of installed files to '/home/jon/ros2_ws/build/hello_py/install.log'

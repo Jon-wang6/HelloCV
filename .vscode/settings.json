@@ -1,0 +1,4 @@
+{
+    "cmake.sourceDirectory": "/home/jon/ws00/src/hello_cpp",
+    "C_Cpp.default.compileCommands": "/home/jon/ws00/build/compile_commands.json"
+}

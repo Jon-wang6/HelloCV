@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target hellovscode[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/hellovscode.dir/src/hellovscode.cpp.o[0m
+[100%] [32m[1mLinking CXX executable hellovscode[0m
+[100%] Built target hellovscode
+-- Install configuration: ""
+-- Installing: /home/jon/ros2_ws/install/hellovscode_cpp/lib/hellovscode_cpp/hellovscode
+-- Set runtime path of "/home/jon/ros2_ws/install/hellovscode_cpp/lib/hellovscode_cpp/hellovscode" to ""
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/ament_index/resource_index/package_run_dependencies/hellovscode_cpp
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/ament_index/resource_index/parent_prefix_path/hellovscode_cpp
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/environment/path.sh
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/environment/path.dsv
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/local_setup.bash
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/local_setup.sh
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/local_setup.zsh
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/local_setup.dsv
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/package.dsv
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/ament_index/resource_index/packages/hellovscode_cpp
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/cmake/hellovscode_cppConfig.cmake
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/cmake/hellovscode_cppConfig-version.cmake
+-- Up-to-date: /home/jon/ros2_ws/install/hellovscode_cpp/share/hellovscode_cpp/package.xml

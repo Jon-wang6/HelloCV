@@ -1,0 +1,26 @@
+[0.006s] Invoking command in '/home/jon/ros2_ws/build/hello_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jon/ros2_ws/build/hello_cpp -- -j24 -l24
+[0.034s] Consolidate compiler generated dependencies of target hello_node
+[0.043s] [ 50%] Building CXX object CMakeFiles/hello_node.dir/src/hello_node.cpp.o
+[1.258s] [100%] Linking CXX executable hello_node
+[1.315s] [100%] Built target hello_node
+[1.323s] Invoked command in '/home/jon/ros2_ws/build/hello_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jon/ros2_ws/build/hello_cpp -- -j24 -l24
+[1.326s] Invoking command in '/home/jon/ros2_ws/build/hello_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jon/ros2_ws/build/hello_cpp
+[1.336s] -- Install configuration: ""
+[1.336s] -- Installing: /home/jon/ros2_ws/install/hello_cpp/lib/hello_cpp/hello_node
+[1.336s] -- Set runtime path of "/home/jon/ros2_ws/install/hello_cpp/lib/hello_cpp/hello_node" to ""
+[1.336s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/ament_index/resource_index/package_run_dependencies/hello_cpp
+[1.336s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/ament_index/resource_index/parent_prefix_path/hello_cpp
+[1.336s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/environment/ament_prefix_path.sh
+[1.336s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/environment/ament_prefix_path.dsv
+[1.336s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/environment/path.sh
+[1.336s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/environment/path.dsv
+[1.336s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/local_setup.bash
+[1.336s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/local_setup.sh
+[1.336s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/local_setup.zsh
+[1.336s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/local_setup.dsv
+[1.337s] -- Installing: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/package.dsv
+[1.338s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/ament_index/resource_index/packages/hello_cpp
+[1.338s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/cmake/hello_cppConfig.cmake
+[1.338s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/cmake/hello_cppConfig-version.cmake
+[1.338s] -- Up-to-date: /home/jon/ros2_ws/install/hello_cpp/share/hello_cpp/package.xml
+[1.338s] Invoked command in '/home/jon/ros2_ws/build/hello_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jon/ros2_ws/build/hello_cpp

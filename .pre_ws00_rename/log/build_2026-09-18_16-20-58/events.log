@@ -1,0 +1,46 @@
+[0.000000] (-) TimerEvent: {}
+[0.000131] (-) JobUnselected: {'identifier': 'pkg01_helloworld_cpp'}
+[0.000176] (hello_py) JobQueued: {'identifier': 'hello_py', 'dependencies': OrderedDict()}
+[0.000217] (hello_py) JobStarted: {'identifier': 'hello_py'}
+[0.099513] (-) TimerEvent: {}
+[0.199865] (-) TimerEvent: {}
+[0.263393] (hello_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hello_py', 'build', '--build-base', '/home/jon/ros2_ws/build/hello_py/build', 'install', '--record', '/home/jon/ros2_ws/build/hello_py/install.log', '--install-scripts', '$base/lib/hello_py', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jon/ros2_ws/src/hello_py', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jon'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('all_proxy', 'socks5h://127.0.0.1:7890'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/jon/.local/share/applications/codex-proxy.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1344'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-browser-use/6d4a1c2d-e64b-46bc-91d4-5dbd7d1435be.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2429'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3277'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('ROS_DISTRO', 'humble'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'jon'), ('ALL_PROXY', 'socks5h://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:20596'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'jon'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/jon/.local/bin:/home/jon/.codex/tmp/arg0/codex-arg0KIk2g5:/home/jon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/jon/.local/bin:/home/jon/.local/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/WJ:@/tmp/.ICE-unix/2410,unix/WJ:/tmp/.ICE-unix/2410'), ('CODEX_VERSION', '0.155.0-alpha.9'), ('CODEX_SESSION_ID', '01a0aa8c-50ed-7453-86a7-ba5c4c4c7f08'), ('INVOCATION_ID', 'fb383f6e64dd49f6a64e7ad44311fb9c'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a0aa8c-50ed-7453-86a7-ba5c4c4c7f08'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/jon/ros2_ws/build/hello_py'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/ros2_ws/build/hello_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1')]), 'shell': False}
+[0.299943] (-) TimerEvent: {}
+[0.357231] (hello_py) StdoutLine: {'line': b'running egg_info\n'}
+[0.357402] (hello_py) StdoutLine: {'line': b'creating ../../build/hello_py/hello_py.egg-info\n'}
+[0.357431] (hello_py) StdoutLine: {'line': b'writing ../../build/hello_py/hello_py.egg-info/PKG-INFO\n'}
+[0.357558] (hello_py) StdoutLine: {'line': b'writing dependency_links to ../../build/hello_py/hello_py.egg-info/dependency_links.txt\n'}
+[0.357580] (hello_py) StdoutLine: {'line': b'writing entry points to ../../build/hello_py/hello_py.egg-info/entry_points.txt\n'}
+[0.357598] (hello_py) StdoutLine: {'line': b'writing requirements to ../../build/hello_py/hello_py.egg-info/requires.txt\n'}
+[0.357615] (hello_py) StdoutLine: {'line': b'writing top-level names to ../../build/hello_py/hello_py.egg-info/top_level.txt\n'}
+[0.357660] (hello_py) StdoutLine: {'line': b"writing manifest file '../../build/hello_py/hello_py.egg-info/SOURCES.txt'\n"}
+[0.358205] (hello_py) StdoutLine: {'line': b"reading manifest file '../../build/hello_py/hello_py.egg-info/SOURCES.txt'\n"}
+[0.359107] (hello_py) StdoutLine: {'line': b"writing manifest file '../../build/hello_py/hello_py.egg-info/SOURCES.txt'\n"}
+[0.359162] (hello_py) StdoutLine: {'line': b'running build\n'}
+[0.359181] (hello_py) StdoutLine: {'line': b'running build_py\n'}
+[0.359198] (hello_py) StdoutLine: {'line': b'creating /home/jon/ros2_ws/build/hello_py/build\n'}
+[0.359215] (hello_py) StdoutLine: {'line': b'creating /home/jon/ros2_ws/build/hello_py/build/lib\n'}
+[0.359230] (hello_py) StdoutLine: {'line': b'creating /home/jon/ros2_ws/build/hello_py/build/lib/hello_py\n'}
+[0.359248] (hello_py) StdoutLine: {'line': b'copying hello_py/__init__.py -> /home/jon/ros2_ws/build/hello_py/build/lib/hello_py\n'}
+[0.359265] (hello_py) StdoutLine: {'line': b'copying hello_py/hello_node.py -> /home/jon/ros2_ws/build/hello_py/build/lib/hello_py\n'}
+[0.359280] (hello_py) StdoutLine: {'line': b'running install\n'}
+[0.359295] (hello_py) StdoutLine: {'line': b'running install_lib\n'}
+[0.359339] (hello_py) StdoutLine: {'line': b'creating /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py\n'}
+[0.359364] (hello_py) StdoutLine: {'line': b'copying /home/jon/ros2_ws/build/hello_py/build/lib/hello_py/__init__.py -> /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py\n'}
+[0.359404] (hello_py) StdoutLine: {'line': b'copying /home/jon/ros2_ws/build/hello_py/build/lib/hello_py/hello_node.py -> /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py\n'}
+[0.359422] (hello_py) StdoutLine: {'line': b'byte-compiling /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py/__init__.py to __init__.cpython-310.pyc\n'}
+[0.359460] (hello_py) StdoutLine: {'line': b'byte-compiling /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py/hello_node.py to hello_node.cpython-310.pyc\n'}
+[0.359586] (hello_py) StdoutLine: {'line': b'running install_data\n'}
+[0.359651] (hello_py) StdoutLine: {'line': b'creating /home/jon/ros2_ws/install/hello_py/share/ament_index\n'}
+[0.359674] (hello_py) StdoutLine: {'line': b'creating /home/jon/ros2_ws/install/hello_py/share/ament_index/resource_index\n'}
+[0.359692] (hello_py) StdoutLine: {'line': b'creating /home/jon/ros2_ws/install/hello_py/share/ament_index/resource_index/packages\n'}
+[0.359713] (hello_py) StdoutLine: {'line': b'copying resource/hello_py -> /home/jon/ros2_ws/install/hello_py/share/ament_index/resource_index/packages\n'}
+[0.359878] (hello_py) StdoutLine: {'line': b'copying package.xml -> /home/jon/ros2_ws/install/hello_py/share/hello_py\n'}
+[0.359902] (hello_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.361550] (hello_py) StdoutLine: {'line': b'Copying ../../build/hello_py/hello_py.egg-info to /home/jon/ros2_ws/install/hello_py/lib/python3.10/site-packages/hello_py-0.0.0-py3.10.egg-info\n'}
+[0.361607] (hello_py) StdoutLine: {'line': b'running install_scripts\n'}
+[0.370592] (hello_py) StdoutLine: {'line': b'Installing hello_node script to /home/jon/ros2_ws/install/hello_py/lib/hello_py\n'}
+[0.370714] (hello_py) StdoutLine: {'line': b"writing list of installed files to '/home/jon/ros2_ws/build/hello_py/install.log'\n"}
+[0.387586] (hello_py) CommandEnded: {'returncode': 0}
+[0.390093] (hello_py) JobEnded: {'identifier': 'hello_py', 'rc': 0}
+[0.390261] (-) EventReactorShutdown: {}
