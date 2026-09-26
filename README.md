@@ -36,6 +36,23 @@ colcon build
 source install/setup.bash
 ```
 
+## 自动加载 ROS 2 环境
+
+如果工作区位于 `~/ws01`，可以将以下内容加入 `~/.bashrc`，让新终端自动加载 ROS 2 Humble 和本工作区：
+
+```bash
+source /opt/ros/humble/setup.bash
+source ~/ws01/install/setup.bash
+```
+
+修改后，可让当前终端立即生效：
+
+```bash
+source ~/.bashrc
+```
+
+如果工作区位于其他目录，请相应修改第二行路径。首次构建前 `install/setup.bash` 尚不存在，需要先执行一次 `colcon build`。
+
 ## 运行示例
 
 以下命令分别在独立终端中执行；每个终端都需要先加载环境：
