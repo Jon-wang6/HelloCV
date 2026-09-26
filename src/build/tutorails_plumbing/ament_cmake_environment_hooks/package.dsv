@@ -1,0 +1,4 @@
+source;share/tutorails_plumbing/local_setup.bash
+source;share/tutorails_plumbing/local_setup.dsv
+source;share/tutorails_plumbing/local_setup.sh
+source;share/tutorails_plumbing/local_setup.zsh

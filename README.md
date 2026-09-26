@@ -20,6 +20,7 @@ cd ws01
 | `cpp02_service` | Service 服务端与客户端示例 |
 | `cpp03_action` | Action 服务端与客户端示例 |
 | `cpp04_param` | ROS 2 参数服务与客户端示例 |
+| `tutorails_plumbing` | ROS 2 Tutorials Plumbing 学习包骨架 |
 
 ## 环境要求
 

@@ -1,0 +1,6 @@
+Invoking command in '/home/jon/ws01/src/build/tutorails_plumbing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/tutorails_plumbing -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/src/install/tutorails_plumbing
+Invoked command in '/home/jon/ws01/src/build/tutorails_plumbing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/tutorails_plumbing -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/src/install/tutorails_plumbing
+Invoking command in '/home/jon/ws01/src/build/tutorails_plumbing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/src/build/tutorails_plumbing -- -j24 -l24
+Invoked command in '/home/jon/ws01/src/build/tutorails_plumbing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/src/build/tutorails_plumbing -- -j24 -l24
+Invoking command in '/home/jon/ws01/src/build/tutorails_plumbing': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/src/build/tutorails_plumbing
+Invoked command in '/home/jon/ws01/src/build/tutorails_plumbing' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/src/build/tutorails_plumbing

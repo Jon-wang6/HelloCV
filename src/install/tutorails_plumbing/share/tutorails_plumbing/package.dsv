@@ -1,0 +1,8 @@
+source;share/tutorails_plumbing/hook/cmake_prefix_path.ps1
+source;share/tutorails_plumbing/hook/cmake_prefix_path.dsv
+source;share/tutorails_plumbing/hook/cmake_prefix_path.sh
+source;share/tutorails_plumbing/local_setup.bash
+source;share/tutorails_plumbing/local_setup.dsv
+source;share/tutorails_plumbing/local_setup.ps1
+source;share/tutorails_plumbing/local_setup.sh
+source;share/tutorails_plumbing/local_setup.zsh

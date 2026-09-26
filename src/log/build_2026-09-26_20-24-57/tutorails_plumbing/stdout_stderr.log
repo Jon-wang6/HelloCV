@@ -1,0 +1,21 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jon/ws01/src/build/tutorails_plumbing
+-- Install configuration: ""
+-- Installing: /home/jon/ws01/src/install/tutorails_plumbing/share/ament_index/resource_index/package_run_dependencies/tutorails_plumbing
+-- Installing: /home/jon/ws01/src/install/tutorails_plumbing/share/ament_index/resource_index/parent_prefix_path/tutorails_plumbing
+-- Up-to-date: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.sh
+-- Installing: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.sh
+-- Installing: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.dsv
+-- Up-to-date: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.bash
+-- Up-to-date: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.sh
+-- Up-to-date: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.zsh
+-- Installing: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.dsv
+-- Installing: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/package.dsv
+-- Up-to-date: /home/jon/ws01/src/install/tutorails_plumbing/share/ament_index/resource_index/packages/tutorails_plumbing
+-- Up-to-date: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig.cmake
+-- Up-to-date: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig-version.cmake
+-- Installing: /home/jon/ws01/src/install/tutorails_plumbing/share/tutorails_plumbing/package.xml

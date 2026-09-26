@@ -1,0 +1,9 @@
+/home/jon/ws01/src/build/tutorails_plumbing/CMakeFiles/uninstall.dir
+/home/jon/ws01/src/build/tutorails_plumbing/CMakeFiles/tutorails_plumbing_uninstall.dir
+/home/jon/ws01/src/build/tutorails_plumbing/CMakeFiles/test.dir
+/home/jon/ws01/src/build/tutorails_plumbing/CMakeFiles/edit_cache.dir
+/home/jon/ws01/src/build/tutorails_plumbing/CMakeFiles/rebuild_cache.dir
+/home/jon/ws01/src/build/tutorails_plumbing/CMakeFiles/list_install_components.dir
+/home/jon/ws01/src/build/tutorails_plumbing/CMakeFiles/install.dir
+/home/jon/ws01/src/build/tutorails_plumbing/CMakeFiles/install/local.dir
+/home/jon/ws01/src/build/tutorails_plumbing/CMakeFiles/install/strip.dir
