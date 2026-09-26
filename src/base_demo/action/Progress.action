@@ -1,5 +1,0 @@
-int32 num
----
-int32 sum
----
-float64 progress

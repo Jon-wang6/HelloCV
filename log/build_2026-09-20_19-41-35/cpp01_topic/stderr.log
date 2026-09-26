@@ -1,7 +1,0 @@
-[01m[K/home/jon/ws01/src/cpp01_topic/src/demo01_talker.cpp:71:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
-   71 | }
-      |  [01;31m[K^[m[K
-      |  [32m[K;[m[K
-gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76：CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo01_talker.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

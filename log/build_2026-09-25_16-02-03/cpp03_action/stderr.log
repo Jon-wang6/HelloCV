@@ -1,4 +1,0 @@
-[01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:[m[K In member function ‘[01m[Kvoid ProgressActionClient::send_goal(int)[m[K’:
-[01m[K/home/jon/ws01/src/cpp03_action/src/demo02_client.cpp:35:24:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knum[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
-   35 |     void send_goal([01;35m[Kint num[m[K){
-      |                    [01;35m[K~~~~^~~[m[K

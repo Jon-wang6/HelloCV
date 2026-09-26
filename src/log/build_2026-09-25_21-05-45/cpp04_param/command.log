@@ -1,2 +1,0 @@
-Invoking command in '/home/jon/ws01/src/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/src/build/cpp04_param -- -j24 -l24
-Invoked command in '/home/jon/ws01/src/build/cpp04_param' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/src/build/cpp04_param -- -j24 -l24

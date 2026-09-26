@@ -1,4 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target demo01_sever[0m
-[ 66%] Built target demo00_param
-[ 66%] [32mBuilding CXX object CMakeFiles/demo01_sever.dir/src/demo01_sever.cpp.o[0m
-[ 83%] Built target demo02_client

@@ -1,7 +1,0 @@
-/home/jon/ws01/src/cpp02_service/src/demo01_server.cpp: In constructor ‘AddintsServer::AddintsServer()’:
-/home/jon/ws01/src/cpp02_service/src/demo01_server.cpp:27:44: error: ‘addints_callback’ is not a member of ‘AddintsServer’
-   27 |       "addints", std::bind(&AddintsServer::addints_callback, this, std::placeholders::_1, std::placeholders::_2));
-      |                                            ^~~~~~~~~~~~~~~~
-gmake[2]: *** [CMakeFiles/demo01_server.dir/build.make:76：CMakeFiles/demo01_server.dir/src/demo01_server.cpp.o] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_server.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2
