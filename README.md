@@ -27,13 +27,16 @@ git clone --branch ws01 --single-branch https://github.com/Jon-wang6/HelloCV.git
 
 ## 参考资料
 
-### ws00
+### 前置环境
 
 - [Linux 下载与学习](https://www.yuque.com/g/jonwang-pfbbk/gd0so3/cvgrhaqho1l1q2mw/collaborator/join?token=MoYYj7ZW7s8fY9vy&source=doc_collaborator#)
 - [Vim、tmux、SSH 与 PM2 开发工具学习](https://www.yuque.com/g/jonwang-pfbbk/gd0so3/ns904el6gx3yr0gg/collaborator/join?token=6ObkVHrj9wqbnqJ5&source=doc_collaborator#)
+
+### ws00
+
 - [ROS 2 概述、环境搭建与学习](https://www.yuque.com/g/jonwang-pfbbk/gd0so3/euncqiqqux3hro1m/collaborator/join?token=bHF0k9dBTgzjGdEn&source=doc_collaborator#)
 
 ### ws01
 
 - [ROS 2 通信机制核心学习](https://www.yuque.com/g/jonwang-pfbbk/gd0so3/occrrpaqek2lhpno/collaborator/join?token=QYdSCYjio0VKe5pk&source=doc_collaborator#)
-- [通信机制补充学习笔记](https://www.yuque.com/g/jonwang-pfbbk/gd0so3/cg2gr7162a3hw69a/collaborator/join?token=xlASUXM8LftoRdC4&source=doc_collaborator#)
+- [通信机制补充学习](https://www.yuque.com/g/jonwang-pfbbk/gd0so3/cg2gr7162a3hw69a/collaborator/join?token=xlASUXM8LftoRdC4&source=doc_collaborator#)
