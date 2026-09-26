@@ -2,6 +2,24 @@
 
 一个基于 ROS 2 Humble 的 C++ 学习与示例工作区，涵盖话题通信、服务通信、动作通信、参数以及自定义接口。
 
+## 工作区分支
+
+仓库按本机 ROS 2 工作区拆分为两个独立分支：
+
+| 分支 | 对应目录 | 主要内容 |
+| --- | --- | --- |
+| [`ws00`](https://github.com/Jon-wang6/HelloCV/tree/ws00) | `~/ws00` | ROS 2 C++ Hello World 与 VS Code 入门示例 |
+| [`ws01`](https://github.com/Jon-wang6/HelloCV/tree/ws01) | `~/ws01` | Topic、Service、Action、Parameter 与自定义接口示例 |
+
+按工作区克隆：
+
+```bash
+git clone --branch ws00 --single-branch https://github.com/Jon-wang6/HelloCV.git ws00
+git clone --branch ws01 --single-branch https://github.com/Jon-wang6/HelloCV.git ws01
+```
+
+`main` 保留原有项目历史；后续同步对应本地工作区时，请更新同名分支。
+
 ## 项目内容
 
 | 包名 | 内容 |
