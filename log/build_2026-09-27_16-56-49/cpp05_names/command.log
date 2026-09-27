@@ -1,0 +1,6 @@
+Invoking command in '/home/jon/ws01/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp05_names
+Invoked command in '/home/jon/ws01/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp05_names
+Invoking command in '/home/jon/ws01/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp05_names -- -j24 -l24
+Invoked command in '/home/jon/ws01/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp05_names -- -j24 -l24
+Invoking command in '/home/jon/ws01/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp05_names
+Invoked command in '/home/jon/ws01/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp05_names

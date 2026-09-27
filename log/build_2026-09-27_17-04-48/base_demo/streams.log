@@ -1,0 +1,266 @@
+[0.010s] Invoking command in '/home/jon/ws01/build/base_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/base_demo -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/base_demo
+[0.023s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.138s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.141s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.143s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.408s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.550s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.738s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.759s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.776s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.776s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.776s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.839s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.847s] -- Added test 'lint_cmake' to check CMake code style
+[0.847s] -- Added test 'xmllint' to check XML markup files
+[0.853s] -- Configuring done
+[0.889s] -- Generating done
+[0.899s] -- Build files have been written to: /home/jon/ws01/build/base_demo
+[0.905s] Invoked command in '/home/jon/ws01/build/base_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/base_demo -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/base_demo
+[0.906s] Invoking command in '/home/jon/ws01/build/base_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/base_demo -- -j24 -l24
+[0.935s] [35m[1mConsolidate compiler generated dependencies of target base_demo__rosidl_generator_c[0m
+[0.943s] [  2%] Built target base_demo__rs
+[0.944s] [  4%] Built target base_demo__cpp
+[0.944s] [ 14%] Built target base_demo__rosidl_generator_c
+[0.951s] [ 14%] Built target ament_cmake_python_copy_base_demo
+[0.951s] [35m[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_fastrtps_cpp[0m
+[0.951s] [35m[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_introspection_cpp[0m
+[0.952s] [35m[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_introspection_c[0m
+[0.952s] [35m[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_fastrtps_c[0m
+[0.952s] [35m[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_c[0m
+[0.952s] [35m[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_cpp[0m
+[0.961s] [ 25%] Built target base_demo__rosidl_typesupport_fastrtps_cpp
+[0.961s] [ 35%] Built target base_demo__rosidl_typesupport_introspection_c
+[0.961s] [ 54%] Built target base_demo__rosidl_typesupport_cpp
+[0.961s] [ 56%] Built target base_demo__rosidl_typesupport_c
+[0.963s] [ 66%] Built target base_demo__rosidl_typesupport_introspection_cpp
+[0.963s] [ 77%] Built target base_demo__rosidl_typesupport_fastrtps_c
+[0.981s] [ 77%] Built target base_demo
+[0.996s] [ 79%] Built target base_demo__py
+[1.007s] [35m[1mConsolidate compiler generated dependencies of target base_demo__rosidl_generator_py[0m
+[1.020s] [ 87%] Built target base_demo__rosidl_generator_py
+[1.031s] [35m[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_c__pyext[0m
+[1.031s] [35m[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.031s] [35m[1mConsolidate compiler generated dependencies of target base_demo__rosidl_typesupport_introspection_c__pyext[0m
+[1.038s] [ 95%] Built target base_demo__rosidl_typesupport_c__pyext
+[1.038s] [ 95%] Built target base_demo__rosidl_typesupport_fastrtps_c__pyext
+[1.038s] [100%] Built target base_demo__rosidl_typesupport_introspection_c__pyext
+[1.088s] running egg_info
+[1.089s] writing base_demo.egg-info/PKG-INFO
+[1.089s] writing dependency_links to base_demo.egg-info/dependency_links.txt
+[1.089s] writing top-level names to base_demo.egg-info/top_level.txt
+[1.091s] reading manifest file 'base_demo.egg-info/SOURCES.txt'
+[1.091s] writing manifest file 'base_demo.egg-info/SOURCES.txt'
+[1.116s] [100%] Built target ament_cmake_python_build_base_demo_egg
+[1.128s] Invoked command in '/home/jon/ws01/build/base_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/base_demo -- -j24 -l24
+[1.130s] Invoking command in '/home/jon/ws01/build/base_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/base_demo
+[1.139s] -- Install configuration: ""
+[1.139s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/ament_index/resource_index/rosidl_interfaces/base_demo
+[1.139s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/student.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__struct.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__functions.c
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__functions.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__type_support.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/rosidl_generator_c__visibility_control.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/progress.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__functions.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__functions.c
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__struct.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__type_support.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/addints.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__type_support.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__functions.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__struct.h
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__functions.c
+[1.140s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/library_path.sh
+[1.141s] -- Installing: /home/jon/ws01/install/base_demo/share/base_demo/environment/library_path.dsv
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_generator_c.so
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__rosidl_typesupport_fastrtps_c.h
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__rosidl_typesupport_fastrtps_c.h
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_fastrtps_c.so
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__type_support.c
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__rosidl_typesupport_introspection_c.h
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__type_support.c
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail
+[1.141s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__type_support.c
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__rosidl_typesupport_introspection_c.h
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_introspection_c.so
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_c.so
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/student.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__type_support.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__struct.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__traits.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__builder.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/progress.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__type_support.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__traits.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__builder.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__struct.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/addints.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__traits.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__type_support.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__builder.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__struct.hpp
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg
+[1.142s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/dds_fastrtps
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/dds_fastrtps
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__rosidl_typesupport_fastrtps_cpp.hpp
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/dds_fastrtps
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_fastrtps_cpp.so
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/msg/detail/student__type_support.cpp
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__type_support.cpp
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__type_support.cpp
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/include/base_demo/base_demo/srv/detail/addints__rosidl_typesupport_introspection_cpp.hpp
+[1.143s] -- Up-to-date: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_introspection_cpp.so
+[1.144s] -- Up-to-date: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_typesupport_cpp.so
+[1.144s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/pythonpath.sh
+[1.144s] -- Installing: /home/jon/ws01/install/base_demo/share/base_demo/environment/pythonpath.dsv
+[1.144s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo-0.0.0-py3.10.egg-info
+[1.144s] -- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[1.144s] -- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.144s] -- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.144s] -- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo-0.0.0-py3.10.egg-info/top_level.txt
+[1.144s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo
+[1.145s] -- Installing: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/__init__.py
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg/__init__.py
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg/_student.py
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg/_student_s.c
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/_base_demo_s.ep.rosidl_typesupport_c.c
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/_base_demo_s.ep.rosidl_typesupport_introspection_c.c
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/libbase_demo__rosidl_generator_py.so
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/action
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/action/__init__.py
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/action/_progress.py
+[1.145s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/action/_progress_s.c
+[1.146s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv
+[1.146s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv/__init__.py
+[1.146s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv/_addints.py
+[1.146s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv/_addints_s.c
+[1.172s] Listing '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo'...
+[1.172s] Compiling '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/__init__.py'...
+[1.172s] Listing '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/action'...
+[1.172s] Listing '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/msg'...
+[1.172s] Listing '/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/srv'...
+[1.176s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.176s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.176s] -- Up-to-date: /home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages/base_demo/base_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.177s] -- Up-to-date: /home/jon/ws01/install/base_demo/lib/libbase_demo__rosidl_generator_py.so
+[1.177s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust
+[1.177s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/Cargo.toml
+[1.177s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/build.rs
+[1.177s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src
+[1.177s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/msg
+[1.177s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/msg/rmw.rs
+[1.177s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/msg.rs
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/action.rs
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/lib.rs
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/srv.rs
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/action
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/action/rmw.rs
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/srv
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/rust/src/srv/rmw.rs
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/msg/Student.idl
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/srv/Addints.idl
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/action/Progress.idl
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/msg/Student.msg
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/srv/Addints.srv
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/srv/Addints_Request.msg
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/srv/Addints_Response.msg
+[1.178s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/action/Progress.action
+[1.179s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/ament_index/resource_index/package_run_dependencies/base_demo
+[1.179s] -- Installing: /home/jon/ws01/install/base_demo/share/ament_index/resource_index/parent_prefix_path/base_demo
+[1.179s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/ament_prefix_path.sh
+[1.179s] -- Installing: /home/jon/ws01/install/base_demo/share/base_demo/environment/ament_prefix_path.dsv
+[1.179s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/environment/path.sh
+[1.179s] -- Installing: /home/jon/ws01/install/base_demo/share/base_demo/environment/path.dsv
+[1.179s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.bash
+[1.179s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.sh
+[1.179s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.zsh
+[1.179s] -- Installing: /home/jon/ws01/install/base_demo/share/base_demo/local_setup.dsv
+[1.179s] -- Installing: /home/jon/ws01/install/base_demo/share/base_demo/package.dsv
+[1.179s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/ament_index/resource_index/packages/base_demo
+[1.179s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_generator_cExport.cmake
+[1.179s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_generator_cExport-noconfig.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_introspection_cExport.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_cExport.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_cExport-noconfig.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_generator_cppExport.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_introspection_cppExport.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_cppExport.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_generator_pyExport.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/export_base_demo__rosidl_generator_pyExport-noconfig.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/rosidl_cmake-extras.cmake
+[1.180s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.181s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.181s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[1.181s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/ament_cmake_export_targets-extras.cmake
+[1.181s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.181s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.181s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[1.183s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demoConfig.cmake
+[1.183s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/cmake/base_demoConfig-version.cmake
+[1.183s] -- Up-to-date: /home/jon/ws01/install/base_demo/share/base_demo/package.xml
+[1.184s] Invoked command in '/home/jon/ws01/build/base_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/base_demo

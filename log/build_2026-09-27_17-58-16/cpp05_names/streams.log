@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/jon/ws01/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp05_names -- -j24 -l24
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_names.dir/src/demo01_names.cpp.o[0m
+[1.644s] [100%] [32m[1mLinking CXX executable demo01_names[0m
+[1.709s] [100%] Built target demo01_names
+[1.718s] Invoked command in '/home/jon/ws01/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp05_names -- -j24 -l24
+[1.719s] Invoking command in '/home/jon/ws01/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp05_names
+[1.723s] -- Install configuration: ""
+[1.723s] -- Installing: /home/jon/ws01/install/cpp05_names/lib/cpp05_names/demo01_names
+[1.723s] -- Set runtime path of "/home/jon/ws01/install/cpp05_names/lib/cpp05_names/demo01_names" to ""
+[1.723s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/launch
+[1.723s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/launch/demo01_names_launch.py
+[1.723s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/launch/demo03_names_launch.yaml
+[1.723s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/launch/demo02_names_launch.xml
+[1.723s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/ament_index/resource_index/package_run_dependencies/cpp05_names
+[1.723s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/ament_index/resource_index/parent_prefix_path/cpp05_names
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.sh
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.dsv
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/environment/path.sh
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/environment/path.dsv
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/local_setup.bash
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/local_setup.sh
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/local_setup.zsh
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/local_setup.dsv
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/package.dsv
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/ament_index/resource_index/packages/cpp05_names
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig.cmake
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig-version.cmake
+[1.724s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/package.xml
+[1.725s] Invoked command in '/home/jon/ws01/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp05_names

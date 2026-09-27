@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:24 (install):
+  install does not recognize sub-command DIRECTERY
+
+[0m

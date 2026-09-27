@@ -1,0 +1,11 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:[m[K In member function ‘[01m[Kvoid MyNode::demo_opt()[m[K’:
+[01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:31:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Duration du1[m[K’
+   31 |         rclcpp::Duration [01;31m[Kdu1[m[K(17,0);
+      |                          [01;31m[K^~~[m[K
+[01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:30:26:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Duration du1[m[K’ previously declared here
+   30 |         rclcpp::Duration [01;36m[Kdu1[m[K(8,0);
+      |                          [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_time.dir/build.make:76：CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo01_time.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

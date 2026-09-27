@@ -1,0 +1,6 @@
+Invoking command in '/home/jon/ws01/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp06_time -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp06_time
+Invoked command in '/home/jon/ws01/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp06_time -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp06_time
+Invoking command in '/home/jon/ws01/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp06_time -- -j24 -l24
+Invoked command in '/home/jon/ws01/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp06_time -- -j24 -l24
+Invoking command in '/home/jon/ws01/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp06_time
+Invoked command in '/home/jon/ws01/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp06_time

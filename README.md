@@ -20,6 +20,8 @@ cd ws01
 | `cpp02_service` | Service 服务端与客户端示例 |
 | `cpp03_action` | Action 服务端与客户端示例 |
 | `cpp04_param` | ROS 2 参数服务与客户端示例 |
+| `cpp05_names` | 节点名称、命名空间与 Launch 示例 |
+| `cpp06_time` | ROS 2 时间示例 |
 | `tutorails_plumbing` | ROS 2 Tutorials Plumbing 学习包骨架 |
 
 ## 环境要求
@@ -99,6 +101,19 @@ ros2 run cpp03_action demo02_client
 ros2 run cpp04_param demo00_param
 ros2 run cpp04_param demo01_sever
 ros2 run cpp04_param demo02_client
+```
+
+### Names 与 Launch
+
+```bash
+ros2 run cpp05_names demo01_names
+ros2 launch cpp05_names demo01_names_launch.py
+```
+
+### Time
+
+```bash
+ros2 run cpp06_time demo01_time
 ```
 
 ## 目录说明

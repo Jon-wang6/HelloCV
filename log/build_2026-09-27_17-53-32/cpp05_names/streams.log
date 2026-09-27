@@ -1,0 +1,52 @@
+[0.005s] Invoking command in '/home/jon/ws01/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp05_names -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp05_names
+[0.011s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.081s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.096s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.098s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.100s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.105s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.112s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.124s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.125s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.179s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.208s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.242s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.242s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jon/ws01/src/cpp05_names/include>
+[0.242s] -- Configured cppcheck exclude dirs and/or files: 
+[0.242s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.242s] -- Added test 'lint_cmake' to check CMake code style
+[0.243s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.243s] -- Added test 'uncrustify' to check C / C++ code style
+[0.243s] -- Configured uncrustify additional arguments: 
+[0.243s] -- Added test 'xmllint' to check XML markup files
+[0.243s] -- Configuring done
+[0.247s] -- Generating done
+[0.248s] -- Build files have been written to: /home/jon/ws01/build/cpp05_names
+[0.252s] Invoked command in '/home/jon/ws01/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp05_names -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp05_names
+[0.254s] Invoking command in '/home/jon/ws01/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp05_names -- -j24 -l24
+[0.281s] Consolidate compiler generated dependencies of target demo01_names
+[0.286s] [100%] Built target demo01_names
+[0.297s] Invoked command in '/home/jon/ws01/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp05_names -- -j24 -l24
+[0.300s] Invoking command in '/home/jon/ws01/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp05_names
+[0.304s] -- Install configuration: ""
+[0.305s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/lib/cpp05_names/demo01_names
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/launch
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/launch/demo01_names_launch.py
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/launch/demo03_names_launch.yaml
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/launch/demo02_names_launch.xml
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/ament_index/resource_index/package_run_dependencies/cpp05_names
+[0.306s] -- Installing: /home/jon/ws01/install/cpp05_names/share/ament_index/resource_index/parent_prefix_path/cpp05_names
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.sh
+[0.306s] -- Installing: /home/jon/ws01/install/cpp05_names/share/cpp05_names/environment/ament_prefix_path.dsv
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/environment/path.sh
+[0.306s] -- Installing: /home/jon/ws01/install/cpp05_names/share/cpp05_names/environment/path.dsv
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/local_setup.bash
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/local_setup.sh
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/local_setup.zsh
+[0.306s] -- Installing: /home/jon/ws01/install/cpp05_names/share/cpp05_names/local_setup.dsv
+[0.306s] -- Installing: /home/jon/ws01/install/cpp05_names/share/cpp05_names/package.dsv
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/ament_index/resource_index/packages/cpp05_names
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig.cmake
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/cmake/cpp05_namesConfig-version.cmake
+[0.306s] -- Up-to-date: /home/jon/ws01/install/cpp05_names/share/cpp05_names/package.xml
+[0.308s] Invoked command in '/home/jon/ws01/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp05_names

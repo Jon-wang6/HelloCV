@@ -1,0 +1,68 @@
+[0.005s] Invoking command in '/home/jon/ws01/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp06_time -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp06_time
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.076s] -- The CXX compiler identification is GNU 11.4.0
+[0.081s] -- Detecting C compiler ABI info
+[0.128s] -- Detecting C compiler ABI info - done
+[0.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.132s] -- Detecting C compile features
+[0.132s] -- Detecting C compile features - done
+[0.134s] -- Detecting CXX compiler ABI info
+[0.182s] -- Detecting CXX compiler ABI info - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.186s] -- Detecting CXX compile features
+[0.186s] -- Detecting CXX compile features - done
+[0.187s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.278s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.326s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.345s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.347s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.351s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.382s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.384s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.439s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.451s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.472s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.476s] -- Looking for pthread.h
+[0.528s] -- Looking for pthread.h - found
+[0.529s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.577s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.577s] -- Found Threads: TRUE  
+[0.605s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.663s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.663s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jon/ws01/src/cpp06_time/include>
+[0.663s] -- Configured cppcheck exclude dirs and/or files: 
+[0.664s] -- Added test 'lint_cmake' to check CMake code style
+[0.665s] -- Added test 'uncrustify' to check C / C++ code style
+[0.665s] -- Configured uncrustify additional arguments: 
+[0.665s] -- Added test 'xmllint' to check XML markup files
+[0.667s] -- Configuring done
+[0.672s] -- Generating done
+[0.673s] -- Build files have been written to: /home/jon/ws01/build/cpp06_time
+[0.680s] Invoked command in '/home/jon/ws01/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp06_time -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp06_time
+[0.681s] Invoking command in '/home/jon/ws01/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp06_time -- -j24 -l24
+[0.720s] [ 50%] Building CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o
+[0.748s] [100%] Linking CXX executable demo01_time
+[0.794s] [100%] Built target demo01_time
+[0.803s] Invoked command in '/home/jon/ws01/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp06_time -- -j24 -l24
+[0.809s] Invoking command in '/home/jon/ws01/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp06_time
+[0.815s] -- Install configuration: ""
+[0.815s] -- Installing: /home/jon/ws01/install/cpp06_time/lib/cpp06_time/demo01_time
+[0.816s] -- Set runtime path of "/home/jon/ws01/install/cpp06_time/lib/cpp06_time/demo01_time" to ""
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/environment/path.sh
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/environment/path.dsv
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/local_setup.bash
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/local_setup.sh
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/local_setup.zsh
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/local_setup.dsv
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/package.dsv
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+[0.816s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/package.xml
+[0.817s] Invoked command in '/home/jon/ws01/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp06_time

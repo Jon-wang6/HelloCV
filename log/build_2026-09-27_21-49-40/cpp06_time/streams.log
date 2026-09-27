@@ -1,0 +1,13 @@
+[0.021s] Invoking command in '/home/jon/ws01/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp06_time -- -j24 -l24
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[1.250s] [01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:[m[K In member function ‘[01m[Kvoid MyNode::demo_opt()[m[K’:
+[1.250s] [01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:31:26:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Duration du1[m[K’
+[1.250s]    31 |         rclcpp::Duration [01;31m[Kdu1[m[K(17,0);
+[1.250s]       |                          [01;31m[K^~~[m[K
+[1.250s] [01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:30:26:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::Duration du1[m[K’ previously declared here
+[1.250s]    30 |         rclcpp::Duration [01;36m[Kdu1[m[K(8,0);
+[1.250s]       |                          [01;36m[K^~~[m[K
+[1.464s] gmake[2]: *** [CMakeFiles/demo01_time.dir/build.make:76：CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o] 错误 1
+[1.464s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo01_time.dir/all] 错误 2
+[1.464s] gmake: *** [Makefile:146：all] 错误 2
+[1.467s] Invoked command in '/home/jon/ws01/build/cpp06_time' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp06_time -- -j24 -l24

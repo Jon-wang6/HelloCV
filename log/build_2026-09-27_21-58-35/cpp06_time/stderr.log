@@ -1,0 +1,34 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:11[m[K:
+[01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:[m[K In member function ‘[01m[Kvoid MyNode::demo_opt()[m[K’:
+[01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:45:68:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   45 |         RCLCPP_INFO(this->get_logger(),"t1 >= t2 ? %d"  ,du1 >= du2[01;31m[K;[m[K);
+      |                                                                    [01;31m[K^[m[K
+[01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:45:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   45 |         [01;36m[KRCLCPP_INFO[m[K(this->get_logger(),"t1 >= t2 ? %d"  ,du1 >= du2;);
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:45:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   45 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"t1 >= t2 ? %d"  ,du1 >= du2;);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:46:67:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   46 |         RCLCPP_INFO(this->get_logger(),"t1 < t2 ? %d"   ,du1 < du2[01;31m[K;[m[K);
+      |                                                                   [01;31m[K^[m[K
+[01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:46:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   46 |         [01;36m[KRCLCPP_INFO[m[K(this->get_logger(),"t1 < t2 ? %d"   ,du1 < du2;);
+      |         [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/jon/ws01/src/cpp06_time/src/demo01_time.cpp:46:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+   46 |         [01;31m[KRCLCPP_INFO[m[K(this->get_logger(),"t1 < t2 ? %d"   ,du1 < du2;);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_time.dir/build.make:76：CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo01_time.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,2 @@
+Invoking command in '/home/jon/ws01/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp05_names
+Invoked command in '/home/jon/ws01/build/cpp05_names' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp05_names -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp05_names
