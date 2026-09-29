@@ -1,0 +1,13 @@
+{
+  "package_name": "turtlesim",
+  "non_idl_tuples": [
+    "/home/jon/ws01/src/turtlesim:action/RotateAbsolute.action",
+    "/home/jon/ws01/src/turtlesim:msg/Color.msg",
+    "/home/jon/ws01/src/turtlesim:msg/Pose.msg",
+    "/home/jon/ws01/src/turtlesim:srv/Kill.srv",
+    "/home/jon/ws01/src/turtlesim:srv/SetPen.srv",
+    "/home/jon/ws01/src/turtlesim:srv/Spawn.srv",
+    "/home/jon/ws01/src/turtlesim:srv/TeleportAbsolute.srv",
+    "/home/jon/ws01/src/turtlesim:srv/TeleportRelative.srv"
+  ]
+}
