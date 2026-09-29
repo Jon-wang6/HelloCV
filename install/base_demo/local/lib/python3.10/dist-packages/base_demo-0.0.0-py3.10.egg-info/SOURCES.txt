@@ -10,3 +10,4 @@ base_demo/msg/__init__.py
 base_demo/msg/_student.py
 base_demo/srv/__init__.py
 base_demo/srv/_addints.py
+base_demo/srv/_distance.py

@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from base_demo/srv/Distance.srv
+// generated code does not contain a copyright notice
+
+
+module base_demo {
+  module srv {
+    @verbatim (language="comment", text=
+      "请求数据")
+    struct Distance_Request {
+      float x;
+
+      float y;
+
+      float theta;
+    };
+    @verbatim (language="comment", text=
+      "响应数据")
+    struct Distance_Response {
+      float distance;
+    };
+  };
+};

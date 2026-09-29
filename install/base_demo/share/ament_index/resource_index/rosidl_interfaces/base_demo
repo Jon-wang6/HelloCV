@@ -6,3 +6,7 @@ srv/Addints.idl
 srv/Addints.srv
 srv/Addints_Request.msg
 srv/Addints_Response.msg
+srv/Distance.idl
+srv/Distance.srv
+srv/Distance_Request.msg
+srv/Distance_Response.msg
