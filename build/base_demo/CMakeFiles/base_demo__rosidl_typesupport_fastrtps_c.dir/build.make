@@ -80,6 +80,7 @@ rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__rosidl_typesupport_f
 rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/base_demo/msg/Student.idl
 rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/base_demo/srv/Addints.idl
 rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/base_demo/action/Progress.idl
+rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/base_demo/srv/Distance.idl
 rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -104,6 +105,12 @@ rosidl_typesupport_fastrtps_c/base_demo/action/detail/progress__rosidl_typesuppo
 
 rosidl_typesupport_fastrtps_c/base_demo/action/detail/progress__type_support_c.cpp: rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/base_demo/action/detail/progress__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp: rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp
 
 CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__type_support_c.cpp.o: CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__type_support_c.cpp
@@ -147,11 +154,26 @@ CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastr
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/action/detail/progress__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jon/ws01/build/base_demo/rosidl_typesupport_fastrtps_c/base_demo/action/detail/progress__type_support_c.cpp -o CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/action/detail/progress__type_support_c.cpp.s
 
+CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.o: CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp
+CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.o: CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jon/ws01/build/base_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.o -MF CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.o.d -o CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.o -c /home/jon/ws01/build/base_demo/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp
+
+CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jon/ws01/build/base_demo/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp > CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.i
+
+CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jon/ws01/build/base_demo/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp -o CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.s
+
 # Object files for target base_demo__rosidl_typesupport_fastrtps_c
 base_demo__rosidl_typesupport_fastrtps_c_OBJECTS = \
 "CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__type_support_c.cpp.o" \
 "CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/addints__type_support_c.cpp.o" \
-"CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/action/detail/progress__type_support_c.cpp.o"
+"CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/action/detail/progress__type_support_c.cpp.o" \
+"CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.o"
 
 # External object files for target base_demo__rosidl_typesupport_fastrtps_c
 base_demo__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
@@ -159,6 +181,7 @@ base_demo__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 libbase_demo__rosidl_typesupport_fastrtps_c.so: CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__type_support_c.cpp.o
 libbase_demo__rosidl_typesupport_fastrtps_c.so: CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/addints__type_support_c.cpp.o
 libbase_demo__rosidl_typesupport_fastrtps_c.so: CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/action/detail/progress__type_support_c.cpp.o
+libbase_demo__rosidl_typesupport_fastrtps_c.so: CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp.o
 libbase_demo__rosidl_typesupport_fastrtps_c.so: CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/build.make
 libbase_demo__rosidl_typesupport_fastrtps_c.so: libbase_demo__rosidl_generator_c.so
 libbase_demo__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
@@ -174,7 +197,7 @@ libbase_demo__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/libunique_id
 libbase_demo__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libbase_demo__rosidl_typesupport_fastrtps_c.so: /opt/ros/humble/lib/librcutils.so
 libbase_demo__rosidl_typesupport_fastrtps_c.so: CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jon/ws01/build/base_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libbase_demo__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jon/ws01/build/base_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libbase_demo__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -191,6 +214,8 @@ CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesuppo
 CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/base_demo/msg/detail/student__type_support_c.cpp
 CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/base_demo/srv/detail/addints__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/base_demo/srv/detail/addints__type_support_c.cpp
+CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/base_demo/srv/detail/distance__type_support_c.cpp
 	cd /home/jon/ws01/build/base_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jon/ws01/src/base_demo /home/jon/ws01/src/base_demo /home/jon/ws01/build/base_demo /home/jon/ws01/build/base_demo /home/jon/ws01/build/base_demo/CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c.dir/depend
 

@@ -302,7 +302,8 @@
 			[
 				0,
 				2,
-				4
+				4,
+				6
 			]
 		}
 	],
@@ -409,7 +410,8 @@
 			[
 				0,
 				2,
-				4
+				4,
+				6
 			]
 		},
 		{
@@ -418,14 +420,15 @@
 			[
 				1,
 				3,
-				5
+				5,
+				7
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				6
+				8
 			]
 		}
 	],
@@ -468,6 +471,19 @@
 			"backtrace" : 5,
 			"isGenerated" : true,
 			"path" : "/home/jon/ws01/build/base_demo/rosidl_typesupport_fastrtps_cpp/base_demo/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/jon/ws01/build/base_demo/rosidl_typesupport_fastrtps_cpp/base_demo/srv/detail/dds_fastrtps/distance__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/jon/ws01/build/base_demo/rosidl_typesupport_fastrtps_cpp/base_demo/srv/detail/distance__rosidl_typesupport_fastrtps_cpp.hpp",
 			"sourceGroupIndex" : 1
 		},
 		{

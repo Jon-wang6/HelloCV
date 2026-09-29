@@ -26,6 +26,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/srv/detail/addints__struct.hpp" "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/msg/student.hpp"
   "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/srv/detail/addints__traits.hpp" "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/msg/student.hpp"
   "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/srv/detail/addints__type_support.hpp" "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/msg/student.hpp"
+  "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/srv/detail/distance__builder.hpp" "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/msg/student.hpp"
+  "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/srv/detail/distance__struct.hpp" "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/msg/student.hpp"
+  "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/srv/detail/distance__traits.hpp" "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/msg/student.hpp"
+  "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/srv/detail/distance__type_support.hpp" "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/msg/student.hpp"
+  "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/srv/distance.hpp" "/home/jon/ws01/build/base_demo/rosidl_generator_cpp/base_demo/msg/student.hpp"
   )
 
 

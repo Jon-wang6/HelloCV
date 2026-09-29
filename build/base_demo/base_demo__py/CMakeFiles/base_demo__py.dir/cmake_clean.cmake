@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/base_demo/srv/__init__.py"
   "../rosidl_generator_py/base_demo/srv/_addints.py"
   "../rosidl_generator_py/base_demo/srv/_addints_s.c"
+  "../rosidl_generator_py/base_demo/srv/_distance.py"
+  "../rosidl_generator_py/base_demo/srv/_distance_s.c"
   "CMakeFiles/base_demo__py"
 )
 

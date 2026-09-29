@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/base_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_demo/msg/detail/student__type_support.c.o.d"
   "CMakeFiles/base_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_demo/srv/detail/addints__type_support.c.o"
   "CMakeFiles/base_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_demo/srv/detail/addints__type_support.c.o.d"
+  "CMakeFiles/base_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_demo/srv/detail/distance__type_support.c.o"
+  "CMakeFiles/base_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_demo/srv/detail/distance__type_support.c.o.d"
   "libbase_demo__rosidl_typesupport_introspection_c.pdb"
   "libbase_demo__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/base_demo/action/detail/progress__rosidl_typesupport_introspection_c.h"
@@ -13,6 +15,8 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_introspection_c/base_demo/msg/detail/student__type_support.c"
   "rosidl_typesupport_introspection_c/base_demo/srv/detail/addints__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/base_demo/srv/detail/addints__type_support.c"
+  "rosidl_typesupport_introspection_c/base_demo/srv/detail/distance__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/base_demo/srv/detail/distance__type_support.c"
 )
 
 # Per-language clean rules from dependency scanning.

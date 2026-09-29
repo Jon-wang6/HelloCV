@@ -81,6 +81,11 @@ CMakeFiles/base_demo__cpp: rosidl_generator_cpp/base_demo/action/detail/progress
 CMakeFiles/base_demo__cpp: rosidl_generator_cpp/base_demo/action/detail/progress__struct.hpp
 CMakeFiles/base_demo__cpp: rosidl_generator_cpp/base_demo/action/detail/progress__traits.hpp
 CMakeFiles/base_demo__cpp: rosidl_generator_cpp/base_demo/action/detail/progress__type_support.hpp
+CMakeFiles/base_demo__cpp: rosidl_generator_cpp/base_demo/srv/distance.hpp
+CMakeFiles/base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/distance__builder.hpp
+CMakeFiles/base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/distance__struct.hpp
+CMakeFiles/base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/distance__traits.hpp
+CMakeFiles/base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/distance__type_support.hpp
 CMakeFiles/base_demo__cpp: rosidl_generator_cpp/base_demo/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/base_demo/msg/student.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -101,6 +106,7 @@ rosidl_generator_cpp/base_demo/msg/student.hpp: /opt/ros/humble/share/rosidl_gen
 rosidl_generator_cpp/base_demo/msg/student.hpp: rosidl_adapter/base_demo/msg/Student.idl
 rosidl_generator_cpp/base_demo/msg/student.hpp: rosidl_adapter/base_demo/srv/Addints.idl
 rosidl_generator_cpp/base_demo/msg/student.hpp: rosidl_adapter/base_demo/action/Progress.idl
+rosidl_generator_cpp/base_demo/msg/student.hpp: rosidl_adapter/base_demo/srv/Distance.idl
 rosidl_generator_cpp/base_demo/msg/student.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/base_demo/msg/student.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_cpp/base_demo/msg/student.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -153,6 +159,21 @@ rosidl_generator_cpp/base_demo/action/detail/progress__traits.hpp: rosidl_genera
 rosidl_generator_cpp/base_demo/action/detail/progress__type_support.hpp: rosidl_generator_cpp/base_demo/msg/student.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_demo/action/detail/progress__type_support.hpp
 
+rosidl_generator_cpp/base_demo/srv/distance.hpp: rosidl_generator_cpp/base_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_demo/srv/distance.hpp
+
+rosidl_generator_cpp/base_demo/srv/detail/distance__builder.hpp: rosidl_generator_cpp/base_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_demo/srv/detail/distance__builder.hpp
+
+rosidl_generator_cpp/base_demo/srv/detail/distance__struct.hpp: rosidl_generator_cpp/base_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_demo/srv/detail/distance__struct.hpp
+
+rosidl_generator_cpp/base_demo/srv/detail/distance__traits.hpp: rosidl_generator_cpp/base_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_demo/srv/detail/distance__traits.hpp
+
+rosidl_generator_cpp/base_demo/srv/detail/distance__type_support.hpp: rosidl_generator_cpp/base_demo/msg/student.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/base_demo/srv/detail/distance__type_support.hpp
+
 base_demo__cpp: CMakeFiles/base_demo__cpp
 base_demo__cpp: rosidl_generator_cpp/base_demo/action/detail/progress__builder.hpp
 base_demo__cpp: rosidl_generator_cpp/base_demo/action/detail/progress__struct.hpp
@@ -169,6 +190,11 @@ base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/addints__builder.hpp
 base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/addints__struct.hpp
 base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/addints__traits.hpp
 base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/addints__type_support.hpp
+base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/distance__builder.hpp
+base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/distance__struct.hpp
+base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/distance__traits.hpp
+base_demo__cpp: rosidl_generator_cpp/base_demo/srv/detail/distance__type_support.hpp
+base_demo__cpp: rosidl_generator_cpp/base_demo/srv/distance.hpp
 base_demo__cpp: CMakeFiles/base_demo__cpp.dir/build.make
 .PHONY : base_demo__cpp
 

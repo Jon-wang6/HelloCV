@@ -23,6 +23,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/srv/__init__.py" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/srv/_addints.py" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/srv/_addints_s.c" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/srv/_distance.py" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/srv/_distance_s.c" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

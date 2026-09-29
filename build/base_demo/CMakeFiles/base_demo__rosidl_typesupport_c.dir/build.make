@@ -78,6 +78,7 @@ rosidl_typesupport_c/base_demo/msg/student__type_support.cpp: /opt/ros/humble/sh
 rosidl_typesupport_c/base_demo/msg/student__type_support.cpp: rosidl_adapter/base_demo/msg/Student.idl
 rosidl_typesupport_c/base_demo/msg/student__type_support.cpp: rosidl_adapter/base_demo/srv/Addints.idl
 rosidl_typesupport_c/base_demo/msg/student__type_support.cpp: rosidl_adapter/base_demo/action/Progress.idl
+rosidl_typesupport_c/base_demo/msg/student__type_support.cpp: rosidl_adapter/base_demo/srv/Distance.idl
 rosidl_typesupport_c/base_demo/msg/student__type_support.cpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_typesupport_c/base_demo/msg/student__type_support.cpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_typesupport_c/base_demo/msg/student__type_support.cpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -93,6 +94,9 @@ rosidl_typesupport_c/base_demo/srv/addints__type_support.cpp: rosidl_typesupport
 
 rosidl_typesupport_c/base_demo/action/progress__type_support.cpp: rosidl_typesupport_c/base_demo/msg/student__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/base_demo/action/progress__type_support.cpp
+
+rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp: rosidl_typesupport_c/base_demo/msg/student__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp
 
 CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/msg/student__type_support.cpp.o: CMakeFiles/base_demo__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/msg/student__type_support.cpp.o: rosidl_typesupport_c/base_demo/msg/student__type_support.cpp
@@ -136,11 +140,26 @@ CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/ac
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/action/progress__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jon/ws01/build/base_demo/rosidl_typesupport_c/base_demo/action/progress__type_support.cpp -o CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/action/progress__type_support.cpp.s
 
+CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.o: CMakeFiles/base_demo__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.o: rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp
+CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.o: CMakeFiles/base_demo__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jon/ws01/build/base_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.o -MF CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.o.d -o CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.o -c /home/jon/ws01/build/base_demo/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp
+
+CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jon/ws01/build/base_demo/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp > CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.i
+
+CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jon/ws01/build/base_demo/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp -o CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.s
+
 # Object files for target base_demo__rosidl_typesupport_c
 base_demo__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/msg/student__type_support.cpp.o" \
 "CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/addints__type_support.cpp.o" \
-"CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/action/progress__type_support.cpp.o"
+"CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/action/progress__type_support.cpp.o" \
+"CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.o"
 
 # External object files for target base_demo__rosidl_typesupport_c
 base_demo__rosidl_typesupport_c_EXTERNAL_OBJECTS =
@@ -148,6 +167,7 @@ base_demo__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 libbase_demo__rosidl_typesupport_c.so: CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/msg/student__type_support.cpp.o
 libbase_demo__rosidl_typesupport_c.so: CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/addints__type_support.cpp.o
 libbase_demo__rosidl_typesupport_c.so: CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/action/progress__type_support.cpp.o
+libbase_demo__rosidl_typesupport_c.so: CMakeFiles/base_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp.o
 libbase_demo__rosidl_typesupport_c.so: CMakeFiles/base_demo__rosidl_typesupport_c.dir/build.make
 libbase_demo__rosidl_typesupport_c.so: libbase_demo__rosidl_generator_c.so
 libbase_demo__rosidl_typesupport_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
@@ -160,7 +180,7 @@ libbase_demo__rosidl_typesupport_c.so: /opt/ros/humble/lib/libunique_identifier_
 libbase_demo__rosidl_typesupport_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libbase_demo__rosidl_typesupport_c.so: /opt/ros/humble/lib/librcutils.so
 libbase_demo__rosidl_typesupport_c.so: CMakeFiles/base_demo__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jon/ws01/build/base_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libbase_demo__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jon/ws01/build/base_demo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libbase_demo__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/base_demo__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -174,6 +194,7 @@ CMakeFiles/base_demo__rosidl_typesupport_c.dir/clean:
 CMakeFiles/base_demo__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/base_demo/action/progress__type_support.cpp
 CMakeFiles/base_demo__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/base_demo/msg/student__type_support.cpp
 CMakeFiles/base_demo__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/base_demo/srv/addints__type_support.cpp
+CMakeFiles/base_demo__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp
 	cd /home/jon/ws01/build/base_demo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jon/ws01/src/base_demo /home/jon/ws01/src/base_demo /home/jon/ws01/build/base_demo /home/jon/ws01/build/base_demo /home/jon/ws01/build/base_demo/CMakeFiles/base_demo__rosidl_typesupport_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/base_demo__rosidl_typesupport_c.dir/depend
 

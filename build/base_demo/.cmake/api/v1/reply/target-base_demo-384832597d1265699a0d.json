@@ -251,14 +251,17 @@
 				2,
 				3,
 				4,
-				5
+				5,
+				6,
+				7,
+				8
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				6
+				9
 			]
 		}
 	],
@@ -287,6 +290,21 @@
 		{
 			"backtrace" : 2,
 			"path" : "action/Progress.action",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "srv/Distance.srv",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/jon/ws01/build/base_demo/rosidl_cmake/srv/Distance_Request.msg",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "/home/jon/ws01/build/base_demo/rosidl_cmake/srv/Distance_Response.msg",
 			"sourceGroupIndex" : 0
 		},
 		{

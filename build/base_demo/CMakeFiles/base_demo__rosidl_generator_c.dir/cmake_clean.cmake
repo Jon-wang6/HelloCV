@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/base_demo__rosidl_generator_c.dir/rosidl_generator_c/base_demo/msg/detail/student__functions.c.o.d"
   "CMakeFiles/base_demo__rosidl_generator_c.dir/rosidl_generator_c/base_demo/srv/detail/addints__functions.c.o"
   "CMakeFiles/base_demo__rosidl_generator_c.dir/rosidl_generator_c/base_demo/srv/detail/addints__functions.c.o.d"
+  "CMakeFiles/base_demo__rosidl_generator_c.dir/rosidl_generator_c/base_demo/srv/detail/distance__functions.c.o"
+  "CMakeFiles/base_demo__rosidl_generator_c.dir/rosidl_generator_c/base_demo/srv/detail/distance__functions.c.o.d"
   "libbase_demo__rosidl_generator_c.pdb"
   "libbase_demo__rosidl_generator_c.so"
   "rosidl_generator_c/base_demo/action/detail/progress__functions.c"
@@ -22,6 +24,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/base_demo/srv/detail/addints__functions.h"
   "rosidl_generator_c/base_demo/srv/detail/addints__struct.h"
   "rosidl_generator_c/base_demo/srv/detail/addints__type_support.h"
+  "rosidl_generator_c/base_demo/srv/detail/distance__functions.c"
+  "rosidl_generator_c/base_demo/srv/detail/distance__functions.h"
+  "rosidl_generator_c/base_demo/srv/detail/distance__struct.h"
+  "rosidl_generator_c/base_demo/srv/detail/distance__type_support.h"
+  "rosidl_generator_c/base_demo/srv/distance.h"
 )
 
 # Per-language clean rules from dependency scanning.
