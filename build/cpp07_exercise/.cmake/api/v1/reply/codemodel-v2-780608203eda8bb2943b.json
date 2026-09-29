@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0d842ddde72083f84ccd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp07_exercise",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp07_exercise_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp07_exercise_uninstall-61bb321c18fa357c1621.json",
+					"name" : "cpp07_exercise_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer01_pub_sub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer01_pub_sub-d8b90e4e68c8d52a3ff2.json",
+					"name" : "exer01_pub_sub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer02_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer02_server-5f97c24b868ed7373a79.json",
+					"name" : "exer02_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer03_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer03_client-e9999c363b8605926ec1.json",
+					"name" : "exer03_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0305247cbd09dc30a373.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jon/ws01/build/cpp07_exercise",
+		"source" : "/home/jon/ws01/src/cpp07_exercise"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
