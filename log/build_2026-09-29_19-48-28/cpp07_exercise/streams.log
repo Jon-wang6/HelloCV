@@ -1,0 +1,63 @@
+[0.008s] Invoking command in '/home/jon/ws01/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp07_exercise -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp07_exercise
+[0.018s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.095s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.110s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.111s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.114s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.121s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.148s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.149s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.214s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.241s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.261s] -- Found base_demo: 0.0.0 (/home/jon/ws01/install/base_demo/share/base_demo/cmake)
+[0.267s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.273s] -- Found rclcpp_action: 16.0.21 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.280s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.320s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.320s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jon/ws01/src/cpp07_exercise/include>
+[0.320s] -- Configured cppcheck exclude dirs and/or files: 
+[0.320s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.320s] -- Added test 'lint_cmake' to check CMake code style
+[0.320s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.320s] -- Added test 'uncrustify' to check C / C++ code style
+[0.320s] -- Configured uncrustify additional arguments: 
+[0.320s] -- Added test 'xmllint' to check XML markup files
+[0.321s] -- Configuring done
+[0.329s] -- Generating done
+[0.332s] -- Build files have been written to: /home/jon/ws01/build/cpp07_exercise
+[0.338s] Invoked command in '/home/jon/ws01/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp07_exercise -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp07_exercise
+[0.340s] Invoking command in '/home/jon/ws01/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp07_exercise -- -j24 -l24
+[0.371s] [35m[1mConsolidate compiler generated dependencies of target exer01_pub_sub[0m
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target exer02_server[0m
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target exer03_client[0m
+[0.387s] [ 33%] Built target exer01_pub_sub
+[0.388s] [ 50%] [32mBuilding CXX object CMakeFiles/exer03_client.dir/src/exer03_client.cpp.o[0m
+[0.388s] [ 83%] Built target exer02_server
+[1.878s] [100%] [32m[1mLinking CXX executable exer03_client[0m
+[1.932s] [100%] Built target exer03_client
+[1.941s] Invoked command in '/home/jon/ws01/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp07_exercise -- -j24 -l24
+[1.945s] Invoking command in '/home/jon/ws01/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp07_exercise
+[1.949s] -- Install configuration: ""
+[1.949s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+[1.949s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer02_server
+[1.949s] -- Installing: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer03_client
+[1.950s] -- Set runtime path of "/home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer03_client" to ""
+[1.950s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch
+[1.950s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+[1.950s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[1.950s] -- Installing: /home/jon/ws01/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[1.950s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[1.950s] -- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[1.950s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[1.950s] -- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[1.950s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[1.950s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[1.950s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[1.950s] -- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[1.952s] -- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[1.952s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[1.952s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[1.952s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[1.953s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[1.953s] Invoked command in '/home/jon/ws01/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp07_exercise

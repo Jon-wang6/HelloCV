@@ -1,0 +1,4 @@
+Consolidate compiler generated dependencies of target exer02_server
+[ 33%] Built target exer03_client
+[ 66%] Built target exer01_pub_sub
+[ 83%] Building CXX object CMakeFiles/exer02_server.dir/src/exer02_server.cpp.o

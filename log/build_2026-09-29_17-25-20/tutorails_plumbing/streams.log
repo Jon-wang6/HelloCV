@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/jon/ws01/build/tutorails_plumbing': CMAKE_PREFIX_PATH=/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/tutorails_plumbing -- -j24 -l24
+[0.038s] Invoked command in '/home/jon/ws01/build/tutorails_plumbing' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/tutorails_plumbing -- -j24 -l24
+[0.039s] Invoking command in '/home/jon/ws01/build/tutorails_plumbing': CMAKE_PREFIX_PATH=/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/tutorails_plumbing
+[0.043s] -- Install configuration: ""
+[0.043s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/ament_index/resource_index/package_run_dependencies/tutorails_plumbing
+[0.043s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/ament_index/resource_index/parent_prefix_path/tutorails_plumbing
+[0.043s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.sh
+[0.043s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/environment/ament_prefix_path.dsv
+[0.043s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.sh
+[0.043s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/environment/path.dsv
+[0.043s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.bash
+[0.043s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.sh
+[0.043s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.zsh
+[0.043s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/local_setup.dsv
+[0.043s] -- Installing: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/package.dsv
+[0.044s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/ament_index/resource_index/packages/tutorails_plumbing
+[0.044s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig.cmake
+[0.044s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/cmake/tutorails_plumbingConfig-version.cmake
+[0.044s] -- Up-to-date: /home/jon/ws01/install/tutorails_plumbing/share/tutorails_plumbing/package.xml
+[0.044s] Invoked command in '/home/jon/ws01/build/tutorails_plumbing' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/tutorails_plumbing

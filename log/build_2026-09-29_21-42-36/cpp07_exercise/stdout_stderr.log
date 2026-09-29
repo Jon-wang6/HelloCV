@@ -1,0 +1,23 @@
+Consolidate compiler generated dependencies of target exer02_server
+[ 33%] Built target exer03_client
+[ 66%] Built target exer01_pub_sub
+[ 83%] Building CXX object CMakeFiles/exer02_server.dir/src/exer02_server.cpp.o
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/jon/ws01/src/cpp07_exercise/src/exer02_server.cpp:15:
+/home/jon/ws01/src/cpp07_exercise/src/exer02_server.cpp: In member function ‘void Exer02Server::distance_cb(base_demo::srv::Distance_Request_<std::allocator<void> >::SharedPtr, base_demo::srv::Distance_Response_<std::allocator<void> >::SharedPtr)’:
+/home/jon/ws01/src/cpp07_exercise/src/exer02_server.cpp:53:29: error: ‘t’ was not declared in this scope; did you mean ‘tm’?
+   53 |             goal_x,goal_y,x,t,distance
+      |                             ^
+gmake[2]: *** [CMakeFiles/exer02_server.dir/build.make:76：CMakeFiles/exer02_server.dir/src/exer02_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/exer02_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

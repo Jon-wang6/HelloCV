@@ -1,0 +1,408 @@
+[0.015s] Invoking command in '/home/jon/ws01/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/turtlesim -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/turtlesim
+[0.025s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.152s] -- Found ament_index_cpp: 1.4.1 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[0.152s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.174s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.176s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.181s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.191s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.200s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.235s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.251s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.252s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.326s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.353s] -- Found rclcpp_action: 16.0.21 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.372s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.378s] -- Found std_srvs: 4.9.2 (/opt/ros/humble/share/std_srvs/cmake)
+[0.628s] -- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.949s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.970s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.971s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.971s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.038s] -- Configuring done
+[1.071s] -- Generating done
+[1.082s] -- Build files have been written to: /home/jon/ws01/build/turtlesim
+[1.094s] Invoked command in '/home/jon/ws01/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/turtlesim -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/turtlesim
+[1.095s] Invoking command in '/home/jon/ws01/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/turtlesim -- -j24 -l24
+[1.125s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_c[0m
+[1.132s] [  2%] Built target turtlesim__rs
+[1.132s] [  2%] Built target turtlesim__cpp
+[1.132s] [ 12%] Built target turtlesim__rosidl_generator_c
+[1.140s] [ 12%] Built target ament_cmake_python_copy_turtlesim
+[1.141s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_cpp[0m
+[1.141s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_cpp[0m
+[1.142s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_cpp[0m
+[1.149s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c[0m
+[1.150s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c[0m
+[1.150s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c[0m
+[1.153s] [ 22%] Built target turtlesim__rosidl_typesupport_cpp
+[1.153s] [ 32%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[1.153s] [ 42%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[1.159s] [ 62%] Built target turtlesim__rosidl_typesupport_c
+[1.159s] [ 62%] Built target turtlesim__rosidl_typesupport_introspection_c
+[1.159s] [35m[1mConsolidate compiler generated dependencies of target turtle_teleop_key[0m
+[1.160s] [35m[1mConsolidate compiler generated dependencies of target mimic[0m
+[1.161s] [35m[1mConsolidate compiler generated dependencies of target draw_square[0m
+[1.162s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_node[0m
+[1.167s] [ 72%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[1.173s] [ 74%] Built target turtle_teleop_key
+[1.174s] [ 76%] Built target mimic
+[1.175s] [ 78%] Built target draw_square
+[1.184s] [ 79%] Built target turtlesim
+[1.184s] [ 79%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o[0m
+[1.202s] [ 80%] Built target turtlesim__py
+[1.210s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_generator_py[0m
+[1.227s] [ 89%] Built target turtlesim__rosidl_generator_py
+[1.236s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.236s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_c__pyext[0m
+[1.236s] [35m[1mConsolidate compiler generated dependencies of target turtlesim__rosidl_typesupport_introspection_c__pyext[0m
+[1.244s] [ 93%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+[1.244s] [ 93%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[1.246s] [ 95%] Built target turtlesim__rosidl_typesupport_c__pyext
+[1.302s] running egg_info
+[1.302s] writing turtlesim.egg-info/PKG-INFO
+[1.302s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[1.302s] writing top-level names to turtlesim.egg-info/top_level.txt
+[1.304s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[1.304s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[1.324s] [ 95%] Built target ament_cmake_python_build_turtlesim_egg
+[7.159s] [ 96%] [32m[1mLinking CXX executable turtlesim_node[0m
+[8.062s] [100%] Built target turtlesim_node
+[8.071s] Invoked command in '/home/jon/ws01/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/turtlesim -- -j24 -l24
+[8.074s] Invoking command in '/home/jon/ws01/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/turtlesim
+[8.080s] -- Install configuration: ""
+[8.080s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim
+[8.080s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim
+[8.080s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.080s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/color.h
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action
+[8.081s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/environment/library_path.sh
+[8.082s] -- Installing: /home/jon/ws01/install/turtlesim/share/turtlesim/environment/library_path.dsv
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.082s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp
+[8.083s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so
+[8.084s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp
+[8.085s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/environment/pythonpath.sh
+[8.086s] -- Installing: /home/jon/ws01/install/turtlesim/share/turtlesim/environment/pythonpath.dsv
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info
+[8.086s] -- Installing: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/PKG-INFO
+[8.086s] -- Installing: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/SOURCES.txt
+[8.086s] -- Installing: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/dependency_links.txt
+[8.086s] -- Installing: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.3-py3.10.egg-info/top_level.txt
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim
+[8.086s] -- Installing: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py
+[8.086s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c
+[8.098s] Listing '/home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...
+[8.098s] Compiling '/home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...
+[8.098s] Listing '/home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...
+[8.098s] Listing '/home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...
+[8.098s] Listing '/home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...
+[8.101s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[8.101s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/Cargo.toml
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/build.rs
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/src
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/src/msg
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/src/msg/rmw.rs
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/src/msg.rs
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/src/action.rs
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/src/lib.rs
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/src/srv.rs
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/src/action
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/src/action/rmw.rs
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/src/srv
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/rust/src/srv/rmw.rs
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/msg/Color.idl
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/msg/Pose.idl
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/Kill.idl
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/SetPen.idl
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/Spawn.idl
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/action/RotateAbsolute.action
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/msg/Color.msg
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/msg/Pose.msg
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/Kill.srv
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/Kill_Request.msg
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/Kill_Response.msg
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/SetPen.srv
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/Spawn.srv
+[8.102s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg
+[8.103s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg
+[8.103s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv
+[8.103s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg
+[8.103s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg
+[8.103s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv
+[8.103s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg
+[8.103s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg
+[8.103s] -- Installing: /home/jon/ws01/install/turtlesim/lib/turtlesim/turtlesim_node
+[8.107s] -- Set runtime path of "/home/jon/ws01/install/turtlesim/lib/turtlesim/turtlesim_node" to ""
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/lib/turtlesim/turtle_teleop_key
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/lib/turtlesim/draw_square
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/lib/turtlesim/mimic
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/images
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/images/dashing.png
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/images/galactic.png
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/images/ardent.png
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/images/eloquent.png
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/images/bouncy.png
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/images/foxy.png
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/images/rolling.png
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/images/humble.png
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/images/crystal.png
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/launch
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/launch/multisim.launch.py
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim
+[8.107s] -- Installing: /home/jon/ws01/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh
+[8.107s] -- Installing: /home/jon/ws01/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/environment/path.sh
+[8.107s] -- Installing: /home/jon/ws01/install/turtlesim/share/turtlesim/environment/path.dsv
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/local_setup.bash
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/local_setup.sh
+[8.107s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/local_setup.zsh
+[8.108s] -- Installing: /home/jon/ws01/install/turtlesim/share/turtlesim/local_setup.dsv
+[8.108s] -- Installing: /home/jon/ws01/install/turtlesim/share/turtlesim/package.dsv
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/ament_index/resource_index/packages/turtlesim
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake
+[8.108s] -- Up-to-date: /home/jon/ws01/install/turtlesim/share/turtlesim/package.xml
+[8.111s] Invoked command in '/home/jon/ws01/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/turtlesim

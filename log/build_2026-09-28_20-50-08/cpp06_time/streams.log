@@ -1,0 +1,26 @@
+[0.016s] Invoking command in '/home/jon/ws01/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp06_time -- -j24 -l24
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target demo01_time[0m
+[0.071s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_time.dir/src/demo01_time.cpp.o[0m
+[2.058s] [100%] [32m[1mLinking CXX executable demo01_time[0m
+[2.146s] [100%] Built target demo01_time
+[2.158s] Invoked command in '/home/jon/ws01/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp06_time -- -j24 -l24
+[2.159s] Invoking command in '/home/jon/ws01/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp06_time
+[2.168s] -- Install configuration: ""
+[2.169s] -- Installing: /home/jon/ws01/install/cpp06_time/lib/cpp06_time/demo01_time
+[2.169s] -- Set runtime path of "/home/jon/ws01/install/cpp06_time/lib/cpp06_time/demo01_time" to ""
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/ament_index/resource_index/package_run_dependencies/cpp06_time
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/ament_index/resource_index/parent_prefix_path/cpp06_time
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.sh
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/cpp06_time/environment/ament_prefix_path.dsv
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/cpp06_time/environment/path.sh
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/cpp06_time/environment/path.dsv
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/cpp06_time/local_setup.bash
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/cpp06_time/local_setup.sh
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/cpp06_time/local_setup.zsh
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/cpp06_time/local_setup.dsv
+[2.169s] -- Installing: /home/jon/ws01/install/cpp06_time/share/cpp06_time/package.dsv
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/ament_index/resource_index/packages/cpp06_time
+[2.169s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig.cmake
+[2.170s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/cpp06_time/cmake/cpp06_timeConfig-version.cmake
+[2.170s] -- Up-to-date: /home/jon/ws01/install/cpp06_time/share/cpp06_time/package.xml
+[2.171s] Invoked command in '/home/jon/ws01/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp06_time

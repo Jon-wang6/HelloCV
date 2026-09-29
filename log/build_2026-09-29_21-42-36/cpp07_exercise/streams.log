@@ -1,0 +1,25 @@
+[0.007s] Invoking command in '/home/jon/ws01/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp07_exercise -- -j24 -l24
+[0.039s] Consolidate compiler generated dependencies of target exer02_server
+[0.045s] [ 33%] Built target exer03_client
+[0.045s] [ 66%] Built target exer01_pub_sub
+[0.045s] [ 83%] Building CXX object CMakeFiles/exer02_server.dir/src/exer02_server.cpp.o
+[1.154s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[1.154s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[1.154s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[1.154s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[1.154s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[1.154s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[1.154s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[1.154s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[1.154s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[1.154s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[1.154s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[1.154s]                  from /home/jon/ws01/src/cpp07_exercise/src/exer02_server.cpp:15:
+[1.154s] /home/jon/ws01/src/cpp07_exercise/src/exer02_server.cpp: In member function ‘void Exer02Server::distance_cb(base_demo::srv::Distance_Request_<std::allocator<void> >::SharedPtr, base_demo::srv::Distance_Response_<std::allocator<void> >::SharedPtr)’:
+[1.154s] /home/jon/ws01/src/cpp07_exercise/src/exer02_server.cpp:53:29: error: ‘t’ was not declared in this scope; did you mean ‘tm’?
+[1.154s]    53 |             goal_x,goal_y,x,t,distance
+[1.154s]       |                             ^
+[2.399s] gmake[2]: *** [CMakeFiles/exer02_server.dir/build.make:76：CMakeFiles/exer02_server.dir/src/exer02_server.cpp.o] 错误 1
+[2.399s] gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/exer02_server.dir/all] 错误 2
+[2.399s] gmake: *** [Makefile:146：all] 错误 2
+[2.400s] Invoked command in '/home/jon/ws01/build/cpp07_exercise' returned '2': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp07_exercise -- -j24 -l24

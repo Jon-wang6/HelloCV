@@ -1,0 +1,64 @@
+[0.000000] (-) TimerEvent: {}
+[0.003226] (-) JobUnselected: {'identifier': 'base_demo'}
+[0.003254] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.003262] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.003268] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.003273] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.003278] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.003283] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.003288] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003294] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_demo', '/home/jon/ws01/install/base_demo'), ('turtlesim', '/home/jon/ws01/install/turtlesim')])}
+[0.003304] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.009275] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.009333] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.009654] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jon/ws01/build/cpp07_exercise', '--', '-j24', '-l24'], 'cwd': '/home/jon/ws01/build/cpp07_exercise', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jon'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('all_proxy', 'socks5h://127.0.0.1:7890'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jon/ws01/install/turtlesim/lib:/home/jon/ws01/install/base_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/jon/.local/share/applications/codex-proxy.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1385'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-browser-use/541e07e9-d94b-4976-bc0f-531489162b36.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1962'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3580'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/jon/ws01/install'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'jon'), ('ALL_PROXY', 'socks5h://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:15777'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'jon'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/.local/bin:/home/jon/.codex/tmp/arg0/codex-arg0n4dcZ2:/home/jon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/jon/.local/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/WJ:@/tmp/.ICE-unix/1922,unix/WJ:/tmp/.ICE-unix/1922'), ('CODEX_VERSION', '0.155.0-alpha.9'), ('CODEX_SESSION_ID', '01a0aa8c-50ed-7453-86a7-ba5c4c4c7f08'), ('INVOCATION_ID', '261fb430d26b42b59ec3ad023a7c3843'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ws01/install/base_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a0aa8c-50ed-7453-86a7-ba5c4c4c7f08'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jon/ws01/build/cpp07_exercise'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages:/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.041809] (cpp07_exercise) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target exer02_server\n'}
+[0.047770] (cpp07_exercise) StdoutLine: {'line': b'[ 33%] Built target exer03_client\n'}
+[0.048188] (cpp07_exercise) StdoutLine: {'line': b'[ 66%] Built target exer01_pub_sub\n'}
+[0.048233] (cpp07_exercise) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/exer02_server.dir/src/exer02_server.cpp.o\n'}
+[0.100161] (-) TimerEvent: {}
+[0.200405] (-) TimerEvent: {}
+[0.300681] (-) TimerEvent: {}
+[0.400841] (-) TimerEvent: {}
+[0.501015] (-) TimerEvent: {}
+[0.601187] (-) TimerEvent: {}
+[0.701381] (-) TimerEvent: {}
+[0.801555] (-) TimerEvent: {}
+[0.901820] (-) TimerEvent: {}
+[1.002077] (-) TimerEvent: {}
+[1.102278] (-) TimerEvent: {}
+[1.157369] (cpp07_exercise) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,\n'}
+[1.157527] (cpp07_exercise) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,\n'}
+[1.157556] (cpp07_exercise) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,\n'}
+[1.157579] (cpp07_exercise) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,\n'}
+[1.157599] (cpp07_exercise) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[1.157617] (cpp07_exercise) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[1.157634] (cpp07_exercise) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[1.157651] (cpp07_exercise) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[1.157667] (cpp07_exercise) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[1.157684] (cpp07_exercise) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[1.157703] (cpp07_exercise) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[1.157719] (cpp07_exercise) StderrLine: {'line': b'                 from /home/jon/ws01/src/cpp07_exercise/src/exer02_server.cpp:15:\n'}
+[1.157735] (cpp07_exercise) StderrLine: {'line': b'/home/jon/ws01/src/cpp07_exercise/src/exer02_server.cpp: In member function \xe2\x80\x98void Exer02Server::distance_cb(base_demo::srv::Distance_Request_<std::allocator<void> >::SharedPtr, base_demo::srv::Distance_Response_<std::allocator<void> >::SharedPtr)\xe2\x80\x99:\n'}
+[1.157753] (cpp07_exercise) StderrLine: {'line': b'/home/jon/ws01/src/cpp07_exercise/src/exer02_server.cpp:53:29: error: \xe2\x80\x98t\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98tm\xe2\x80\x99?\n'}
+[1.157774] (cpp07_exercise) StderrLine: {'line': b'   53 |             goal_x,goal_y,x,t,distance\n'}
+[1.157791] (cpp07_exercise) StderrLine: {'line': b'      |                             ^\n'}
+[1.202369] (-) TimerEvent: {}
+[1.302635] (-) TimerEvent: {}
+[1.402957] (-) TimerEvent: {}
+[1.503253] (-) TimerEvent: {}
+[1.603516] (-) TimerEvent: {}
+[1.703791] (-) TimerEvent: {}
+[1.803972] (-) TimerEvent: {}
+[1.904248] (-) TimerEvent: {}
+[2.004502] (-) TimerEvent: {}
+[2.104736] (-) TimerEvent: {}
+[2.205014] (-) TimerEvent: {}
+[2.305309] (-) TimerEvent: {}
+[2.401799] (cpp07_exercise) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/exer02_server.dir/build.make:76\xef\xbc\x9aCMakeFiles/exer02_server.dir/src/exer02_server.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.402246] (cpp07_exercise) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167\xef\xbc\x9aCMakeFiles/exer02_server.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.402311] (cpp07_exercise) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.403558] (cpp07_exercise) CommandEnded: {'returncode': 2}
+[2.405468] (-) TimerEvent: {}
+[2.408397] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 2}
+[2.418680] (-) EventReactorShutdown: {}

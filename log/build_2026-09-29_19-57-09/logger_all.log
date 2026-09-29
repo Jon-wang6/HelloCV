@@ -1,0 +1,692 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.056s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x744fa3e5e0b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x744fa3e5d6f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x744fa3e5d6f0>>, mixin_verb=('build',))
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.121s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.121s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jon/ws01'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.121s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_demo) by extension 'ignore'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_demo) by extension 'ignore_ament_install'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_demo) by extensions ['colcon_pkg']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_demo) by extension 'colcon_pkg'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_demo) by extensions ['colcon_meta']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_demo) by extension 'colcon_meta'
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_demo) by extensions ['ros']
+[0.128s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_demo) by extension 'ros'
+[0.129s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_demo' with type 'ros.ament_cmake' and name 'base_demo'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore_ament_install'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_pkg']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_pkg'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_meta']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_meta'
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ros']
+[0.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_topic' with type 'ros.ament_cmake' and name 'cpp01_topic'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp02_service) by extension 'ros'
+[0.130s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp02_service' with type 'ros.ament_cmake' and name 'cpp02_service'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ignore'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ignore_ament_install'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['colcon_pkg']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'colcon_pkg'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['colcon_meta']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'colcon_meta'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extensions ['ros']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp03_action) by extension 'ros'
+[0.131s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp03_action' with type 'ros.ament_cmake' and name 'cpp03_action'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp04_param) by extension 'ros'
+[0.131s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp04_param' with type 'ros.ament_cmake' and name 'cpp04_param'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp05_names) by extensions ['ignore', 'ignore_ament_install']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp05_names) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp05_names) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp05_names) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp05_names) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp05_names) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp05_names) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp05_names) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp05_names) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp05_names' with type 'ros.ament_cmake' and name 'cpp05_names'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_time) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_time) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_time) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_time) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_time) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_time) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_time) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_time) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp06_time) by extension 'ros'
+[0.132s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp06_time' with type 'ros.ament_cmake' and name 'cpp06_time'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp07_exercise) by extensions ['ignore', 'ignore_ament_install']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp07_exercise) by extension 'ignore'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp07_exercise) by extension 'ignore_ament_install'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp07_exercise) by extensions ['colcon_pkg']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp07_exercise) by extension 'colcon_pkg'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp07_exercise) by extensions ['colcon_meta']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp07_exercise) by extension 'colcon_meta'
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp07_exercise) by extensions ['ros']
+[0.132s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp07_exercise) by extension 'ros'
+[0.133s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp07_exercise' with type 'ros.ament_cmake' and name 'cpp07_exercise'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'ignore'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'ignore_ament_install'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['colcon_pkg']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'colcon_pkg'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['colcon_meta']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'colcon_meta'
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extensions ['ros']
+[0.133s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlesim) by extension 'ros'
+[0.133s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.152s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.153s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/jon/ws01/install
+[0.154s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.155s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.174s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'cpp04_param' is in: /home/jon/ws01/install/cpp04_param
+	'turtlesim' is in: /home/jon/ws01/install/turtlesim, /opt/ros/humble
+	'cpp02_service' is in: /home/jon/ws01/install/cpp02_service
+	'base_demo' is in: /home/jon/ws01/install/base_demo
+	'cpp01_topic' is in: /home/jon/ws01/install/cpp01_topic
+	'cpp03_action' is in: /home/jon/ws01/install/cpp03_action
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding base_demo cpp01_topic cpp02_service cpp03_action cpp04_param turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'base_demo' build argument 'cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'base_demo' build argument 'cmake_target' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'base_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'base_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'base_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'base_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'base_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'base_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.174s] Level 5:colcon.colcon_core.verb:set package 'base_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.174s] DEBUG:colcon.colcon_core.verb:Building package 'base_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jon/ws01/build/base_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jon/ws01/install/base_demo', 'merge_install': False, 'path': '/home/jon/ws01/src/base_demo', 'symlink_install': False, 'test_result_base': None}
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp04_param' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.175s] DEBUG:colcon.colcon_core.verb:Building package 'cpp04_param' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jon/ws01/build/cpp04_param', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jon/ws01/install/cpp04_param', 'merge_install': False, 'path': '/home/jon/ws01/src/cpp04_param', 'symlink_install': False, 'test_result_base': None}
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp05_names' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp05_names' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp05_names' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp05_names' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp05_names' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp05_names' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp05_names' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp05_names' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp05_names' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.175s] DEBUG:colcon.colcon_core.verb:Building package 'cpp05_names' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jon/ws01/build/cpp05_names', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jon/ws01/install/cpp05_names', 'merge_install': False, 'path': '/home/jon/ws01/src/cpp05_names', 'symlink_install': False, 'test_result_base': None}
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp06_time' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp06_time' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp06_time' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp06_time' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp06_time' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp06_time' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp06_time' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp06_time' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'cpp06_time' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.175s] DEBUG:colcon.colcon_core.verb:Building package 'cpp06_time' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jon/ws01/build/cpp06_time', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jon/ws01/install/cpp06_time', 'merge_install': False, 'path': '/home/jon/ws01/src/cpp06_time', 'symlink_install': False, 'test_result_base': None}
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.175s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.176s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jon/ws01/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jon/ws01/install/turtlesim', 'merge_install': False, 'path': '/home/jon/ws01/src/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.176s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jon/ws01/build/cpp01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jon/ws01/install/cpp01_topic', 'merge_install': False, 'path': '/home/jon/ws01/src/cpp01_topic', 'symlink_install': False, 'test_result_base': None}
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_target' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp02_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.176s] DEBUG:colcon.colcon_core.verb:Building package 'cpp02_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jon/ws01/build/cpp02_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jon/ws01/install/cpp02_service', 'merge_install': False, 'path': '/home/jon/ws01/src/cpp02_service', 'symlink_install': False, 'test_result_base': None}
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_cache' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_clean_first' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'cmake_force_configure' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'ament_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp03_action' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.176s] DEBUG:colcon.colcon_core.verb:Building package 'cpp03_action' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jon/ws01/build/cpp03_action', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jon/ws01/install/cpp03_action', 'merge_install': False, 'path': '/home/jon/ws01/src/cpp03_action', 'symlink_install': False, 'test_result_base': None}
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp07_exercise' build argument 'cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'cpp07_exercise' build argument 'cmake_target' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'cpp07_exercise' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'cpp07_exercise' build argument 'cmake_clean_cache' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'cpp07_exercise' build argument 'cmake_clean_first' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'cpp07_exercise' build argument 'cmake_force_configure' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'cpp07_exercise' build argument 'ament_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'cpp07_exercise' build argument 'catkin_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'cpp07_exercise' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.177s] DEBUG:colcon.colcon_core.verb:Building package 'cpp07_exercise' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jon/ws01/build/cpp07_exercise', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jon/ws01/install/cpp07_exercise', 'merge_install': False, 'path': '/home/jon/ws01/src/cpp07_exercise', 'symlink_install': False, 'test_result_base': None}
+[0.177s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.179s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.179s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jon/ws01/src/base_demo' with build type 'ament_cmake'
+[0.179s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jon/ws01/src/base_demo'
+[0.181s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.181s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.181s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.183s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jon/ws01/src/turtlesim' with build type 'ament_cmake'
+[0.183s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jon/ws01/src/turtlesim'
+[0.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.183s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.187s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jon/ws01/src/cpp04_param' with build type 'ament_cmake'
+[0.188s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jon/ws01/src/cpp04_param'
+[0.188s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.188s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.190s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jon/ws01/src/cpp05_names' with build type 'ament_cmake'
+[0.190s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jon/ws01/src/cpp05_names'
+[0.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.190s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.193s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jon/ws01/src/cpp06_time' with build type 'ament_cmake'
+[0.193s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jon/ws01/src/cpp06_time'
+[0.193s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.193s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/base_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/base_demo -- -j24 -l24
+[0.207s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/turtlesim -- -j24 -l24
+[0.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp04_param -- -j24 -l24
+[0.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp05_names -- -j24 -l24
+[0.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp06_time -- -j24 -l24
+[0.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp05_names -- -j24 -l24
+[0.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp05_names': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp05_names
+[0.319s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp04_param -- -j24 -l24
+[0.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp04_param': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp04_param
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp06_time -- -j24 -l24
+[0.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp06_time': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp06_time
+[0.339s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp05_names)
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp05_names' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp05_names
+[0.346s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names' for CMake module files
+[0.347s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names' for CMake config files
+[0.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp05_names', 'cmake_prefix_path')
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp05_names/share/cpp05_names/hook/cmake_prefix_path.ps1'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp05_names/share/cpp05_names/hook/cmake_prefix_path.dsv'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp05_names/share/cpp05_names/hook/cmake_prefix_path.sh'
+[0.349s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names/lib'
+[0.350s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names/bin'
+[0.352s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names/lib/pkgconfig/cpp05_names.pc'
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names/lib/python3.10/site-packages'
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names/bin'
+[0.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp05_names/share/cpp05_names/package.ps1'
+[0.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp05_names/share/cpp05_names/package.dsv'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp05_names/share/cpp05_names/package.sh'
+[0.356s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp05_names/share/cpp05_names/package.bash'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp05_names/share/cpp05_names/package.zsh'
+[0.358s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp05_names/share/colcon-core/packages/cpp05_names)
+[0.358s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp05_names)
+[0.358s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names' for CMake module files
+[0.359s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names' for CMake config files
+[0.359s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp05_names', 'cmake_prefix_path')
+[0.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp05_names/share/cpp05_names/hook/cmake_prefix_path.ps1'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp05_names/share/cpp05_names/hook/cmake_prefix_path.dsv'
+[0.360s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp05_names/share/cpp05_names/hook/cmake_prefix_path.sh'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names/lib'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names/bin'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names/lib/pkgconfig/cpp05_names.pc'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names/lib/python3.10/site-packages'
+[0.361s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp05_names/bin'
+[0.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp05_names/share/cpp05_names/package.ps1'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp05_names/share/cpp05_names/package.dsv'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp05_names/share/cpp05_names/package.sh'
+[0.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp05_names/share/cpp05_names/package.bash'
+[0.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp05_names/share/cpp05_names/package.zsh'
+[0.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp05_names/share/colcon-core/packages/cpp05_names)
+[0.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp04_param)
+[0.365s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param' for CMake module files
+[0.366s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp04_param' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp04_param
+[0.368s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param' for CMake config files
+[0.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp04_param', 'cmake_prefix_path')
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.ps1'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.dsv'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.sh'
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param/lib'
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param/bin'
+[0.369s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param/lib/pkgconfig/cpp04_param.pc'
+[0.370s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param/lib/python3.10/site-packages'
+[0.370s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param/bin'
+[0.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp04_param/share/cpp04_param/package.ps1'
+[0.370s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp04_param/share/cpp04_param/package.dsv'
+[0.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp04_param/share/cpp04_param/package.sh'
+[0.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp04_param/share/cpp04_param/package.bash'
+[0.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp04_param/share/cpp04_param/package.zsh'
+[0.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp04_param/share/colcon-core/packages/cpp04_param)
+[0.372s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp04_param)
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param' for CMake module files
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param' for CMake config files
+[0.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp04_param', 'cmake_prefix_path')
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.ps1'
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.dsv'
+[0.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp04_param/share/cpp04_param/hook/cmake_prefix_path.sh'
+[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param/lib'
+[0.373s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param/bin'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param/lib/pkgconfig/cpp04_param.pc'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param/lib/python3.10/site-packages'
+[0.374s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp04_param/bin'
+[0.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp04_param/share/cpp04_param/package.ps1'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp04_param/share/cpp04_param/package.dsv'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp04_param/share/cpp04_param/package.sh'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp04_param/share/cpp04_param/package.bash'
+[0.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp04_param/share/cpp04_param/package.zsh'
+[0.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp04_param/share/colcon-core/packages/cpp04_param)
+[0.377s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp06_time)
+[0.378s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp06_time' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp06_time
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time' for CMake module files
+[0.379s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time' for CMake config files
+[0.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp06_time', 'cmake_prefix_path')
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp06_time/share/cpp06_time/hook/cmake_prefix_path.ps1'
+[0.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp06_time/share/cpp06_time/hook/cmake_prefix_path.dsv'
+[0.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp06_time/share/cpp06_time/hook/cmake_prefix_path.sh'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time/lib'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time/bin'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time/lib/pkgconfig/cpp06_time.pc'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time/lib/python3.10/site-packages'
+[0.382s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time/bin'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp06_time/share/cpp06_time/package.ps1'
+[0.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp06_time/share/cpp06_time/package.dsv'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp06_time/share/cpp06_time/package.sh'
+[0.384s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp06_time/share/cpp06_time/package.bash'
+[0.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp06_time/share/cpp06_time/package.zsh'
+[0.387s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp06_time/share/colcon-core/packages/cpp06_time)
+[0.388s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp06_time)
+[0.388s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time' for CMake module files
+[0.389s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time' for CMake config files
+[0.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp06_time', 'cmake_prefix_path')
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp06_time/share/cpp06_time/hook/cmake_prefix_path.ps1'
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp06_time/share/cpp06_time/hook/cmake_prefix_path.dsv'
+[0.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp06_time/share/cpp06_time/hook/cmake_prefix_path.sh'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time/lib'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time/bin'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time/lib/pkgconfig/cpp06_time.pc'
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time/lib/python3.10/site-packages'
+[0.392s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp06_time/bin'
+[0.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp06_time/share/cpp06_time/package.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp06_time/share/cpp06_time/package.dsv'
+[0.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp06_time/share/cpp06_time/package.sh'
+[0.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp06_time/share/cpp06_time/package.bash'
+[0.394s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp06_time/share/cpp06_time/package.zsh'
+[0.395s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp06_time/share/colcon-core/packages/cpp06_time)
+[0.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/base_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/base_demo -- -j24 -l24
+[0.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/base_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/base_demo
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/turtlesim -- -j24 -l24
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/turtlesim
+[0.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_demo)
+[0.591s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo' for CMake module files
+[0.592s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo' for CMake config files
+[0.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/base_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/base_demo
+[0.593s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_demo', 'cmake_prefix_path')
+[0.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/base_demo/share/base_demo/hook/cmake_prefix_path.ps1'
+[0.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/base_demo/share/base_demo/hook/cmake_prefix_path.dsv'
+[0.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/base_demo/share/base_demo/hook/cmake_prefix_path.sh'
+[0.598s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo/lib'
+[0.598s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_demo', 'ld_library_path_lib')
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/base_demo/share/base_demo/hook/ld_library_path_lib.ps1'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/base_demo/share/base_demo/hook/ld_library_path_lib.dsv'
+[0.599s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/base_demo/share/base_demo/hook/ld_library_path_lib.sh'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo/bin'
+[0.601s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo/lib/pkgconfig/base_demo.pc'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo/lib/python3.10/site-packages'
+[0.602s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo/bin'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/base_demo/share/base_demo/package.ps1'
+[0.603s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/base_demo/share/base_demo/package.dsv'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/base_demo/share/base_demo/package.sh'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/base_demo/share/base_demo/package.bash'
+[0.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/base_demo/share/base_demo/package.zsh'
+[0.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/base_demo/share/colcon-core/packages/base_demo)
+[0.605s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_demo)
+[0.605s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo' for CMake module files
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo' for CMake config files
+[0.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_demo', 'cmake_prefix_path')
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/base_demo/share/base_demo/hook/cmake_prefix_path.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/base_demo/share/base_demo/hook/cmake_prefix_path.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/base_demo/share/base_demo/hook/cmake_prefix_path.sh'
+[0.609s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo/lib'
+[0.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_demo', 'ld_library_path_lib')
+[0.609s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/base_demo/share/base_demo/hook/ld_library_path_lib.ps1'
+[0.610s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/base_demo/share/base_demo/hook/ld_library_path_lib.dsv'
+[0.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/base_demo/share/base_demo/hook/ld_library_path_lib.sh'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo/bin'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo/lib/pkgconfig/base_demo.pc'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo/lib/python3.10/site-packages'
+[0.612s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/base_demo/bin'
+[0.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/base_demo/share/base_demo/package.ps1'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/base_demo/share/base_demo/package.dsv'
+[0.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/base_demo/share/base_demo/package.sh'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/base_demo/share/base_demo/package.bash'
+[0.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/base_demo/share/base_demo/package.zsh'
+[0.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/base_demo/share/colcon-core/packages/base_demo)
+[0.614s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jon/ws01/src/cpp01_topic' with build type 'ament_cmake'
+[0.615s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jon/ws01/src/cpp01_topic'
+[0.615s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.615s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.629s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jon/ws01/src/cpp02_service' with build type 'ament_cmake'
+[0.629s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jon/ws01/src/cpp02_service'
+[0.629s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.633s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jon/ws01/src/cpp03_action' with build type 'ament_cmake'
+[0.633s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jon/ws01/src/cpp03_action'
+[0.633s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.633s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim' for CMake module files
+[0.640s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim' for CMake config files
+[0.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/turtlesim
+[0.641s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[0.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[0.643s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim/lib'
+[0.643s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[0.643s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[0.644s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim/bin'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[0.644s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim/lib/python3.10/site-packages'
+[0.645s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim/bin'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/turtlesim/share/turtlesim/package.ps1'
+[0.645s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/turtlesim/share/turtlesim/package.dsv'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/turtlesim/share/turtlesim/package.sh'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/turtlesim/share/turtlesim/package.bash'
+[0.646s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/turtlesim/share/turtlesim/package.zsh'
+[0.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/turtlesim/share/colcon-core/packages/turtlesim)
+[0.647s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim' for CMake module files
+[0.647s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim' for CMake config files
+[0.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[0.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[0.649s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim/lib'
+[0.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[0.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[0.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim/bin'
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[0.650s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim/lib/python3.10/site-packages'
+[0.651s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/turtlesim/bin'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/turtlesim/share/turtlesim/package.ps1'
+[0.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/turtlesim/share/turtlesim/package.dsv'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/turtlesim/share/turtlesim/package.sh'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/turtlesim/share/turtlesim/package.bash'
+[0.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/turtlesim/share/turtlesim/package.zsh'
+[0.653s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/turtlesim/share/colcon-core/packages/turtlesim)
+[0.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jon/ws01/build/cpp01_topic -- -j24 -l24
+[0.661s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jon/ws01/src/cpp07_exercise' with build type 'ament_cmake'
+[0.661s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jon/ws01/src/cpp07_exercise'
+[0.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.663s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp02_service': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jon/ws01/build/cpp02_service -- -j24 -l24
+[0.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp03_action': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jon/ws01/build/cpp03_action -- -j24 -l24
+[0.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp07_exercise -- -j24 -l24
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp07_exercise -- -j24 -l24
+[0.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp07_exercise
+[0.749s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp07_exercise)
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise' for CMake module files
+[0.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp07_exercise
+[0.750s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise' for CMake config files
+[0.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp07_exercise', 'cmake_prefix_path')
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/hook/cmake_prefix_path.ps1'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/hook/cmake_prefix_path.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/hook/cmake_prefix_path.sh'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise/lib'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise/bin'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise/lib/pkgconfig/cpp07_exercise.pc'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise/lib/python3.10/site-packages'
+[0.752s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise/bin'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.ps1'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.dsv'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.sh'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.bash'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.zsh'
+[0.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp07_exercise/share/colcon-core/packages/cpp07_exercise)
+[0.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp07_exercise)
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise' for CMake module files
+[0.755s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise' for CMake config files
+[0.755s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp07_exercise', 'cmake_prefix_path')
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/hook/cmake_prefix_path.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/hook/cmake_prefix_path.dsv'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/hook/cmake_prefix_path.sh'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise/lib'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise/bin'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise/lib/pkgconfig/cpp07_exercise.pc'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise/lib/python3.10/site-packages'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp07_exercise/bin'
+[0.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.ps1'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.dsv'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.sh'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.bash'
+[0.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.zsh'
+[0.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp07_exercise/share/colcon-core/packages/cpp07_exercise)
+[3.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jon/ws01/build/cpp02_service -- -j24 -l24
+[3.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp02_service': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jon/ws01/build/cpp02_service
+[3.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_service)
+[3.721s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service' for CMake module files
+[3.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp02_service' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jon/ws01/build/cpp02_service
+[3.722s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service' for CMake config files
+[3.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_service', 'cmake_prefix_path')
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.ps1'
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.dsv'
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.sh'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service/lib'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service/bin'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service/lib/pkgconfig/cpp02_service.pc'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service/lib/python3.10/site-packages'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service/bin'
+[3.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp02_service/share/cpp02_service/package.ps1'
+[3.725s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp02_service/share/cpp02_service/package.dsv'
+[3.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp02_service/share/cpp02_service/package.sh'
+[3.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp02_service/share/cpp02_service/package.bash'
+[3.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp02_service/share/cpp02_service/package.zsh'
+[3.726s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp02_service/share/colcon-core/packages/cpp02_service)
+[3.726s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp02_service)
+[3.726s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service' for CMake module files
+[3.727s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service' for CMake config files
+[3.727s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp02_service', 'cmake_prefix_path')
+[3.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.ps1'
+[3.727s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.dsv'
+[3.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp02_service/share/cpp02_service/hook/cmake_prefix_path.sh'
+[3.728s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service/lib'
+[3.728s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service/bin'
+[3.728s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service/lib/pkgconfig/cpp02_service.pc'
+[3.728s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service/lib/python3.10/site-packages'
+[3.728s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp02_service/bin'
+[3.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp02_service/share/cpp02_service/package.ps1'
+[3.728s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp02_service/share/cpp02_service/package.dsv'
+[3.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp02_service/share/cpp02_service/package.sh'
+[3.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp02_service/share/cpp02_service/package.bash'
+[3.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp02_service/share/cpp02_service/package.zsh'
+[3.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp02_service/share/colcon-core/packages/cpp02_service)
+[4.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jon/ws01/build/cpp03_action -- -j24 -l24
+[4.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp03_action': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jon/ws01/build/cpp03_action
+[4.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_action)
+[4.010s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action' for CMake module files
+[4.010s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action' for CMake config files
+[4.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_action', 'cmake_prefix_path')
+[4.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.ps1'
+[4.011s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jon/ws01/build/cpp03_action
+[4.011s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.dsv'
+[4.011s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.sh'
+[4.011s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action/lib'
+[4.011s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action/bin'
+[4.011s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action/lib/pkgconfig/cpp03_action.pc'
+[4.012s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action/lib/python3.10/site-packages'
+[4.012s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action/bin'
+[4.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp03_action/share/cpp03_action/package.ps1'
+[4.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp03_action/share/cpp03_action/package.dsv'
+[4.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp03_action/share/cpp03_action/package.sh'
+[4.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp03_action/share/cpp03_action/package.bash'
+[4.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp03_action/share/cpp03_action/package.zsh'
+[4.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp03_action/share/colcon-core/packages/cpp03_action)
+[4.013s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp03_action)
+[4.013s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action' for CMake module files
+[4.014s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action' for CMake config files
+[4.014s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp03_action', 'cmake_prefix_path')
+[4.014s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.ps1'
+[4.014s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.dsv'
+[4.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp03_action/share/cpp03_action/hook/cmake_prefix_path.sh'
+[4.015s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action/lib'
+[4.015s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action/bin'
+[4.015s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action/lib/pkgconfig/cpp03_action.pc'
+[4.015s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action/lib/python3.10/site-packages'
+[4.015s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp03_action/bin'
+[4.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp03_action/share/cpp03_action/package.ps1'
+[4.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp03_action/share/cpp03_action/package.dsv'
+[4.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp03_action/share/cpp03_action/package.sh'
+[4.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp03_action/share/cpp03_action/package.bash'
+[4.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp03_action/share/cpp03_action/package.zsh'
+[4.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp03_action/share/colcon-core/packages/cpp03_action)
+[6.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/jon/ws01/build/cpp01_topic -- -j24 -l24
+[6.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jon/ws01/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jon/ws01/build/cpp01_topic
+[6.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[6.115s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic' for CMake module files
+[6.115s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic' for CMake config files
+[6.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[6.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[6.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[6.116s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jon/ws01/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/jon/ws01/install/base_demo/lib:/home/jon/ws01/install/turtlesim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/jon/ws01/build/cpp01_topic
+[6.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[6.117s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic/lib'
+[6.117s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic/bin'
+[6.117s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[6.117s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic/lib/python3.10/site-packages'
+[6.117s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic/bin'
+[6.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[6.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[6.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.sh'
+[6.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.bash'
+[6.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[6.118s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[6.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[6.118s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic' for CMake module files
+[6.119s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic' for CMake config files
+[6.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[6.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[6.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[6.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[6.119s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic/lib'
+[6.119s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic/bin'
+[6.119s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[6.119s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic/lib/python3.10/site-packages'
+[6.120s] Level 1:colcon.colcon_core.environment:checking '/home/jon/ws01/install/cpp01_topic/bin'
+[6.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[6.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[6.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.sh'
+[6.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.bash'
+[6.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/jon/ws01/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[6.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jon/ws01/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[6.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.121s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.121s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.127s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.127s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.127s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.136s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.137s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jon/ws01/install/local_setup.ps1'
+[6.137s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jon/ws01/install/_local_setup_util_ps1.py'
+[6.138s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jon/ws01/install/setup.ps1'
+[6.138s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jon/ws01/install/local_setup.sh'
+[6.139s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jon/ws01/install/_local_setup_util_sh.py'
+[6.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jon/ws01/install/setup.sh'
+[6.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jon/ws01/install/local_setup.bash'
+[6.139s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jon/ws01/install/setup.bash'
+[6.140s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jon/ws01/install/local_setup.zsh'
+[6.140s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jon/ws01/install/setup.zsh'
