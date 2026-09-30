@@ -3,6 +3,9 @@
 /home/jon/ws01/build/cpp07_exercise/CMakeFiles/exer01_pub_sub.dir
 /home/jon/ws01/build/cpp07_exercise/CMakeFiles/exer02_server.dir
 /home/jon/ws01/build/cpp07_exercise/CMakeFiles/exer03_client.dir
+/home/jon/ws01/build/cpp07_exercise/CMakeFiles/exer04_action_server.dir
+/home/jon/ws01/build/cpp07_exercise/CMakeFiles/exer05_action_client.dir
+/home/jon/ws01/build/cpp07_exercise/CMakeFiles/exer06_param.dir
 /home/jon/ws01/build/cpp07_exercise/CMakeFiles/test.dir
 /home/jon/ws01/build/cpp07_exercise/CMakeFiles/edit_cache.dir
 /home/jon/ws01/build/cpp07_exercise/CMakeFiles/rebuild_cache.dir

@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-0d842ddde72083f84ccd.json",
+					"jsonFile" : "directory-.-e34fc9d4ec16c6619c24.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
@@ -20,7 +20,10 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -39,7 +42,10 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5,
+						6,
+						7
 					]
 				}
 			],
@@ -55,22 +61,43 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "exer01_pub_sub::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exer01_pub_sub-d8b90e4e68c8d52a3ff2.json",
+					"jsonFile" : "target-exer01_pub_sub-1135319c24875e54dbba.json",
 					"name" : "exer01_pub_sub",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "exer02_server::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exer02_server-5f97c24b868ed7373a79.json",
+					"jsonFile" : "target-exer02_server-3489af0ff2fcd0ab0d4c.json",
 					"name" : "exer02_server",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "exer03_client::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-exer03_client-e9999c363b8605926ec1.json",
+					"jsonFile" : "target-exer03_client-3ea1bf1b2506063e1729.json",
 					"name" : "exer03_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer04_action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer04_action_server-d4156346ae91c3248f5e.json",
+					"name" : "exer04_action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer05_action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer05_action_client-748f486f8ea4362b7561.json",
+					"name" : "exer05_action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exer06_param::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exer06_param-dcece0e864cd67e4c33f.json",
+					"name" : "exer06_param",
 					"projectIndex" : 0
 				},
 				{

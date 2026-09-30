@@ -66,6 +66,9 @@ CMAKE_BINARY_DIR = /home/jon/ws01/build/cpp07_exercise
 all: CMakeFiles/exer01_pub_sub.dir/all
 all: CMakeFiles/exer02_server.dir/all
 all: CMakeFiles/exer03_client.dir/all
+all: CMakeFiles/exer04_action_server.dir/all
+all: CMakeFiles/exer05_action_client.dir/all
+all: CMakeFiles/exer06_param.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +81,9 @@ clean: CMakeFiles/cpp07_exercise_uninstall.dir/clean
 clean: CMakeFiles/exer01_pub_sub.dir/clean
 clean: CMakeFiles/exer02_server.dir/clean
 clean: CMakeFiles/exer03_client.dir/clean
+clean: CMakeFiles/exer04_action_server.dir/clean
+clean: CMakeFiles/exer05_action_client.dir/clean
+clean: CMakeFiles/exer06_param.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -209,6 +215,84 @@ exer03_client: CMakeFiles/exer03_client.dir/rule
 CMakeFiles/exer03_client.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer03_client.dir/build.make CMakeFiles/exer03_client.dir/clean
 .PHONY : CMakeFiles/exer03_client.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exer04_action_server.dir
+
+# All Build rule for target.
+CMakeFiles/exer04_action_server.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer04_action_server.dir/build.make CMakeFiles/exer04_action_server.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer04_action_server.dir/build.make CMakeFiles/exer04_action_server.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jon/ws01/build/cpp07_exercise/CMakeFiles --progress-num=7,8 "Built target exer04_action_server"
+.PHONY : CMakeFiles/exer04_action_server.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exer04_action_server.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jon/ws01/build/cpp07_exercise/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exer04_action_server.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jon/ws01/build/cpp07_exercise/CMakeFiles 0
+.PHONY : CMakeFiles/exer04_action_server.dir/rule
+
+# Convenience name for target.
+exer04_action_server: CMakeFiles/exer04_action_server.dir/rule
+.PHONY : exer04_action_server
+
+# clean rule for target.
+CMakeFiles/exer04_action_server.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer04_action_server.dir/build.make CMakeFiles/exer04_action_server.dir/clean
+.PHONY : CMakeFiles/exer04_action_server.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exer05_action_client.dir
+
+# All Build rule for target.
+CMakeFiles/exer05_action_client.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer05_action_client.dir/build.make CMakeFiles/exer05_action_client.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer05_action_client.dir/build.make CMakeFiles/exer05_action_client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jon/ws01/build/cpp07_exercise/CMakeFiles --progress-num=9,10 "Built target exer05_action_client"
+.PHONY : CMakeFiles/exer05_action_client.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exer05_action_client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jon/ws01/build/cpp07_exercise/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exer05_action_client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jon/ws01/build/cpp07_exercise/CMakeFiles 0
+.PHONY : CMakeFiles/exer05_action_client.dir/rule
+
+# Convenience name for target.
+exer05_action_client: CMakeFiles/exer05_action_client.dir/rule
+.PHONY : exer05_action_client
+
+# clean rule for target.
+CMakeFiles/exer05_action_client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer05_action_client.dir/build.make CMakeFiles/exer05_action_client.dir/clean
+.PHONY : CMakeFiles/exer05_action_client.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/exer06_param.dir
+
+# All Build rule for target.
+CMakeFiles/exer06_param.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer06_param.dir/build.make CMakeFiles/exer06_param.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer06_param.dir/build.make CMakeFiles/exer06_param.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jon/ws01/build/cpp07_exercise/CMakeFiles --progress-num=11,12 "Built target exer06_param"
+.PHONY : CMakeFiles/exer06_param.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/exer06_param.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jon/ws01/build/cpp07_exercise/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/exer06_param.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jon/ws01/build/cpp07_exercise/CMakeFiles 0
+.PHONY : CMakeFiles/exer06_param.dir/rule
+
+# Convenience name for target.
+exer06_param: CMakeFiles/exer06_param.dir/rule
+.PHONY : exer06_param
+
+# clean rule for target.
+CMakeFiles/exer06_param.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/exer06_param.dir/build.make CMakeFiles/exer06_param.dir/clean
+.PHONY : CMakeFiles/exer06_param.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -36,19 +36,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 47,
+				"line" : 76,
 				"parent" : 0
 			},
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 52,
+				"line" : 84,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 66,
+				"line" : 98,
 				"parent" : 0
 			},
 			{
@@ -263,6 +263,42 @@
 			],
 			"targetId" : "exer03_client::@6890427a1f51a3e7e1df",
 			"targetIndex" : 3,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cpp07_exercise",
+			"paths" : 
+			[
+				"exer04_action_server"
+			],
+			"targetId" : "exer04_action_server::@6890427a1f51a3e7e1df",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cpp07_exercise",
+			"paths" : 
+			[
+				"exer05_action_client"
+			],
+			"targetId" : "exer05_action_client::@6890427a1f51a3e7e1df",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cpp07_exercise",
+			"paths" : 
+			[
+				"exer06_param"
+			],
+			"targetId" : "exer06_param::@6890427a1f51a3e7e1df",
+			"targetIndex" : 6,
 			"type" : "target"
 		},
 		{
