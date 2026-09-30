@@ -15,6 +15,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_c.c" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_introspection_c.c" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/action/__init__.py" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/action/_nav.py" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/action/_nav_s.c" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/action/_progress.py" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/action/_progress_s.c" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/msg/__init__.py" "/home/jon/ws01/build/base_demo/rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"

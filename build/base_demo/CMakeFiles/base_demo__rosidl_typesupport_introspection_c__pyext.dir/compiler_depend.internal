@@ -260,4 +260,7 @@ CMakeFiles/base_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_gener
  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h
  /home/jon/ws01/build/base_demo/rosidl_generator_c/base_demo/action/detail/progress__functions.h
+ /home/jon/ws01/build/base_demo/rosidl_generator_c/base_demo/action/detail/nav__type_support.h
+ /home/jon/ws01/build/base_demo/rosidl_generator_c/base_demo/action/detail/nav__struct.h
+ /home/jon/ws01/build/base_demo/rosidl_generator_c/base_demo/action/detail/nav__functions.h
 

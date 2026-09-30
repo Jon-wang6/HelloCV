@@ -2,3 +2,4 @@
 /home/jon/ws01/build/base_demo/rosidl_adapter/base_demo:srv/Addints.idl
 /home/jon/ws01/build/base_demo/rosidl_adapter/base_demo:action/Progress.idl
 /home/jon/ws01/build/base_demo/rosidl_adapter/base_demo:srv/Distance.idl
+/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo:action/Nav.idl

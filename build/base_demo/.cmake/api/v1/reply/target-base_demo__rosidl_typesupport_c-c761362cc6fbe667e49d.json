@@ -235,7 +235,8 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		}
 	],
@@ -354,14 +355,15 @@
 				0,
 				1,
 				2,
-				3
+				3,
+				4
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				4
+				5
 			]
 		}
 	],
@@ -393,6 +395,13 @@
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "/home/jon/ws01/build/base_demo/rosidl_typesupport_c/base_demo/srv/distance__type_support.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/jon/ws01/build/base_demo/rosidl_typesupport_c/base_demo/action/nav__type_support.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

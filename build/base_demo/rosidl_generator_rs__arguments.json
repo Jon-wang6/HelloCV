@@ -6,13 +6,15 @@
     "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo:msg/Student.idl",
     "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo:srv/Addints.idl",
     "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo:action/Progress.idl",
-    "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo:srv/Distance.idl"
+    "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo:srv/Distance.idl",
+    "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo:action/Nav.idl"
   ],
   "ros_interface_files": [
     "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo/msg/Student.idl",
     "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo/srv/Addints.idl",
     "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo/action/Progress.idl",
-    "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo/srv/Distance.idl"
+    "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo/srv/Distance.idl",
+    "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo/action/Nav.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -43,6 +45,7 @@
     "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo/srv/Addints.idl",
     "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo/action/Progress.idl",
     "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo/srv/Distance.idl",
+    "/home/jon/ws01/build/base_demo/rosidl_adapter/base_demo/action/Nav.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",

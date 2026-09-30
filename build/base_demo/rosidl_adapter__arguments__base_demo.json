@@ -4,6 +4,7 @@
     "/home/jon/ws01/src/base_demo:msg/Student.msg",
     "/home/jon/ws01/src/base_demo:srv/Addints.srv",
     "/home/jon/ws01/src/base_demo:action/Progress.action",
-    "/home/jon/ws01/src/base_demo:srv/Distance.srv"
+    "/home/jon/ws01/src/base_demo:srv/Distance.srv",
+    "/home/jon/ws01/src/base_demo:action/Nav.action"
   ]
 }

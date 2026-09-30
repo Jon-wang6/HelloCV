@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_fastrtps_c.c"
   "../rosidl_generator_py/base_demo/_base_demo_s.ep.rosidl_typesupport_introspection_c.c"
   "../rosidl_generator_py/base_demo/action/__init__.py"
+  "../rosidl_generator_py/base_demo/action/_nav.py"
+  "../rosidl_generator_py/base_demo/action/_nav_s.c"
   "../rosidl_generator_py/base_demo/action/_progress.py"
   "../rosidl_generator_py/base_demo/action/_progress_s.c"
   "../rosidl_generator_py/base_demo/msg/__init__.py"

@@ -258,8 +258,15 @@ CMakeFiles/base_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_
   rosidl_generator_c/base_demo/action/detail/progress__struct.h \
   /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  rosidl_generator_c/base_demo/action/detail/progress__functions.h
+  rosidl_generator_c/base_demo/action/detail/progress__functions.h \
+  rosidl_generator_c/base_demo/action/detail/nav__type_support.h \
+  rosidl_generator_c/base_demo/action/detail/nav__struct.h \
+  rosidl_generator_c/base_demo/action/detail/nav__functions.h
 
+
+rosidl_generator_c/base_demo/action/detail/nav__functions.h:
+
+rosidl_generator_c/base_demo/action/detail/nav__type_support.h:
 
 rosidl_generator_c/base_demo/action/detail/progress__functions.h:
 
@@ -442,6 +449,8 @@ rosidl_generator_c/base_demo/srv/detail/addints__type_support.h:
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/python3.10/cpython/traceback.h:
+
+rosidl_generator_c/base_demo/action/detail/nav__struct.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 

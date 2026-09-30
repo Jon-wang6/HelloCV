@@ -89,6 +89,7 @@ rosidl_generator_rs/base_demo/rust/src/lib.rs: rosidl_adapter/base_demo/msg/Stud
 rosidl_generator_rs/base_demo/rust/src/lib.rs: rosidl_adapter/base_demo/srv/Addints.idl
 rosidl_generator_rs/base_demo/rust/src/lib.rs: rosidl_adapter/base_demo/action/Progress.idl
 rosidl_generator_rs/base_demo/rust/src/lib.rs: rosidl_adapter/base_demo/srv/Distance.idl
+rosidl_generator_rs/base_demo/rust/src/lib.rs: rosidl_adapter/base_demo/action/Nav.idl
 rosidl_generator_rs/base_demo/rust/src/lib.rs: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_rs/base_demo/rust/src/lib.rs: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_rs/base_demo/rust/src/lib.rs: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
