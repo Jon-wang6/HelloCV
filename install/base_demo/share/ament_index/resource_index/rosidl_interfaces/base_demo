@@ -1,3 +1,5 @@
+action/Nav.action
+action/Nav.idl
 action/Progress.action
 action/Progress.idl
 msg/Student.idl
