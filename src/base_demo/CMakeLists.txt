@@ -15,6 +15,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/Addints.srv"
   "action/Progress.action"
   "srv/Distance.srv"
+  "action/Nav.action"
 )
 ament_export_dependencies(rosidl_default_runtime)
 

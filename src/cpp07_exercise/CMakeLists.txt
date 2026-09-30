@@ -44,10 +44,42 @@ ament_target_dependencies(
   "base_demo"
 )
 
+add_executable(exer04_action_server src/exer04_action_server.cpp)
+target_compile_features(exer04_action_server PUBLIC cxx_std_17)
+ament_target_dependencies(
+  exer04_action_server
+  "rclcpp"
+  "rclcpp_action"
+  "base_demo"
+  "turtlesim"
+  "geometry_msgs"
+)
+
+add_executable(exer05_action_client src/exer05_action_client.cpp)
+target_compile_features(exer05_action_client PUBLIC cxx_std_17)
+ament_target_dependencies(
+  exer05_action_client
+  "rclcpp"
+  "rclcpp_action"
+  "base_demo"
+  "turtlesim"
+  "geometry_msgs"
+)
+
+add_executable(exer06_param src/exer06_param.cpp)
+target_compile_features(exer06_param PUBLIC cxx_std_17)
+ament_target_dependencies(
+  exer06_param
+  "rclcpp"
+)
+
 install(TARGETS
   exer01_pub_sub
   exer02_server
   exer03_client
+  exer04_action_server
+  exer05_action_client
+  exer06_param
   DESTINATION lib/${PROJECT_NAME})
 install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
 

@@ -15,14 +15,14 @@ cd ws01
 
 | 包名 | 内容 |
 | --- | --- |
-| `base_demo` | 自定义消息 `Student.msg`、服务 `Addints.srv`/`Distance.srv` 和动作 `Progress.action` |
+| `base_demo` | 自定义消息 `Student.msg`、服务 `Addints.srv`/`Distance.srv` 和动作 `Progress.action`/`Nav.action` |
 | `cpp01_topic` | Topic 发布者与订阅者示例 |
 | `cpp02_service` | Service 服务端与客户端示例 |
 | `cpp03_action` | Action 服务端与客户端示例 |
 | `cpp04_param` | ROS 2 参数服务与客户端示例 |
 | `cpp05_names` | 节点名称、命名空间与 Launch 示例 |
 | `cpp06_time` | ROS 2 时间示例 |
-| `cpp07_exercise` | Topic、Service 与 Launch 综合练习 |
+| `cpp07_exercise` | Topic、Service、Action、Parameter 与 Launch 综合练习 |
 | `turtlesim` | turtlesim 源码与教程示例 |
 
 ## 环境要求
@@ -123,6 +123,9 @@ ros2 run cpp06_time demo01_time
 ros2 run cpp07_exercise exer01_pub_sub
 ros2 run cpp07_exercise exer02_server
 ros2 run cpp07_exercise exer03_client
+ros2 run cpp07_exercise exer04_action_server
+ros2 run cpp07_exercise exer05_action_client
+ros2 run cpp07_exercise exer06_param
 ```
 
 ## 目录说明
