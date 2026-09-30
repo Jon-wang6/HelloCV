@@ -1,0 +1,95 @@
+[35m[1mConsolidate compiler generated dependencies of target exer04_action_server[0m
+[ 20%] Built target exer03_client
+[ 40%] Built target exer02_server
+[ 60%] Built target exer01_pub_sub
+[ 80%] Built target exer05_action_client
+[ 90%] [32mBuilding CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o[0m
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In constructor ‘[01m[KExer04ActionServer::Exer04ActionServer()[m[K’:
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:38:54:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server(Exer04ActionServer*, const char [4], std::_Bind_helper<false, rclcpp_action::GoalResponse (Exer04ActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const base_demo::action::Nav_Goal_<std::allocator<void> > >), Exer04ActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (Exer04ActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Nav> >), Exer04ActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (Exer04ActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Nav> >), Exer04ActionServer*, const std::_Placeholder<1>&>::type)[m[K’
+   38 |         action_server_ = [01;31m[Krclcpp_action::create_server([m[K
+      |                          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   39 | [01;31m[K            this,[m[K
+      |             [01;31m[K~~~~~[m[K                                     
+   40 | [01;31m[K            "nav",[m[K
+      |             [01;31m[K~~~~~~[m[K                                    
+   41 | [01;31m[K            std::bind(&Exer04ActionServer::handle_goal,this,_1,_2),[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   42 | [01;31m[K            std::bind(&Exer04ActionServer::handle_cancel,this,_1),[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   43 | [01;31m[K            std::bind(&Exer04ActionServer::handle_accepted,this,_1)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   44 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                             
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+                 from [01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:22[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+   58 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:38:54:[m[K [01;36m[Knote: [m[K  candidate expects 10 arguments, 5 provided
+   38 |         action_server_ = [01;36m[Krclcpp_action::create_server([m[K
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   39 | [01;36m[K            this,[m[K
+      |             [01;36m[K~~~~~[m[K                                     
+   40 | [01;36m[K            "nav",[m[K
+      |             [01;36m[K~~~~~~[m[K                                    
+   41 | [01;36m[K            std::bind(&Exer04ActionServer::handle_goal,this,_1,_2),[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   42 | [01;36m[K            std::bind(&Exer04ActionServer::handle_cancel,this,_1),[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   43 | [01;36m[K            std::bind(&Exer04ActionServer::handle_accepted,this,_1)[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   44 | [01;36m[K        )[m[K;
+      |         [01;36m[K~[m[K                                             
+In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+                 from [01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:22[m[K:
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  132 | [01;36m[Kcreate_server[m[K(
+      | [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:38:54:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KActionT[m[K’
+   38 |         action_server_ = [01;36m[Krclcpp_action::create_server([m[K
+      |                          [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   39 | [01;36m[K            this,[m[K
+      |             [01;36m[K~~~~~[m[K                                     
+   40 | [01;36m[K            "nav",[m[K
+      |             [01;36m[K~~~~~~[m[K                                    
+   41 | [01;36m[K            std::bind(&Exer04ActionServer::handle_goal,this,_1,_2),[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   42 | [01;36m[K            std::bind(&Exer04ActionServer::handle_cancel,this,_1),[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   43 | [01;36m[K            std::bind(&Exer04ActionServer::handle_accepted,this,_1)[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   44 | [01;36m[K        )[m[K;
+      |         [01;36m[K~[m[K                                             
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse Exer04ActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Nav> >)[m[K’:
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:56:13:[m[K [01;35m[Kwarning: [m[Kunnecessary parentheses in declaration of ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   56 |         void[01;35m[K(goal_handle)[m[K;
+      |             [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:56:13:[m[K [01;36m[Knote: [m[Kremove parentheses
+   56 |         void[01;36m[K(goal_handle)[m[K;
+      |             [01;36m[K^~~~~~~~~~~~~[m[K
+      |             [31m[K-[m[K           [31m[K-[m[K
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:56:14:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kgoal_handle[m[K’ declared void
+   56 |         void([01;31m[Kgoal_handle[m[K);
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:55:103:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 |     rclcpp_action::CancelResponse handle_cancel([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Nav>> goal_handle[m[K){
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:[m[K In member function ‘[01m[Kvoid Exer04ActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Nav> >)[m[K’:
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:62:13:[m[K [01;35m[Kwarning: [m[Kunnecessary parentheses in declaration of ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+   62 |         void[01;35m[K(goal_handle)[m[K;
+      |             [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:62:13:[m[K [01;36m[Knote: [m[Kremove parentheses
+   62 |         void[01;36m[K(goal_handle)[m[K;
+      |             [01;36m[K^~~~~~~~~~~~~[m[K
+      |             [31m[K-[m[K           [31m[K-[m[K
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:62:14:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kgoal_handle[m[K’ declared void
+   62 |         void([01;31m[Kgoal_handle[m[K);
+      |              [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:61:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   61 |     void handle_accepted([01;35m[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Nav>> goal_handle[m[K){
+      |                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/exer04_action_server.dir/build.make:76：CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:223：CMakeFiles/exer04_action_server.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

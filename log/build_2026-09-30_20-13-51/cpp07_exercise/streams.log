@@ -1,0 +1,42 @@
+[0.017s] Invoking command in '/home/jon/ws01/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp07_exercise -- -j24 -l24
+[0.058s] Consolidate compiler generated dependencies of target exer05_action_client
+[0.061s] [ 50%] Built target exer01_pub_sub
+[0.062s] [ 60%] Built target exer04_action_server
+[0.062s] [ 60%] Built target exer02_server
+[0.065s] [ 80%] Built target exer03_client
+[0.067s] [ 90%] Building CXX object CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.o
+[2.001s] [100%] Linking CXX executable exer05_action_client
+[2.104s] [100%] Built target exer05_action_client
+[2.114s] Invoked command in '/home/jon/ws01/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp07_exercise -- -j24 -l24
+[2.119s] Invoking command in '/home/jon/ws01/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp07_exercise
+[2.124s] -- Install configuration: ""
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer02_server
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer03_client
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server
+[2.124s] -- Installing: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client
+[2.124s] -- Set runtime path of "/home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client" to ""
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/__pycache__
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/__pycache__/exer03_client_launch.cpython-310.pyc
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/exer05_client_launch.py
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/exer04_server_launch.py
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh
+[2.124s] -- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv
+[2.124s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh
+[2.124s] -- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv
+[2.125s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash
+[2.125s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh
+[2.125s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh
+[2.125s] -- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv
+[2.125s] -- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.dsv
+[2.125s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise
+[2.125s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake
+[2.125s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake
+[2.125s] -- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.xml
+[2.126s] Invoked command in '/home/jon/ws01/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws01/build/cpp07_exercise

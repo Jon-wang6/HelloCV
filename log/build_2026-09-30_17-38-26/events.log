@@ -1,0 +1,140 @@
+[0.000000] (-) TimerEvent: {}
+[0.000040] (-) JobUnselected: {'identifier': 'base_demo'}
+[0.000052] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000060] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000065] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000070] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000076] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.000081] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.000086] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000092] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_demo', '/home/jon/ws01/install/base_demo'), ('turtlesim', '/home/jon/ws01/install/turtlesim')])}
+[0.001628] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.014039] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.015268] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '/home/jon/ws01/src/cpp07_exercise', '-DCMAKE_EXPORT_COMPILE_COMMANDS=ON', '-DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp07_exercise'], 'cwd': '/home/jon/ws01/build/cpp07_exercise', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jon'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('all_proxy', 'socks5h://127.0.0.1:7890'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jon/ws01/install/turtlesim/lib:/home/jon/ws01/install/base_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/jon/.local/share/applications/codex-proxy.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1355'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-browser-use/c51861de-eb23-4caf-bbb5-369d0ca25c73.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1920'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2945'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/jon/ws01/install'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'jon'), ('ALL_PROXY', 'socks5h://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:20610'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'jon'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/.local/bin:/home/jon/.codex/tmp/arg0/codex-arg0dLV8fy:/home/jon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/jon/.local/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/WJ:@/tmp/.ICE-unix/1897,unix/WJ:/tmp/.ICE-unix/1897'), ('CODEX_VERSION', '0.155.0-alpha.9'), ('CODEX_SESSION_ID', '01a0aa8c-50ed-7453-86a7-ba5c4c4c7f08'), ('INVOCATION_ID', 'f06b13ddf305451682a016f8b40e6d62'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ws01/install/base_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a0aa8c-50ed-7453-86a7-ba5c4c4c7f08'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jon/ws01/build/cpp07_exercise'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('CLUTTER_IM_MODULE', 'fcitx'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages:/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.023882] (cpp07_exercise) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.097150] (cpp07_exercise) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099853] (-) TimerEvent: {}
+[0.110234] (cpp07_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.111183] (cpp07_exercise) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.113874] (cpp07_exercise) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.118122] (cpp07_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.123688] (cpp07_exercise) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.138513] (cpp07_exercise) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.139194] (cpp07_exercise) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.194322] (cpp07_exercise) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.201070] (-) TimerEvent: {}
+[0.218304] (cpp07_exercise) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.235131] (cpp07_exercise) StdoutLine: {'line': b'-- Found base_demo: 0.0.0 (/home/jon/ws01/install/base_demo/share/base_demo/cmake)\n'}
+[0.240458] (cpp07_exercise) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.245915] (cpp07_exercise) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.21 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.253719] (cpp07_exercise) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.289521] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.289655] (cpp07_exercise) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jon/ws01/src/cpp07_exercise/include>\n'}
+[0.289682] (cpp07_exercise) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.289756] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.289902] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.290040] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.290384] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.290416] (cpp07_exercise) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.291039] (cpp07_exercise) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.291070] (cpp07_exercise) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.301139] (-) TimerEvent: {}
+[0.301744] (cpp07_exercise) StdoutLine: {'line': b'-- Generating done\n'}
+[0.306071] (cpp07_exercise) StdoutLine: {'line': b'-- Build files have been written to: /home/jon/ws01/build/cpp07_exercise\n'}
+[0.310846] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[0.311590] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.312595] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jon/ws01/build/cpp07_exercise', '--', '-j24', '-l24'], 'cwd': '/home/jon/ws01/build/cpp07_exercise', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jon'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('all_proxy', 'socks5h://127.0.0.1:7890'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jon/ws01/install/turtlesim/lib:/home/jon/ws01/install/base_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/jon/.local/share/applications/codex-proxy.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1355'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-browser-use/c51861de-eb23-4caf-bbb5-369d0ca25c73.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1920'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2945'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/jon/ws01/install'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'jon'), ('ALL_PROXY', 'socks5h://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:20610'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'jon'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/.local/bin:/home/jon/.codex/tmp/arg0/codex-arg0dLV8fy:/home/jon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/jon/.local/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/WJ:@/tmp/.ICE-unix/1897,unix/WJ:/tmp/.ICE-unix/1897'), ('CODEX_VERSION', '0.155.0-alpha.9'), ('CODEX_SESSION_ID', '01a0aa8c-50ed-7453-86a7-ba5c4c4c7f08'), ('INVOCATION_ID', 'f06b13ddf305451682a016f8b40e6d62'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ws01/install/base_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a0aa8c-50ed-7453-86a7-ba5c4c4c7f08'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jon/ws01/build/cpp07_exercise'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('CLUTTER_IM_MODULE', 'fcitx'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages:/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.344127] (cpp07_exercise) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target exer04_action_server\n'}
+[0.344256] (cpp07_exercise) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target exer05_action_client\n'}
+[0.344295] (cpp07_exercise) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target exer02_server\n'}
+[0.344636] (cpp07_exercise) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target exer01_pub_sub\n'}
+[0.347210] (cpp07_exercise) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target exer03_client\n'}
+[0.351501] (cpp07_exercise) StdoutLine: {'line': b'[ 20%] Built target exer05_action_client\n'}
+[0.352455] (cpp07_exercise) StdoutLine: {'line': b'[ 40%] Built target exer01_pub_sub\n'}
+[0.353358] (cpp07_exercise) StdoutLine: {'line': b'[ 60%] Built target exer02_server\n'}
+[0.354372] (cpp07_exercise) StdoutLine: {'line': b'[ 80%] Built target exer03_client\n'}
+[0.359935] (cpp07_exercise) StdoutLine: {'line': b'[ 90%] Building CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o\n'}
+[0.401241] (-) TimerEvent: {}
+[0.501702] (-) TimerEvent: {}
+[0.602383] (-) TimerEvent: {}
+[0.702558] (-) TimerEvent: {}
+[0.804020] (-) TimerEvent: {}
+[0.904198] (-) TimerEvent: {}
+[1.004581] (-) TimerEvent: {}
+[1.104752] (-) TimerEvent: {}
+[1.204919] (-) TimerEvent: {}
+[1.305110] (-) TimerEvent: {}
+[1.405333] (-) TimerEvent: {}
+[1.508134] (-) TimerEvent: {}
+[1.608321] (-) TimerEvent: {}
+[1.708684] (-) TimerEvent: {}
+[1.808882] (-) TimerEvent: {}
+[1.909122] (-) TimerEvent: {}
+[2.009336] (-) TimerEvent: {}
+[2.109687] (-) TimerEvent: {}
+[2.209945] (-) TimerEvent: {}
+[2.310119] (-) TimerEvent: {}
+[2.410314] (-) TimerEvent: {}
+[2.510515] (-) TimerEvent: {}
+[2.610693] (-) TimerEvent: {}
+[2.710864] (-) TimerEvent: {}
+[2.811007] (-) TimerEvent: {}
+[2.911169] (-) TimerEvent: {}
+[3.011348] (-) TimerEvent: {}
+[3.111554] (-) TimerEvent: {}
+[3.212994] (-) TimerEvent: {}
+[3.313184] (-) TimerEvent: {}
+[3.413361] (-) TimerEvent: {}
+[3.513562] (-) TimerEvent: {}
+[3.613745] (-) TimerEvent: {}
+[3.713919] (-) TimerEvent: {}
+[3.814147] (-) TimerEvent: {}
+[3.914309] (-) TimerEvent: {}
+[4.014468] (-) TimerEvent: {}
+[4.114633] (-) TimerEvent: {}
+[4.214797] (-) TimerEvent: {}
+[4.314974] (-) TimerEvent: {}
+[4.415158] (-) TimerEvent: {}
+[4.515330] (-) TimerEvent: {}
+[4.615497] (-) TimerEvent: {}
+[4.690954] (cpp07_exercise) StdoutLine: {'line': b'[100%] Linking CXX executable exer04_action_server\n'}
+[4.715596] (-) TimerEvent: {}
+[4.815779] (-) TimerEvent: {}
+[4.915957] (cpp07_exercise) StdoutLine: {'line': b'[100%] Built target exer04_action_server\n'}
+[4.916157] (-) TimerEvent: {}
+[4.923116] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[4.923554] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'install'}
+[4.929509] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jon/ws01/build/cpp07_exercise'], 'cwd': '/home/jon/ws01/build/cpp07_exercise', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('CODEX_CI', '1'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jon'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('all_proxy', 'socks5h://127.0.0.1:7890'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jon/ws01/install/turtlesim/lib:/home/jon/ws01/install/base_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/home/jon/.local/share/applications/codex-proxy.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('PAGER', 'cat'), ('MANAGERPID', '1355'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-browser-use/c51861de-eb23-4caf-bbb5-369d0ca25c73.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '1920'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2945'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/jon/ws01/install'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'jon'), ('ALL_PROXY', 'socks5h://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:20610'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('RUST_LOG', 'warn'), ('USERNAME', 'jon'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/.local/bin:/home/jon/.codex/tmp/arg0/codex-arg0dLV8fy:/home/jon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/jon/.local/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/WJ:@/tmp/.ICE-unix/1897,unix/WJ:/tmp/.ICE-unix/1897'), ('CODEX_VERSION', '0.155.0-alpha.9'), ('CODEX_SESSION_ID', '01a0aa8c-50ed-7453-86a7-ba5c4c4c7f08'), ('INVOCATION_ID', 'f06b13ddf305451682a016f8b40e6d62'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=fcitx'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ws01/install/base_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CODEX_THREAD_ID', '01a0aa8c-50ed-7453-86a7-ba5c4c4c7f08'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jon/ws01/build/cpp07_exercise'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('ZSH_TMUX_AUTOSTART', 'false'), ('CLUTTER_IM_MODULE', 'fcitx'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages:/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[4.934075] (cpp07_exercise) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.934170] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer01_pub_sub\n'}
+[4.936623] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer02_server\n'}
+[4.936679] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer03_client\n'}
+[4.936703] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server\n'}
+[4.936725] (cpp07_exercise) StdoutLine: {'line': b'-- Set runtime path of "/home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer04_action_server" to ""\n'}
+[4.936746] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/lib/cpp07_exercise/exer05_action_client\n'}
+[4.936765] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch\n'}
+[4.936784] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/exer01_pub_sub_launch.py\n'}
+[4.936802] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/exer02_server_launch.py\n'}
+[4.936819] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/__pycache__\n'}
+[4.936838] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/__pycache__/exer03_client_launch.cpython-310.pyc\n'}
+[4.936862] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/exer03_client_launch.py\n'}
+[4.936880] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/exer05_client_launch.py\n'}
+[4.936897] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/launch/exer04_server_launch.py\n'}
+[4.936914] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/ament_index/resource_index/package_run_dependencies/cpp07_exercise\n'}
+[4.936936] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/ament_index/resource_index/parent_prefix_path/cpp07_exercise\n'}
+[4.936956] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.sh\n'}
+[4.936974] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/ament_prefix_path.dsv\n'}
+[4.936991] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/path.sh\n'}
+[4.937009] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/environment/path.dsv\n'}
+[4.937370] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.bash\n'}
+[4.937392] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.sh\n'}
+[4.937412] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.zsh\n'}
+[4.937431] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/local_setup.dsv\n'}
+[4.937451] (cpp07_exercise) StdoutLine: {'line': b'-- Installing: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.dsv\n'}
+[4.937470] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/ament_index/resource_index/packages/cpp07_exercise\n'}
+[4.937489] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig.cmake\n'}
+[4.937506] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/cmake/cpp07_exerciseConfig-version.cmake\n'}
+[4.937524] (cpp07_exercise) StdoutLine: {'line': b'-- Up-to-date: /home/jon/ws01/install/cpp07_exercise/share/cpp07_exercise/package.xml\n'}
+[4.938610] (cpp07_exercise) CommandEnded: {'returncode': 0}
+[4.946700] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 0}
+[4.947028] (-) EventReactorShutdown: {}

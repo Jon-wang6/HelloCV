@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.001072] (-) JobUnselected: {'identifier': 'base_demo'}
+[0.001136] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.001150] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.001157] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.001163] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.001169] (-) JobUnselected: {'identifier': 'cpp05_names'}
+[0.001174] (-) JobUnselected: {'identifier': 'cpp06_time'}
+[0.001179] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.001186] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_demo', '/home/jon/ws01/install/base_demo'), ('turtlesim', '/home/jon/ws01/install/turtlesim')])}
+[0.001197] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.012295] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'cmake'}
+[0.013113] (cpp07_exercise) JobProgress: {'identifier': 'cpp07_exercise', 'progress': 'build'}
+[0.013320] (cpp07_exercise) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jon/ws01/build/cpp07_exercise', '--', '-j24', '-l24'], 'cwd': '/home/jon/ws01/build/cpp07_exercise', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://127.0.0.1:7890'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'jon'), ('all_proxy', 'socks5h://127.0.0.1:7890'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/jon/ws01/install/turtlesim/lib:/home/jon/ws01/install/base_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/jon'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.138.0'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1355'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1920'), ('BUNDLED_DEBUGPY_PATH', '/home/jon/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11759'), ('IM_CONFIG_PHASE', '1'), ('https_proxy', 'http://127.0.0.1:7890'), ('COLCON_PREFIX_PATH', '/home/jon/ws01/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'jon'), ('ALL_PROXY', 'socks5h://127.0.0.1:7890'), ('http_proxy', 'http://127.0.0.1:7890'), ('JOURNAL_STREAM', '8:20610'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'jon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/jon/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/jon/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/home/jon/.local/bin:/opt/ros/humble/bin:/home/jon/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jon/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/WJ:@/tmp/.ICE-unix/1897,unix/WJ:/tmp/.ICE-unix/1897'), ('INVOCATION_ID', 'f06b13ddf305451682a016f8b40e6d62'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/jon/.vscode/extensions/ms-python.debugpy-2026.6.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-353bf09c58d72942.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('PYTHONSTARTUP', '/home/jon/.config/Code/User/workspaceStorage/1f60e15f81795b7429f56f0c0e99fe64/ms-python.python/pythonrc.py'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-81883a5c4f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/home/jon/ws01/install/base_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/jon/ws01/build/cpp07_exercise'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('COPILOT_DEBUG_NONCE', '20fc3c0b33e88ebaf2914c4d51f59b28'), ('CLUTTER_IM_MODULE', 'fcitx'), ('RCUTILS_COLORIZED_OUTPUT', '1'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jon/ws01/install/turtlesim/local/lib/python3.10/dist-packages:/home/jon/ws01/install/base_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble')]), 'shell': False}
+[0.043493] (cpp07_exercise) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target exer04_action_server\x1b[0m\n'}
+[0.049442] (cpp07_exercise) StdoutLine: {'line': b'[ 20%] Built target exer01_pub_sub\n'}
+[0.050022] (cpp07_exercise) StdoutLine: {'line': b'[ 60%] Built target exer03_client\n'}
+[0.050087] (cpp07_exercise) StdoutLine: {'line': b'[ 60%] Built target exer02_server\n'}
+[0.050124] (cpp07_exercise) StdoutLine: {'line': b'[ 80%] Built target exer05_action_client\n'}
+[0.051438] (cpp07_exercise) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o\x1b[0m\n'}
+[0.099344] (-) TimerEvent: {}
+[0.199758] (-) TimerEvent: {}
+[0.300265] (-) TimerEvent: {}
+[0.400694] (-) TimerEvent: {}
+[0.501107] (-) TimerEvent: {}
+[0.601552] (-) TimerEvent: {}
+[0.701984] (-) TimerEvent: {}
+[0.802328] (-) TimerEvent: {}
+[0.902648] (-) TimerEvent: {}
+[1.002899] (-) TimerEvent: {}
+[1.103213] (-) TimerEvent: {}
+[1.203549] (-) TimerEvent: {}
+[1.227257] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KExer04ActionServer::Exer04ActionServer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.227526] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:38:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_server(Exer04ActionServer*, const char [4], std::_Bind_helper<false, rclcpp_action::GoalResponse (Exer04ActionServer::*)(const std::array<unsigned char, 16>&, std::shared_ptr<const base_demo::action::Nav_Goal_<std::allocator<void> > >), Exer04ActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (Exer04ActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Nav> >), Exer04ActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (Exer04ActionServer::*)(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Nav> >), Exer04ActionServer*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.227566] (cpp07_exercise) StderrLine: {'line': b'   38 |         action_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server(\x1b[m\x1b[K\n'}
+[1.227593] (cpp07_exercise) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.227617] (cpp07_exercise) StderrLine: {'line': b'   39 | \x1b[01;31m\x1b[K            this,\x1b[m\x1b[K\n'}
+[1.227638] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~\x1b[m\x1b[K                                     \n'}
+[1.227659] (cpp07_exercise) StderrLine: {'line': b'   40 | \x1b[01;31m\x1b[K            "nav",\x1b[m\x1b[K\n'}
+[1.227677] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~\x1b[m\x1b[K                                    \n'}
+[1.227694] (cpp07_exercise) StderrLine: {'line': b'   41 | \x1b[01;31m\x1b[K            std::bind(&Exer04ActionServer::handle_goal,this,_1,_2),\x1b[m\x1b[K\n'}
+[1.227736] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.227755] (cpp07_exercise) StderrLine: {'line': b'   42 | \x1b[01;31m\x1b[K            std::bind(&Exer04ActionServer::handle_cancel,this,_1),\x1b[m\x1b[K\n'}
+[1.227775] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.227794] (cpp07_exercise) StderrLine: {'line': b'   43 | \x1b[01;31m\x1b[K            std::bind(&Exer04ActionServer::handle_accepted,this,_1)\x1b[m\x1b[K\n'}
+[1.227812] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.227830] (cpp07_exercise) StderrLine: {'line': b'   44 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[1.227849] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                             \n'}
+[1.227867] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[1.227890] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:22\x1b[m\x1b[K:\n'}
+[1.227908] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.227933] (cpp07_exercise) StderrLine: {'line': b'   58 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[1.227957] (cpp07_exercise) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.227977] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.227997] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:38:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 10 arguments, 5 provided\n'}
+[1.228016] (cpp07_exercise) StderrLine: {'line': b'   38 |         action_server_ = \x1b[01;36m\x1b[Krclcpp_action::create_server(\x1b[m\x1b[K\n'}
+[1.228183] (cpp07_exercise) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.228272] (cpp07_exercise) StderrLine: {'line': b'   39 | \x1b[01;36m\x1b[K            this,\x1b[m\x1b[K\n'}
+[1.228325] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~\x1b[m\x1b[K                                     \n'}
+[1.228378] (cpp07_exercise) StderrLine: {'line': b'   40 | \x1b[01;36m\x1b[K            "nav",\x1b[m\x1b[K\n'}
+[1.228436] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~\x1b[m\x1b[K                                    \n'}
+[1.228483] (cpp07_exercise) StderrLine: {'line': b'   41 | \x1b[01;36m\x1b[K            std::bind(&Exer04ActionServer::handle_goal,this,_1,_2),\x1b[m\x1b[K\n'}
+[1.228525] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.228547] (cpp07_exercise) StderrLine: {'line': b'   42 | \x1b[01;36m\x1b[K            std::bind(&Exer04ActionServer::handle_cancel,this,_1),\x1b[m\x1b[K\n'}
+[1.228570] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.228590] (cpp07_exercise) StderrLine: {'line': b'   43 | \x1b[01;36m\x1b[K            std::bind(&Exer04ActionServer::handle_accepted,this,_1)\x1b[m\x1b[K\n'}
+[1.228608] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.228627] (cpp07_exercise) StderrLine: {'line': b'   44 | \x1b[01;36m\x1b[K        )\x1b[m\x1b[K;\n'}
+[1.228645] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~\x1b[m\x1b[K                                             \n'}
+[1.228663] (cpp07_exercise) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[1.228681] (cpp07_exercise) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:22\x1b[m\x1b[K:\n'}
+[1.228699] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.228722] (cpp07_exercise) StderrLine: {'line': b'  132 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[1.228740] (cpp07_exercise) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.228757] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.228776] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:38:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[KActionT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.228795] (cpp07_exercise) StderrLine: {'line': b'   38 |         action_server_ = \x1b[01;36m\x1b[Krclcpp_action::create_server(\x1b[m\x1b[K\n'}
+[1.228812] (cpp07_exercise) StderrLine: {'line': b'      |                          \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.228828] (cpp07_exercise) StderrLine: {'line': b'   39 | \x1b[01;36m\x1b[K            this,\x1b[m\x1b[K\n'}
+[1.228844] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~\x1b[m\x1b[K                                     \n'}
+[1.228861] (cpp07_exercise) StderrLine: {'line': b'   40 | \x1b[01;36m\x1b[K            "nav",\x1b[m\x1b[K\n'}
+[1.228877] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~\x1b[m\x1b[K                                    \n'}
+[1.228894] (cpp07_exercise) StderrLine: {'line': b'   41 | \x1b[01;36m\x1b[K            std::bind(&Exer04ActionServer::handle_goal,this,_1,_2),\x1b[m\x1b[K\n'}
+[1.229698] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.229737] (cpp07_exercise) StderrLine: {'line': b'   42 | \x1b[01;36m\x1b[K            std::bind(&Exer04ActionServer::handle_cancel,this,_1),\x1b[m\x1b[K\n'}
+[1.229760] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.229779] (cpp07_exercise) StderrLine: {'line': b'   43 | \x1b[01;36m\x1b[K            std::bind(&Exer04ActionServer::handle_accepted,this,_1)\x1b[m\x1b[K\n'}
+[1.229798] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.229817] (cpp07_exercise) StderrLine: {'line': b'   44 | \x1b[01;36m\x1b[K        )\x1b[m\x1b[K;\n'}
+[1.229835] (cpp07_exercise) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K~\x1b[m\x1b[K                                             \n'}
+[1.229858] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::CancelResponse Exer04ActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Nav> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.229878] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:56:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunnecessary parentheses in declaration of \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses\x07-Wparentheses\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.229901] (cpp07_exercise) StderrLine: {'line': b'   56 |         void\x1b[01;35m\x1b[K(goal_handle)\x1b[m\x1b[K;\n'}
+[1.229920] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.229939] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:56:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kremove parentheses\n'}
+[1.229961] (cpp07_exercise) StderrLine: {'line': b'   56 |         void\x1b[01;36m\x1b[K(goal_handle)\x1b[m\x1b[K;\n'}
+[1.229979] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.229997] (cpp07_exercise) StderrLine: {'line': b'      |             \x1b[31m\x1b[K-\x1b[m\x1b[K           \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[1.230014] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:56:14:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kvariable or field \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 declared void\n'}
+[1.230034] (cpp07_exercise) StderrLine: {'line': b'   56 |         void(\x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K);\n'}
+[1.230051] (cpp07_exercise) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.230068] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:55:103:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.230089] (cpp07_exercise) StderrLine: {'line': b'   55 |     rclcpp_action::CancelResponse handle_cancel(\x1b[01;35m\x1b[Kstd::shared_ptr<rclcpp_action::ServerGoalHandle<Nav>> goal_handle\x1b[m\x1b[K){\n'}
+[1.230107] (cpp07_exercise) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.230124] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Exer04ActionServer::handle_accepted(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Nav> >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.230141] (cpp07_exercise) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:63:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[1.230159] (cpp07_exercise) StderrLine: {'line': b'   63 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[1.230176] (cpp07_exercise) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.303715] (-) TimerEvent: {}
+[1.404348] (-) TimerEvent: {}
+[1.505062] (-) TimerEvent: {}
+[1.605317] (-) TimerEvent: {}
+[1.705722] (-) TimerEvent: {}
+[1.805998] (-) TimerEvent: {}
+[1.906272] (-) TimerEvent: {}
+[2.006535] (-) TimerEvent: {}
+[2.106813] (-) TimerEvent: {}
+[2.207086] (-) TimerEvent: {}
+[2.307410] (-) TimerEvent: {}
+[2.407776] (-) TimerEvent: {}
+[2.472004] (cpp07_exercise) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/exer04_action_server.dir/build.make:76\xef\xbc\x9aCMakeFiles/exer04_action_server.dir/src/exer04_action_server.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[2.472472] (cpp07_exercise) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:223\xef\xbc\x9aCMakeFiles/exer04_action_server.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.473024] (cpp07_exercise) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[2.475050] (cpp07_exercise) CommandEnded: {'returncode': 2}
+[2.480186] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 2}
+[2.490703] (-) EventReactorShutdown: {}

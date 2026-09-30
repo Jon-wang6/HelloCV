@@ -1,0 +1,10 @@
+/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp: In member function ‘void Exer04ActionServer::execute(std::shared_ptr<rclcpp_action::ServerGoalHandle<base_demo::action::Nav> >)’:
+/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:88:19: warning: unused variable ‘distance’ [-Wunused-variable]
+   88 |             float distance   = std::sqrt(distance_x * distance_x + distance_y * distance_y);
+      |                   ^~~~~~~~
+/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:92:19: warning: unused variable ‘linear_x’ [-Wunused-variable]
+   92 |             float linear_x = scale * distance_x;
+      |                   ^~~~~~~~
+/home/jon/ws01/src/cpp07_exercise/src/exer04_action_server.cpp:93:19: warning: unused variable ‘linear_y’ [-Wunused-variable]
+   93 |             float linear_y = scale * distance_y;
+      |                   ^~~~~~~~

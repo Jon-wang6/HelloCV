@@ -1,0 +1,18 @@
+/home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp: In member function ‘void Exer05ActionClient::send_goal(float, float, float)’:
+/home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp:48:68: error: ‘feadback_callback’ is not a member of ‘Exer05ActionClient’
+   48 |         options.feedback_callback = std::bind(&Exer05ActionClient::feadback_callback,this,_1,_2);
+      |                                                                    ^~~~~~~~~~~~~~~~~
+/home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp: In member function ‘void Exer05ActionClient::goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<base_demo::action::Nav> >)’:
+/home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp:52:87: warning: unused parameter ‘goal_handle’ [-Wunused-parameter]
+   52 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<Nav>> goal_handle){
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp: In member function ‘void Exer05ActionClient::feedback_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<base_demo::action::Nav> >, std::shared_ptr<const base_demo::action::Nav_Feedback_<std::allocator<void> > >)’:
+/home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp:56:82: warning: unused parameter ‘goal_handle’ [-Wunused-parameter]
+   56 |     void feedback_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<Nav>> goal_handle,std::shared_ptr<const base_demo::action::Nav_Feedback> feedback){
+      |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp:56:149: warning: unused parameter ‘feedback’ [-Wunused-parameter]
+   56 |     void feedback_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<Nav>> goal_handle,std::shared_ptr<const base_demo::action::Nav_Feedback> feedback){
+      |                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+gmake[2]: *** [CMakeFiles/exer05_action_client.dir/build.make:76：CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:249：CMakeFiles/exer05_action_client.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

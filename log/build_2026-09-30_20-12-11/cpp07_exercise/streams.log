@@ -1,0 +1,59 @@
+[0.011s] Invoking command in '/home/jon/ws01/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp07_exercise -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp07_exercise
+[0.021s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.092s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.105s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.105s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.108s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.112s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.118s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.133s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.133s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.187s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.211s] -- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)
+[0.227s] -- Found base_demo: 0.0.0 (/home/jon/ws01/install/base_demo/share/base_demo/cmake)
+[0.233s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.238s] -- Found rclcpp_action: 16.0.21 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.246s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.282s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.282s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/jon/ws01/src/cpp07_exercise/include>
+[0.282s] -- Configured cppcheck exclude dirs and/or files: 
+[0.282s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.282s] -- Added test 'lint_cmake' to check CMake code style
+[0.282s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.283s] -- Added test 'uncrustify' to check C / C++ code style
+[0.283s] -- Configured uncrustify additional arguments: 
+[0.283s] -- Added test 'xmllint' to check XML markup files
+[0.283s] -- Configuring done
+[0.294s] -- Generating done
+[0.299s] -- Build files have been written to: /home/jon/ws01/build/cpp07_exercise
+[0.304s] Invoked command in '/home/jon/ws01/build/cpp07_exercise' returned '0': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake /home/jon/ws01/src/cpp07_exercise -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_INSTALL_PREFIX=/home/jon/ws01/install/cpp07_exercise
+[0.306s] Invoking command in '/home/jon/ws01/build/cpp07_exercise': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp07_exercise -- -j24 -l24
+[0.337s] Consolidate compiler generated dependencies of target exer02_server
+[0.337s] Consolidate compiler generated dependencies of target exer03_client
+[0.337s] Consolidate compiler generated dependencies of target exer04_action_server
+[0.340s] Consolidate compiler generated dependencies of target exer01_pub_sub
+[0.340s] Consolidate compiler generated dependencies of target exer05_action_client
+[0.346s] [ 40%] Built target exer03_client
+[0.346s] [ 40%] Built target exer02_server
+[0.346s] [ 60%] Built target exer04_action_server
+[0.348s] [ 80%] Built target exer01_pub_sub
+[0.350s] [ 90%] Building CXX object CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.o
+[1.610s] /home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp: In member function ‘void Exer05ActionClient::send_goal(float, float, float)’:
+[1.610s] /home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp:48:68: error: ‘feadback_callback’ is not a member of ‘Exer05ActionClient’
+[1.610s]    48 |         options.feedback_callback = std::bind(&Exer05ActionClient::feadback_callback,this,_1,_2);
+[1.610s]       |                                                                    ^~~~~~~~~~~~~~~~~
+[1.611s] /home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp: In member function ‘void Exer05ActionClient::goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<base_demo::action::Nav> >)’:
+[1.611s] /home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp:52:87: warning: unused parameter ‘goal_handle’ [-Wunused-parameter]
+[1.611s]    52 |     void goal_response_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<Nav>> goal_handle){
+[1.611s]       |                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+[1.612s] /home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp: In member function ‘void Exer05ActionClient::feedback_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<base_demo::action::Nav> >, std::shared_ptr<const base_demo::action::Nav_Feedback_<std::allocator<void> > >)’:
+[1.612s] /home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp:56:82: warning: unused parameter ‘goal_handle’ [-Wunused-parameter]
+[1.612s]    56 |     void feedback_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<Nav>> goal_handle,std::shared_ptr<const base_demo::action::Nav_Feedback> feedback){
+[1.612s]       |                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+[1.612s] /home/jon/ws01/src/cpp07_exercise/src/exer05_action_client.cpp:56:149: warning: unused parameter ‘feedback’ [-Wunused-parameter]
+[1.612s]    56 |     void feedback_callback(std::shared_ptr<rclcpp_action::ClientGoalHandle<Nav>> goal_handle,std::shared_ptr<const base_demo::action::Nav_Feedback> feedback){
+[1.612s]       |                                                                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[1.946s] gmake[2]: *** [CMakeFiles/exer05_action_client.dir/build.make:76：CMakeFiles/exer05_action_client.dir/src/exer05_action_client.cpp.o] 错误 1
+[1.946s] gmake[1]: *** [CMakeFiles/Makefile2:249：CMakeFiles/exer05_action_client.dir/all] 错误 2
+[1.946s] gmake: *** [Makefile:146：all] 错误 2
+[1.948s] Invoked command in '/home/jon/ws01/build/cpp07_exercise' returned '2': CMAKE_PREFIX_PATH=/home/jon/ws01/install/turtlesim:/home/jon/ws01/install/base_demo:/home/jon/ws01/install/tutorails_plumbing:/home/jon/ws01/install/cpp07_exercise:/home/jon/ws01/install/cpp06_time:/home/jon/ws01/install/cpp05_names:/home/jon/ws01/install/cpp04_param:/home/jon/ws01/install/cpp03_action:/home/jon/ws01/install/cpp02_service:/home/jon/ws01/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws01/build/cpp07_exercise -- -j24 -l24
