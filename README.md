@@ -1,6 +1,6 @@
 # HelloCV
 
-ROS 2 Humble C++ 学习工作区。项目内容按本机工作区分别保存在 `ws00` 和 `ws01` 分支；`main` 分支仅作为仓库导航首页。
+ROS 2 Humble C++ 学习工作区。项目内容按本机工作区分别保存在 `ws00`、`ws01` 和 `ws02` 分支；`main` 分支仅作为仓库导航首页。
 
 ## 分支导航
 
@@ -8,6 +8,7 @@ ROS 2 Humble C++ 学习工作区。项目内容按本机工作区分别保存在
 | --- | --- | --- |
 | [`ws00`](https://github.com/Jon-wang6/HelloCV/tree/ws00) | `~/ws00` | ROS 2 C++ Hello World 与 VS Code 入门示例 |
 | [`ws01`](https://github.com/Jon-wang6/HelloCV/tree/ws01) | `~/ws01` | Topic、Service、Action、Parameter 与自定义接口示例 |
+| [`ws02`](https://github.com/Jon-wang6/HelloCV/tree/ws02) | `~/ws02` | ROS 2 Launch 与 rosbag2 学习示例 |
 
 ## 克隆工作区
 
@@ -21,6 +22,12 @@ git clone --branch ws00 --single-branch https://github.com/Jon-wang6/HelloCV.git
 
 ```bash
 git clone --branch ws01 --single-branch https://github.com/Jon-wang6/HelloCV.git ws01
+```
+
+克隆 `ws02`：
+
+```bash
+git clone --branch ws02 --single-branch https://github.com/Jon-wang6/HelloCV.git ws02
 ```
 
 具体的环境配置、构建和运行方法请查看对应分支中的 README。
@@ -40,3 +47,7 @@ git clone --branch ws01 --single-branch https://github.com/Jon-wang6/HelloCV.git
 
 - [ROS 2 通信机制核心学习](https://www.yuque.com/g/jonwang-pfbbk/gd0so3/occrrpaqek2lhpno/collaborator/join?token=QYdSCYjio0VKe5pk&source=doc_collaborator#)
 - [通信机制补充学习](https://www.yuque.com/g/jonwang-pfbbk/gd0so3/cg2gr7162a3hw69a/collaborator/join?token=xlASUXM8LftoRdC4&source=doc_collaborator#)
+
+### ws02
+
+- [ROS 2 Launch 与 rosbag2 学习](https://www.yuque.com/g/jonwang-pfbbk/gd0so3/ede7gk1tnsvgw1tm/collaborator/join?token=ejJuVjsww2x31OwA&source=doc_collaborator#)
