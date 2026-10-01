@@ -1,0 +1,16 @@
+launch:
+- node:
+    pkg: "turtlesim"
+    exec: "turtlesim_node"
+    name: "t2"
+    # namespace: "ns"
+    exec_name: "my_yaml"
+    respawn: "true"
+    param:
+    # - name: "background_r"
+    #   value: 20
+    # - name: "background_g"
+    #   value: 100
+    # - name: "background_b"
+    #   value: 0
+    - from: "$(find-pkg-share cpp01_launch)/config/t2.yaml"

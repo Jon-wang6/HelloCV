@@ -1,0 +1,14 @@
+<launch>
+    <!-- 需要启动turtlesim_node节点时动态设置背景颜色 -->
+    <!-- 1.声明参数 -->
+    <arg name="bg_r" default="255"/>
+    <arg name="bg_g" default="255"/>
+    <arg name="bg_b" default="255"/>
+    <!-- 2.调用参数 -->
+    <node pkg="turtlesim" exec="turtlesim_node" name="turtlesim_node" output="screen">
+        <param name="background_r" value="$(var bg_r)"/>
+        <param name="background_g" value="$(var bg_g)"/>
+        <param name="background_b" value="$(var bg_b)"/>
+    </node>
+    <!-- 3.launch文件执行时动态传参 -->
+</launch>

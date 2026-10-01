@@ -1,0 +1,62 @@
+[0.005s] Invoking command in '/home/jon/ws02/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws02/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/jon/ws02/install/cpp01_launch
+[0.071s] -- The C compiler identification is GNU 11.4.0
+[0.123s] -- The CXX compiler identification is GNU 11.4.0
+[0.129s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.181s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.184s] -- Detecting CXX compiler ABI info
+[0.242s] -- Detecting CXX compiler ABI info - done
+[0.245s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.245s] -- Detecting CXX compile features
+[0.245s] -- Detecting CXX compile features - done
+[0.247s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.344s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.419s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.452s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.455s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.461s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.480s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.509s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.512s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.580s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.602s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.633s] -- Looking for pthread.h
+[0.685s] -- Looking for pthread.h - found
+[0.685s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.729s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.729s] -- Found Threads: TRUE  
+[0.760s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.801s] -- Added test 'lint_cmake' to check CMake code style
+[0.801s] -- Added test 'xmllint' to check XML markup files
+[0.802s] -- Configuring done
+[0.803s] -- Generating done
+[0.804s] -- Build files have been written to: /home/jon/ws02/build/cpp01_launch
+[0.809s] Invoked command in '/home/jon/ws02/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jon/ws02/src/cpp01_launch -DCMAKE_INSTALL_PREFIX=/home/jon/ws02/install/cpp01_launch
+[0.811s] Invoking command in '/home/jon/ws02/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws02/build/cpp01_launch -- -j24 -l24
+[0.837s] Invoked command in '/home/jon/ws02/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws02/build/cpp01_launch -- -j24 -l24
+[0.842s] Invoking command in '/home/jon/ws02/build/cpp01_launch': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws02/build/cpp01_launch
+[0.845s] -- Install configuration: ""
+[0.845s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch//launch
+[0.845s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch//launch/py
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch//launch/yaml
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch//launch/xml
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/ament_index/resource_index/package_run_dependencies/cpp01_launch
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/ament_index/resource_index/parent_prefix_path/cpp01_launch
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.sh
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/environment/ament_prefix_path.dsv
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/environment/path.sh
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/environment/path.dsv
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/local_setup.bash
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/local_setup.sh
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/local_setup.zsh
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/local_setup.dsv
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/package.dsv
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/ament_index/resource_index/packages/cpp01_launch
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig.cmake
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/cmake/cpp01_launchConfig-version.cmake
+[0.846s] -- Installing: /home/jon/ws02/install/cpp01_launch/share/cpp01_launch/package.xml
+[0.847s] Invoked command in '/home/jon/ws02/build/cpp01_launch' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws02/build/cpp01_launch
