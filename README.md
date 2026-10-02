@@ -20,6 +20,12 @@ cd ws02
 - YAML Launch 示例：节点、命令、参数、Include 与 Group
 - 参数配置文件 `config/t2.yaml`
 
+`cpp02_rosbag` 包包含：
+
+- 使用 `rosbag2_cpp` 写入消息的 `demo01_writer`
+- 使用 `rosbag2_cpp` 读取消息的 `demo02_reader`
+- 示例录制数据 `my_bag/`
+
 ## 环境要求
 
 - Ubuntu 22.04
@@ -52,6 +58,20 @@ ros2 launch cpp01_launch xml01_helloworld_launch.xml
 ros2 launch cpp01_launch yaml01_helloworld_launch.yaml
 ```
 
+运行 rosbag2 C++ 示例：
+
+```bash
+ros2 run cpp02_rosbag demo01_writer
+ros2 run cpp02_rosbag demo02_reader
+```
+
+查看或回放示例数据：
+
+```bash
+ros2 bag info my_bag
+ros2 bag play my_bag
+```
+
 ## 自动加载环境
 
 若工作区位于 `~/ws02`，可将以下内容加入 `~/.bashrc`：
@@ -70,7 +90,8 @@ source ~/ws02/install/setup.bash
 ├── src/       # ROS 2 源码包
 ├── build/     # colcon 构建产物
 ├── install/   # 安装空间
-└── log/       # 构建日志
+├── log/       # 构建日志
+└── my_bag/    # rosbag2 示例录制数据
 ```
 
 本分支按上传时状态保留了源码、构建产物、安装文件和日志。

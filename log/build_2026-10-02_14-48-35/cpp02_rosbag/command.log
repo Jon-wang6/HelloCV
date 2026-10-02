@@ -1,0 +1,4 @@
+Invoking command in '/home/jon/ws02/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws02/build/cpp02_rosbag -- -j24 -l24
+Invoked command in '/home/jon/ws02/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jon/ws02/build/cpp02_rosbag -- -j24 -l24
+Invoking command in '/home/jon/ws02/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws02/build/cpp02_rosbag
+Invoked command in '/home/jon/ws02/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jon/ws02/build/cpp02_rosbag

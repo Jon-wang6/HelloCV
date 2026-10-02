@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/home/jon/ws02/src/cpp01_launch"
+    "cmake.sourceDirectory": "/home/jon/ws02/src/cpp02_rosbag",
+    "C_Cpp.errorSquiggles": "enabled"
 }
