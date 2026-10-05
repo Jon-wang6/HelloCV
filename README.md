@@ -1,13 +1,13 @@
-# HelloCV · ws02
+# HelloCV · Launch 与 rosbag2
 
 本分支保存 `~/ws02` 的完整快照，主要用于 ROS 2 Humble Launch 与 rosbag2 学习。
 
-分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ws00](https://github.com/Jon-wang6/HelloCV/tree/ws00) · [ws01](https://github.com/Jon-wang6/HelloCV/tree/ws01) · **ws02**
+分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ros2-basics](https://github.com/Jon-wang6/HelloCV/tree/ros2-basics) · [ros2-communication](https://github.com/Jon-wang6/HelloCV/tree/ros2-communication) · **launch-rosbag2**
 
 ## 获取本分支
 
 ```bash
-git clone --branch ws02 --single-branch https://github.com/Jon-wang6/HelloCV.git ws02
+git clone --branch launch-rosbag2 --single-branch https://github.com/Jon-wang6/HelloCV.git ws02
 cd ws02
 ```
 
