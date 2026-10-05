@@ -1,13 +1,13 @@
-# HelloCV · ws01
+# HelloCV · ROS 2 通信机制
 
 本分支保存 `~/ws01` 的完整快照。它是一个基于 ROS 2 Humble 的 C++ 学习与示例工作区，涵盖话题通信、服务通信、动作通信、参数以及自定义接口。
 
-分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ws00](https://github.com/Jon-wang6/HelloCV/tree/ws00) · **ws01**
+分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ros2-basics](https://github.com/Jon-wang6/HelloCV/tree/ros2-basics) · **ros2-communication** · [launch-rosbag2](https://github.com/Jon-wang6/HelloCV/tree/launch-rosbag2)
 
 ## 获取本分支
 
 ```bash
-git clone --branch ws01 --single-branch https://github.com/Jon-wang6/HelloCV.git ws01
+git clone --branch ros2-communication --single-branch https://github.com/Jon-wang6/HelloCV.git ws01
 cd ws01
 ```
 
