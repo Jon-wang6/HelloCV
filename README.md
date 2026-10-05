@@ -1,13 +1,13 @@
-# HelloCV · ws00
+# HelloCV · ROS 2 基础
 
 本分支保存 `~/ws00` 的完整快照，主要用于 ROS 2 Humble C++ 节点与 VS Code 开发环境的入门练习。
 
-分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · **ws00** · [ws01](https://github.com/Jon-wang6/HelloCV/tree/ws01)
+分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · **ros2-basics** · [ros2-communication](https://github.com/Jon-wang6/HelloCV/tree/ros2-communication) · [launch-rosbag2](https://github.com/Jon-wang6/HelloCV/tree/launch-rosbag2)
 
 ## 获取本分支
 
 ```bash
-git clone --branch ws00 --single-branch https://github.com/Jon-wang6/HelloCV.git ws00
+git clone --branch ros2-basics --single-branch https://github.com/Jon-wang6/HelloCV.git ws00
 cd ws00
 ```
 
