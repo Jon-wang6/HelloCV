@@ -4,11 +4,13 @@ ROS 2 Humble C++ 学习工作区。项目内容按本机工作区分别保存在
 
 ## 分支导航
 
+点击分支名称即可进入对应工作区：
+
 | 分支 | 对应目录 | 主要内容 |
 | --- | --- | --- |
-| [`ws00`](https://github.com/Jon-wang6/HelloCV/tree/ws00) | `~/ws00` | ROS 2 C++ Hello World 与 VS Code 入门示例 |
-| [`ws01`](https://github.com/Jon-wang6/HelloCV/tree/ws01) | `~/ws01` | Topic、Service、Action、Parameter 与自定义接口示例 |
-| [`ws02`](https://github.com/Jon-wang6/HelloCV/tree/ws02) | `~/ws02` | ROS 2 Launch 与 rosbag2 学习示例 |
+| [`ws00`](https://github.com/Jon-wang6/HelloCV/tree/ws00) | `~/ws00` | ROS 2/C++ 入门、Hello World 与 VS Code 开发环境 |
+| [`ws01`](https://github.com/Jon-wang6/HelloCV/tree/ws01) | `~/ws01` | Topic、Service、Action、Parameter、自定义接口与综合练习 |
+| [`ws02`](https://github.com/Jon-wang6/HelloCV/tree/ws02) | `~/ws02` | Python/XML/YAML Launch 与 rosbag2 C++ 读写示例 |
 
 ## 克隆工作区
 
