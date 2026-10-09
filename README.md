@@ -44,6 +44,7 @@ git clone --branch launch-rosbag2 --single-branch https://github.com/Jon-wang6/H
 ### ROS 2 基础（`ros2-basics`）
 
 - [ROS 2 概述、环境搭建与学习](https://github.com/Jon-wang6/HelloCV/blob/ros2-basics/notes/ROS2概述、环境搭建与学习.md)
+- [ROS 2中常用的C++知识补充](https://github.com/Jon-wang6/HelloCV/blob/ros2-basics/notes/ROS2中常用的C%2B%2B知识补充.md)
 
 ### ROS 2 通信机制（`ros2-communication`）
 
