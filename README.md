@@ -34,7 +34,7 @@ git clone --branch launch-rosbag2 --single-branch https://github.com/Jon-wang6/H
 
 具体的环境配置、构建和运行方法请查看对应分支中的 README。
 
-## 参考资料
+## 学习笔记
 
 ### 前置环境
 
