@@ -72,3 +72,9 @@ source ~/ws00/install/setup.bash
 ```
 
 本分支按上传时状态保留了构建产物、日志和隐藏备份目录。
+
+## 学习笔记
+
+- [Linux 下载与学习](notes/Linux下载与学习.md)
+- [Vim、tmux、SSH 与 PM2 开发工具学习](notes/Vim、tmux、SSH与PM2开发工具学习.md)
+- [ROS 2 概述、环境搭建与学习](notes/ROS2概述、环境搭建与学习.md)
