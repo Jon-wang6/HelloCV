@@ -139,3 +139,8 @@ ros2 run cpp07_exercise exer06_param
 ```
 
 仓库保留了上传时工作区中的 `build`、`install` 和 `log` 内容，便于还原当时状态。跨机器使用时，建议清理这些目录后重新构建。
+
+## 学习笔记
+
+- [ROS 2 通信机制核心学习](notes/ROS2通信机制核心学习.md)
+- [ROS 2 通信机制补充学习](notes/ROS2通信机制补充学习.md)
