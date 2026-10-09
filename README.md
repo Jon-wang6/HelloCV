@@ -95,3 +95,7 @@ source ~/ws02/install/setup.bash
 ```
 
 本分支按上传时状态保留了源码、构建产物、安装文件和日志。
+
+## 学习笔记
+
+- [ROS 2 Launch 与 rosbag2 学习](notes/ROS2%20Launch与rosbag2学习.md)
