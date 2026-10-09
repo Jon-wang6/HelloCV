@@ -78,3 +78,4 @@ source ~/ws00/install/setup.bash
 - [Linux 下载与学习](notes/Linux下载与学习.md)
 - [Vim、tmux、SSH 与 PM2 开发工具学习](notes/Vim、tmux、SSH与PM2开发工具学习.md)
 - [ROS 2 概述、环境搭建与学习](notes/ROS2概述、环境搭建与学习.md)
+- [ROS 2中常用的C++知识补充](notes/ROS2中常用的C++知识补充.md)
