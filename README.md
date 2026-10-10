@@ -54,3 +54,7 @@ git clone --branch launch-rosbag2 --single-branch https://github.com/Jon-wang6/H
 ### Launch 与 rosbag2（`launch-rosbag2`）
 
 - [ROS 2 Launch 与 rosbag2 学习](https://github.com/Jon-wang6/HelloCV/blob/launch-rosbag2/notes/ROS2%20Launch与rosbag2学习.md)
+
+## Git 学习与实践
+
+- [Git 基础学习与四则运算实践](https://gitee.com/Jon-wang6/git_training)
