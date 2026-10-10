@@ -58,3 +58,5 @@ git clone --branch launch-rosbag2 --single-branch https://github.com/Jon-wang6/H
 ## Git 学习与实践
 
 - [Git 基础学习与四则运算实践](https://gitee.com/Jon-wang6/git_training)
+
+  使用单文件 C++ 计算器练习 Git 提交、分支、合并、暂存和远程仓库操作。
