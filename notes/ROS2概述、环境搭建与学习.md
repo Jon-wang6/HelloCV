@@ -1,10 +1,12 @@
+# ROS 2 概述、环境搭建与学习
 
 学习资料：[ROS2 Tuition 第一章](https://rzl6.github.io/ROS2_Tuition/chapter1.html)  
 实践环境：Ubuntu 22.04.5 LTS、ROS 2 Humble、C++  
 当前工作空间：`~/ws00`  
 当前功能包：`hello_cpp`、`hellovscode_cpp`
 
-# 一、学习目标
+## 一、学习目标
+
 本阶段主要认识 ROS 2 的基本体系，并完成开发环境安装和 C++ 节点入门，具体目标包括：
 
 1. 理解 ROS 2 的定位以及它与 Ubuntu 的关系；
@@ -15,8 +17,10 @@
 6. 能够使用 VS Code、Vim、tmux、Git 和 ROS 2 命令行辅助开发；
 7. 了解 ROS 2 的体系结构和主要应用方向。
 
-# 二、ROS 2 概述
-## 2.1 为什么需要 ROS 2
+## 二、ROS 2 概述
+
+### 2.1 为什么需要 ROS 2
+
 机器人由机械结构、传感器、执行器、嵌入式设备和上层软件共同组成。如果把摄像头、雷达、定位、导航和电机控制等功能全部写入一个程序，代码会难以维护，也不利于模块复用。
 
 ROS 2 将复杂系统拆分为多个职责明确的节点。例如：
@@ -28,7 +32,8 @@ ROS 2 将复杂系统拆分为多个职责明确的节点。例如：
 
 节点通过标准通信接口交换数据，使不同模块可以独立开发、测试和替换。
 
-## 2.2 ROS 2 不是传统操作系统
+### 2.2 ROS 2 不是传统操作系统
+
 ROS 是 Robot Operating System 的缩写，但它不是 Ubuntu 或 Windows 这类直接管理硬件的操作系统。更准确地说，ROS 2 是运行在操作系统上的机器人软件开发框架、通信中间件和工具集合。
 
 本机的软件层次可以表示为：
@@ -42,7 +47,8 @@ ROS 是 Robot Operating System 的缩写，但它不是 Ubuntu 或 Windows 这�
 
 Ubuntu 负责进程、内存、文件、网络和硬件管理；ROS 2 负责节点发现、数据通信、参数、启动、调试和可视化。
 
-## 2.3 ROS 2 的基本组成
+### 2.3 ROS 2 的基本组成
+
 ROS 2 生态可以概括为四部分：
 
 | 组成 | 主要作用 |
@@ -53,7 +59,8 @@ ROS 2 生态可以概括为四部分：
 | 社区 Community | 共同维护软件包、文档和生态 |
 
 
-## 2.4 核心通信概念
+### 2.4 核心通信概念
+
 | 概念 | 作用 |
 | --- | --- |
 | 节点 Node | 正在运行并负责一项具体功能的程序 |
@@ -63,16 +70,19 @@ ROS 2 生态可以概括为四部分：
 | 参数 Parameter | 节点运行时使用的配置数据 |
 
 
-## 2.5 ROS 2 的主要特点
+### 2.5 ROS 2 的主要特点
+
 ROS 2 使用分布式节点发现机制，并通过 DDS 和 QoS 提供灵活的通信能力。它支持 Linux、Windows、macOS 和部分实时系统，也更适合嵌入式、多设备和多机器人应用。
 
-参考：
+学习资料：
 
 1. 【ROS2理论与实践】[第 8 集：ROS2 简介——ROS2 优势（横向比较）](https://www.bilibili.com/video/BV1VB4y137ys/?p=8)
 2. 【ROS2理论与实践】[第 9 集：ROS2 简介——ROS2 优势（纵向比较）](https://www.bilibili.com/video/BV1VB4y137ys/?p=9)
 
-# 三、ROS 2 环境安装与配置
-## 3.1 当前环境
+## 三、ROS 2 环境安装与配置
+
+### 3.1 当前环境
+
 | 项目 | 当前结果 |
 | --- | --- |
 | 操作系统 | Ubuntu 22.04.5 LTS（Jammy） |
@@ -94,7 +104,8 @@ uname -r
 printenv ROS_DISTRO
 ```
 
-## 3.2 安装方案
+### 3.2 安装方案
+
 本机采用 Ubuntu 原生 APT 二进制安装方式，主要过程如下：
 
 1. 检查 Ubuntu 版本、CPU 架构、UTF-8 和磁盘空间；
@@ -119,7 +130,8 @@ sudo apt install ros-humble-desktop ros-dev-tools
 
 图：ROS 2 Humble 安装及环境检查结果
 
-## 3.3 环境变量配置
+### 3.3 环境变量配置
+
 为了让新终端自动加载 ROS 2 和当前工作空间，`~/.bashrc` 已加入：
 
 ```bash
@@ -140,7 +152,7 @@ sudo rosdep init
 rosdep update
 ```
 
-参考：
+学习资料：
 
 1. 【ROS2理论与实践】[第 12 集：ROS2 安装——步骤1设置编码](https://www.bilibili.com/video/BV1VB4y137ys/?p=12)
 2. 【ROS2理论与实践】[第 13 集：ROS2 安装——步骤2启动 Universe 存储库](https://www.bilibili.com/video/BV1VB4y137ys/?p=13)
@@ -149,8 +161,10 @@ rosdep update
 5. 【ROS2理论与实践】[第 16 集：ROS2 安装——步骤5配置环境](https://www.bilibili.com/video/BV1VB4y137ys/?p=16)
 6. 【ROS2理论与实践】[第 17 集：ROS2 安装——卸载方式与小结](https://www.bilibili.com/video/BV1VB4y137ys/?p=17)
 
-# 四、ROS 2 安装测试
-## 4.1 turtlesim 小乌龟测试
+## 四、ROS 2 安装测试
+
+### 4.1 turtlesim 小乌龟测试
+
 终端 1 启动小乌龟窗口：
 
 ```bash
@@ -175,12 +189,14 @@ ros2 run turtlesim turtle_teleop_key
 
 图：使用 tmux 运行 turtlesim 节点和键盘控制节点
 
-参考：
+学习资料：
 
 1. 【ROS2理论与实践】[第 18 集：ROS2 安装——测试 ROS2](https://www.bilibili.com/video/BV1VB4y137ys/?p=18)
 
-# 五、colcon、工作空间与功能包
-## 5.1 colcon 的作用
+## 五、colcon、工作空间与功能包
+
+### 5.1 colcon 的作用
+
 `colcon` 是 ROS 2 常用的构建工具。它能够分析功能包依赖关系，按照正确顺序编译多个功能包，并生成运行环境。
 
 本阶段的 ROS 2 入门工作空间为 `~/ws00`，使用以下命令编译：
@@ -198,7 +214,8 @@ colcon build --packages-select hello_cpp
 
 参数应写成 `--packages-select`，不能写成 `--package-select`。
 
-## 5.2 工作空间结构
+### 5.2 工作空间结构
+
 当前工作空间结构为：
 
 ```plain
@@ -215,7 +232,8 @@ colcon build --packages-select hello_cpp
 
 图：工作空间的 src、build、install 和 log 目录
 
-## 5.3 功能包
+### 5.3 功能包
+
 功能包是 ROS 2 组织代码和资源的基本单位。该入门工作空间实际包含：
 
 ```plain
@@ -249,12 +267,14 @@ C++ 功能包通常包含：
 
 图：功能包编译与运行测试结果
 
-参考：
+学习资料：
 
 1. 【ROS2理论与实践】[第 19 集：ROS2 安装——安装 colcon 构建工具](https://www.bilibili.com/video/BV1VB4y137ys/?p=19)
 
-# 六、C++ 节点开发流程
-## 6.1 基本流程
+## 六、C++ 节点开发流程
+
+### 6.1 基本流程
+
 一个 C++ ROS 2 节点通常按照以下步骤开发：
 
 1. 创建工作空间和功能包；
@@ -265,7 +285,8 @@ C++ 功能包通常包含：
 6. 加载工作空间环境；
 7. 使用 `ros2 run` 启动节点。
 
-## 6.2 基础节点模板
+### 6.2 基础节点模板
+
 ```cpp
 #include "rclcpp/rclcpp.hpp"
 
@@ -315,13 +336,15 @@ ros2 run hellovscode_cpp hellovscode
 
 图：早期 C++ HelloWorld 节点的编译与运行练习
 
-参考：
+学习资料：
 
 1. 【ROS2理论与实践】[第 21 集：ROS2 快速体验——HelloWorld（C++）基本流程](https://www.bilibili.com/video/BV1VB4y137ys/?p=21)
 2. 【ROS2理论与实践】[第 22 集：ROS2 快速体验——HelloWorld（C++）源码编写](https://www.bilibili.com/video/BV1VB4y137ys/?p=22)
 
-# 七、开发工具
-## 7.1 常用工具
+## 七、开发工具
+
+### 7.1 常用工具
+
 | 工具 | 主要作用 |
 | --- | --- |
 | VS Code | 编写、搜索和调试代码 |
@@ -356,7 +379,8 @@ ${workspaceFolder}/build/compile_commands.json
 
 图：将基础节点修改为继承 `rclcpp::Node` 的形式
 
-## 7.2 Git 的基本用途
+### 7.2 Git 的基本用途
+
 ```bash
 git --version
 git clone <仓库地址>
@@ -369,7 +393,7 @@ git status
 
 图：Git 版本检查和基础命令练习
 
-参考：
+学习资料：
 
 1. 【ROS2理论与实践】[第 26 集：集成开发环境搭建——VS Code 下载安装与启动](https://www.bilibili.com/video/BV1VB4y137ys/?p=26)
 2. 【ROS2理论与实践】[第 27 集：集成开发环境搭建——VS Code 安装插件](https://www.bilibili.com/video/BV1VB4y137ys/?p=27)
@@ -381,8 +405,10 @@ git status
 8. 【ROS2理论与实践】[第 35 集：ROS2 体系框架——初始化与资源释放](https://www.bilibili.com/video/BV1VB4y137ys/?p=35)
 9. 【ROS2理论与实践】[第 36 集：ROS2 体系框架——配置文件](https://www.bilibili.com/video/BV1VB4y137ys/?p=36)
 
-# 八、ROS 2 体系框架
-## 8.1 三层结构
+## 八、ROS 2 体系框架
+
+### 8.1 三层结构
+
 ROS 2 可以从下到上理解为三层：
 
 1. 操作系统层：Ubuntu、Windows、macOS 或 RTOS；
@@ -391,7 +417,8 @@ ROS 2 可以从下到上理解为三层：
 
 普通开发者的主要工作集中在应用层，通过 `rclcpp` 使用 ROS 2 提供的通信和管理能力。
 
-## 8.2 常用工具与模块
+### 8.2 常用工具与模块
+
 + `ros2 pkg`：创建或查询功能包；
 + `ros2 run`：运行功能包中的可执行程序；
 + `colcon build`：编译工作空间；
@@ -401,7 +428,8 @@ ROS 2 可以从下到上理解为三层：
 + rqt：提供图形化调试工具；
 + rosbag2：录制和回放通信数据。
 
-## 8.3 功能包的三种来源
+### 8.3 功能包的三种来源
+
 1. 使用 APT 安装官方或社区提供的二进制包；
 2. 从 Git 仓库下载源码后自行编译；
 3. 根据项目需求自己创建功能包。
@@ -412,7 +440,7 @@ APT 软件包名称通常为：
 sudo apt install ros-humble-<功能包名称>
 ```
 
-参考：
+学习资料：
 
 1. 【ROS2理论与实践】[第 33 集：ROS2 体系框架——文件系统概览](https://www.bilibili.com/video/BV1VB4y137ys/?p=33)
 2. 【ROS2理论与实践】[第 34 集：ROS2 体系框架——文件系统与编码风格](https://www.bilibili.com/video/BV1VB4y137ys/?p=34)
@@ -420,7 +448,8 @@ sudo apt install ros-humble-<功能包名称>
 4. 【ROS2理论与实践】[第 38 集：ROS2 体系框架——核心模块与通信](https://www.bilibili.com/video/BV1VB4y137ys/?p=38)
 5. 【ROS2理论与实践】[第 40 集：ROS2 体系框架——技术支持](https://www.bilibili.com/video/BV1VB4y137ys/?p=40)
 
-# 九、ROS 2 的主要应用方向
+## 九、ROS 2 的主要应用方向
+
 + Nav2：移动机器人定位、规划、控制和避障；
 + MoveIt 2：机械臂运动规划和碰撞检测；
 + OpenCV：图像处理和计算机视觉；
@@ -430,12 +459,14 @@ sudo apt install ros-humble-<功能包名称>
 + ROS-Industrial：工业机器人和自动化；
 + Gazebo：机器人、传感器和环境仿真。
 
-参考：
+学习资料：
 
 1. 【ROS2理论与实践】[第 41 集：ROS2 体系框架——应用方向](https://www.bilibili.com/video/BV1VB4y137ys/?p=41)
 
-# 十、学习过程中需要注意的问题
-## 10.1 编译位置错误
+## 十、学习过程中需要注意的问题
+
+### 10.1 编译位置错误
+
 应在工作空间根目录编译：
 
 ```bash
@@ -445,7 +476,8 @@ colcon build
 
 不要在 `~/ws00/src` 中执行 `colcon build`。
 
-## 10.2 新程序或功能包找不到
+### 10.2 新程序或功能包找不到
+
 重新编译并加载环境：
 
 ```bash
@@ -461,7 +493,8 @@ ros2 pkg prefix <功能包名称>
 ros2 pkg executables <功能包名称>
 ```
 
-## 10.3 命令中的名称必须完全一致
+### 10.3 命令中的名称必须完全一致
+
 功能包名和可执行程序名区分大小写，多输入或少输入字符都会导致 `No executable found`。例如正确命令是：
 
 ```bash
@@ -470,7 +503,8 @@ ros2 run hello_cpp hello_node
 
 末尾不能多写下划线。
 
-## 10.4 VS Code 找不到源文件的编译信息
+### 10.4 VS Code 找不到源文件的编译信息
+
 重新生成编译数据库：
 
 ```bash
@@ -480,14 +514,15 @@ colcon build --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON
 
 然后让 VS Code 使用 `~/ws00/build/compile_commands.json`，并执行 `C/C++: Reset IntelliSense Database`。
 
-# 十一、本章总结
+## 十一、本章总结
+
 本阶段完成了 ROS 2 Humble Desktop 和基础开发工具的安装，理解了 ROS 2 并不是传统操作系统，而是一套运行在 Ubuntu 上的机器人软件开发框架。
 
 ROS 2 通过节点和标准通信接口将复杂机器人系统拆分为可独立开发和复用的功能模块，底层中间件负责节点发现和数据传输，开发者主要在应用层编写和组合功能包。
 
 通过学习工作空间、功能包、colcon 和 `rclcpp`，已经掌握 C++ ROS 2 程序“创建—配置—编译—加载环境—运行”的基本流程。入门与 HelloWorld 练习使用 `~/ws00`，后续通信机制练习使用 `~/ws01`，两个工作空间的用途现已明确区分。
 
-参考：
+学习资料：
 
 1. 【ROS2理论与实践】[第 42 集：ROS2 概述与环境搭建——本章小结](https://www.bilibili.com/video/BV1VB4y137ys/?p=42)
 2. [ROS2 Tuition 第一章](https://rzl6.github.io/ROS2_Tuition/chapter1.html)

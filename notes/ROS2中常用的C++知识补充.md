@@ -14,8 +14,10 @@
 
 ---
 
-# 一、时间字面量`std::chrono_literals`
-## 1.1 基本作用
+## 一、时间字面量`std::chrono_literals`
+
+### 1.1 基本作用
+
 在ROS 2中，经常需要设置定时器周期、等待时间和超时时间。
 
 引入时间字面量命名空间：
@@ -39,7 +41,8 @@ using namespace std::chrono_literals;
 
 ---
 
-## 1.2 ROS 2定时器示例
+### 1.2 ROS 2定时器示例
+
 ```cpp
 using namespace std::chrono_literals;
 
@@ -62,7 +65,8 @@ Talker::on_timer()
 
 ---
 
-## 1.3 常见时间单位
+### 1.3 常见时间单位
+
 | 写法 | 含义 |
 | --- | --- |
 | `1h` | 1小时 |
@@ -84,8 +88,10 @@ auto second_time = 500ms;
 
 ---
 
-# 二、智能指针`SharedPtr`与`make_shared`
-## 2.1 裸指针的问题
+## 二、智能指针`SharedPtr`与`make_shared`
+
+### 2.1 裸指针的问题
+
 传统的动态内存分配可以写成：
 
 ```cpp
@@ -104,7 +110,8 @@ delete node;
 
 ---
 
-## 2.2 `std::shared_ptr`
+### 2.2 `std::shared_ptr`
+
 `std::shared_ptr`是共享所有权智能指针。
 
 多个`shared_ptr`可以共同管理同一个对象。它的内部会记录当前有多少个智能指针正在管理该对象，这个数字称为引用计数。
@@ -131,7 +138,8 @@ std::shared_ptr<MyNode> node;
 
 ---
 
-## 2.3 `std::make_shared`
+### 2.3 `std::make_shared`
+
 推荐使用`std::make_shared`创建对象：
 
 ```cpp
@@ -149,7 +157,8 @@ auto node = std::make_shared<MyNode>();
 
 ---
 
-## 2.4 ROS 2示例
+### 2.4 ROS 2示例
+
 ```cpp
 int main(int argc, char ** argv)
 {
@@ -186,7 +195,8 @@ rclcpp::TimerBase::SharedPtr timer_;
 
 ---
 
-## 2.5 循环引用问题
+### 2.5 循环引用问题
+
 `shared_ptr`也不是任何情况下都能自动释放。
 
 如果两个对象使用`shared_ptr`互相保存：
@@ -208,8 +218,10 @@ std::weak_ptr
 
 ---
 
-# 三、`auto`自动类型推导
-## 3.1 基本作用
+## 三、`auto`自动类型推导
+
+### 3.1 基本作用
+
 `auto`是C++11引入的关键字。
 
 编译器会根据变量右侧的初始化表达式推导变量类型。
@@ -231,7 +243,8 @@ auto node = std::make_shared<MyNode>();
 
 ---
 
-## 3.2 ROS 2中的常见写法
+### 3.2 ROS 2中的常见写法
+
 ```cpp
 auto request =
     std::make_shared<AddInts::Request>();
@@ -254,7 +267,8 @@ for (const auto & param : params)
 
 ---
 
-## 3.3 `auto`的特点
+### 3.3 `auto`的特点
+
 优点：
 
 + 减少冗长的类型名称；
@@ -279,8 +293,10 @@ auto value;
 
 ---
 
-# 四、占位符
-## 4.1 基本作用
+## 四、占位符
+
+### 4.1 基本作用
+
 占位符用于表示：
 
 > 这个参数现在暂时不确定，等新函数对象真正被调用时再传入。
@@ -302,7 +318,8 @@ std::placeholders::_2
 
 ---
 
-## 4.2 参数顺序
+### 4.2 参数顺序
+
 占位符编号表示调用新函数对象时的参数位置。
 
 ```latex
@@ -340,7 +357,8 @@ print_value(5, 10);
 
 ---
 
-## 4.3 ROS 2中的占位符
+### 4.3 ROS 2中的占位符
+
 订阅回调函数通常需要接收一条消息，因此常用一个占位符：
 
 ```cpp
@@ -359,8 +377,10 @@ subscription_ = this->create_subscription<MessageType>(
 
 ---
 
-# 五、`std::bind`绑定器
-## 5.1 基本作用
+## 五、`std::bind`绑定器
+
+### 5.1 基本作用
+
 `std::bind`位于：
 
 ```cpp
@@ -385,7 +405,8 @@ auto new_callable =
 
 ---
 
-## 5.2 绑定普通函数
+### 5.2 绑定普通函数
+
 原函数：
 
 ```cpp
@@ -427,7 +448,8 @@ print_sum(5, 10);
 
 ---
 
-## 5.3 绑定成员函数
+### 5.3 绑定成员函数
+
 假设类中存在成员函数：
 
 ```cpp
@@ -473,7 +495,8 @@ object.display(5, 2);
 
 ---
 
-## 5.4 ROS 2成员函数绑定
+### 5.4 ROS 2成员函数绑定
+
 在ROS 2节点类内部，常见写法为：
 
 ```cpp
@@ -511,11 +534,13 @@ std::bind(
 
 ---
 
-# 六、回调函数
+## 六、回调函数
+
 > 原PDF的这一小节只有标题，没有具体正文。这里补充ROS 2中使用回调函数所需的基础内容。
 >
 
-## 6.1 什么是回调函数
+### 6.1 什么是回调函数
+
 回调函数是：
 
 > 预先交给系统保存，在指定事件发生时由系统自动调用的函数。
@@ -545,7 +570,8 @@ do_something();
 
 ---
 
-## 6.2 定时器回调
+### 6.2 定时器回调
+
 ```cpp
 void timer_callback()
 {
@@ -571,7 +597,8 @@ timer_ = this->create_wall_timer(
 
 ---
 
-## 6.3 订阅回调
+### 6.3 订阅回调
+
 ```cpp
 void message_callback(
     const MessageType::SharedPtr message)
@@ -606,7 +633,8 @@ subscription_ =
 
 ---
 
-## 6.4 `spin`与回调函数
+### 6.4 `spin`与回调函数
+
 ```cpp
 rclcpp::spin(node);
 ```
@@ -624,8 +652,10 @@ rclcpp::spin(node);
 
 ---
 
-# 七、范围`for`循环
-## 7.1 基本写法
+## 七、范围`for`循环
+
+### 7.1 基本写法
+
 C++11引入了范围`for`循环，用于依次遍历容器中的元素。
 
 ```cpp
@@ -644,7 +674,8 @@ for (const auto & element : container)
 
 ---
 
-## 7.2 与普通`for`循环对比
+### 7.2 与普通`for`循环对比
+
 传统写法：
 
 ```cpp
@@ -667,8 +698,10 @@ for (const auto & value : values)
 
 ---
 
-## 7.3 不同变量写法
-### 复制元素
+### 7.3 不同变量写法
+
+#### 复制元素
+
 ```cpp
 for (auto value : values)
 ```
@@ -677,14 +710,16 @@ for (auto value : values)
 
 修改`value`不会改变容器中的原始元素。
 
-### 引用元素
+#### 引用元素
+
 ```cpp
 for (auto & value : values)
 ```
 
 不会复制元素，并且可以修改容器中的原始元素。
 
-### 只读引用
+#### 只读引用
+
 ```cpp
 for (const auto & value : values)
 ```
@@ -693,7 +728,8 @@ for (const auto & value : values)
 
 如果只需要读取，通常优先使用这种写法。
 
-### 通用引用
+#### 通用引用
+
 ```cpp
 for (auto && value : values)
 ```
@@ -704,7 +740,8 @@ for (auto && value : values)
 
 ---
 
-## 7.4 ROS 2参数遍历示例
+### 7.4 ROS 2参数遍历示例
+
 ```cpp
 auto params = this->get_parameters(
     {"car_name", "width", "wheels"});
@@ -749,7 +786,8 @@ for (const auto & param : params)
 
 ---
 
-# 八、知识点之间的关系
+## 八、知识点之间的关系
+
 这些C++语法在ROS 2程序中经常组合使用：
 
 ```cpp
@@ -790,7 +828,8 @@ subscription_ =
 
 ---
 
-# 九、总结
+## 九、总结
+
 本节知识的重点可以概括为：
 
 ```latex
