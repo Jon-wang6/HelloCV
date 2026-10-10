@@ -1,62 +1,64 @@
-# HelloCV
+# HelloCV · 机器人建模与仿真
 
-ROS 2 Humble C++ 学习工作区。项目内容按学习主题分别保存在 `ros2-basics`、`ros2-communication` 和 `launch-rosbag2` 分支；`main` 分支仅作为仓库导航首页。
+本分支保存 `~/ws03` 中的 ROS 2 机器人建模与仿真源码，主要用于 URDF、Xacro、RViz2 和 Gazebo 入门练习。
 
-## 分支导航
+分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ros2-basics](https://github.com/Jon-wang6/HelloCV/tree/ros2-basics) · [ros2-communication](https://github.com/Jon-wang6/HelloCV/tree/ros2-communication) · [launch-rosbag2](https://github.com/Jon-wang6/HelloCV/tree/launch-rosbag2) · **simulation**
 
-点击分支名称即可进入对应工作区：
-
-| 分支 | 对应目录 | 主要内容 |
-| --- | --- | --- |
-| [`ros2-basics`](https://github.com/Jon-wang6/HelloCV/tree/ros2-basics) | `~/ws00` | ROS 2/C++ 入门、Hello World 与 VS Code 开发环境 |
-| [`ros2-communication`](https://github.com/Jon-wang6/HelloCV/tree/ros2-communication) | `~/ws01` | Topic、Service、Action、Parameter、自定义接口与综合练习 |
-| [`launch-rosbag2`](https://github.com/Jon-wang6/HelloCV/tree/launch-rosbag2) | `~/ws02` | Python/XML/YAML Launch 与 rosbag2 C++ 读写示例 |
-
-## 克隆工作区
-
-克隆 ROS 2 基础分支到 `ws00`：
+## 获取本分支
 
 ```bash
-git clone --branch ros2-basics --single-branch https://github.com/Jon-wang6/HelloCV.git ws00
+git clone --branch simulation --single-branch https://github.com/Jon-wang6/HelloCV.git ws03
+cd ws03
 ```
 
-克隆 ROS 2 通信机制分支到 `ws01`：
+## 项目内容
+
+| 功能包 | 主要内容 |
+| --- | --- |
+| `cpp01_simulation` | URDF/Xacro 机器人模型、RViz2 配置与 Launch 启动文件 |
+
+## 环境要求
+
+- Ubuntu 22.04
+- ROS 2 Humble
+- `colcon`
+- RViz2
+- `robot_state_publisher`
+- `joint_state_publisher`
+- `xacro`
+
+## 构建与运行
 
 ```bash
-git clone --branch ros2-communication --single-branch https://github.com/Jon-wang6/HelloCV.git ws01
+source /opt/ros/humble/setup.bash
+cd ~/ws03
+colcon build --packages-select cpp01_simulation --symlink-install
+source install/setup.bash
+ros2 launch cpp01_simulation display_robot_launch.py
 ```
 
-克隆 Launch 与 rosbag2 分支到 `ws02`：
+运行 Xacro 模型：
 
 ```bash
-git clone --branch launch-rosbag2 --single-branch https://github.com/Jon-wang6/HelloCV.git ws02
+ros2 launch cpp01_simulation display_robot_xacro_launch.py
 ```
 
-具体的环境配置、构建和运行方法请查看对应分支中的 README。
+## 目录说明
+
+```text
+.
+├── .vscode/                         # VS Code 配置
+├── src/cpp01_simulation/
+│   ├── config/                      # RViz2 配置
+│   ├── launch/                      # 模型启动文件
+│   ├── urdf/                        # URDF、Xacro 与结构图
+│   ├── CMakeLists.txt
+│   └── package.xml
+└── notes/                           # 学习笔记及本地图片
+```
+
+`build`、`install` 和 `log` 是可通过 `colcon build` 重新生成的本机构建产物，因此未上传到本分支。
 
 ## 学习笔记
 
-### 前置环境
-
-- [Linux 下载与学习](https://github.com/Jon-wang6/HelloCV/blob/ros2-basics/notes/Linux下载与学习.md)
-- [Vim、tmux、SSH 与 PM2 开发工具学习](https://github.com/Jon-wang6/HelloCV/blob/ros2-basics/notes/Vim、tmux、SSH与PM2开发工具学习.md)
-
-### ROS 2 基础（`ros2-basics`）
-
-- [ROS 2 概述、环境搭建与学习](https://github.com/Jon-wang6/HelloCV/blob/ros2-basics/notes/ROS2概述、环境搭建与学习.md)
-- [ROS 2中常用的C++知识补充](https://github.com/Jon-wang6/HelloCV/blob/ros2-basics/notes/ROS2中常用的C%2B%2B知识补充.md)
-
-### ROS 2 通信机制（`ros2-communication`）
-
-- [ROS 2 通信机制核心学习](https://github.com/Jon-wang6/HelloCV/blob/ros2-communication/notes/ROS2通信机制核心学习.md)
-- [通信机制补充学习](https://github.com/Jon-wang6/HelloCV/blob/ros2-communication/notes/ROS2通信机制补充学习.md)
-
-### Launch 与 rosbag2（`launch-rosbag2`）
-
-- [ROS 2 Launch 与 rosbag2 学习](https://github.com/Jon-wang6/HelloCV/blob/launch-rosbag2/notes/ROS2%20Launch与rosbag2学习.md)
-
-## Git 学习与实践
-
-- [Git 基础学习与四则运算实践](https://gitee.com/Jon-wang6/git_training)
-
-  使用单文件 C++ 计算器练习 Git 提交、分支、合并、暂存和远程仓库操作。
+- [ROS 2 机器人建模与仿真学习](notes/ROS2机器人建模与仿真学习.md)
