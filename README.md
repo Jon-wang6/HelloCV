@@ -15,7 +15,7 @@ cd ws03
 
 | 功能包 | 主要内容 |
 | --- | --- |
-| `cpp01_simulation` | URDF/Xacro 机器人模型、RViz2 配置与 Launch 启动文件 |
+| `cpp01_simulation` | URDF/Xacro 机器人模型、RViz2、Gazebo 世界、两轮差速控制与激光雷达仿真 |
 
 ## 环境要求
 
@@ -26,6 +26,9 @@ cd ws03
 - `robot_state_publisher`
 - `joint_state_publisher`
 - `xacro`
+- Gazebo Classic 11
+- `gazebo_ros_pkgs`
+- `rqt_tf_tree`
 
 ## 构建与运行
 
@@ -43,6 +46,19 @@ ros2 launch cpp01_simulation display_robot_launch.py
 ros2 launch cpp01_simulation display_robot_xacro_launch.py
 ```
 
+运行 Gazebo 仿真：
+
+```bash
+ros2 launch cpp01_simulation gazebo_sim_launch.py
+```
+
+另开终端控制机器人：
+
+```bash
+ros2 topic pub --rate 10 /cmd_vel geometry_msgs/msg/Twist \
+  "{linear: {x: 0.2}, angular: {z: 0.0}}"
+```
+
 ## 目录说明
 
 ```text
@@ -52,6 +68,7 @@ ros2 launch cpp01_simulation display_robot_xacro_launch.py
 │   ├── config/                      # RViz2 配置
 │   ├── launch/                      # 模型启动文件
 │   ├── urdf/                        # URDF、Xacro 与结构图
+│   ├── world/                       # Gazebo 世界与房间模型
 │   ├── CMakeLists.txt
 │   └── package.xml
 └── notes/                           # 学习笔记及本地图片
