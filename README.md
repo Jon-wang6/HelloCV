@@ -66,7 +66,7 @@ git clone --branch simulation --single-branch https://github.com/Jon-wang6/Hello
 
 - [ROS 2 机器人建模与仿真学习](https://github.com/Jon-wang6/HelloCV/blob/simulation/notes/ROS2机器人建模与仿真学习.md)
 
-## 工程工具与 AI 实践
+## 工程开发基础与实践
 
 ### Git 学习与实践
 
