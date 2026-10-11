@@ -2,7 +2,7 @@
 
 本分支保存 `~/ws02` 的完整快照，主要用于 ROS 2 Humble Launch 与 rosbag2 学习。
 
-分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ros2-basics](https://github.com/Jon-wang6/HelloCV/tree/ros2-basics) · [ros2-communication](https://github.com/Jon-wang6/HelloCV/tree/ros2-communication) · **launch-rosbag2**
+分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ros2-basics](https://github.com/Jon-wang6/HelloCV/tree/ros2-basics) · [ros2-communication](https://github.com/Jon-wang6/HelloCV/tree/ros2-communication) · **launch-rosbag2** · [simulation](https://github.com/Jon-wang6/HelloCV/tree/simulation)
 
 ## 获取本分支
 
