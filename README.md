@@ -66,14 +66,22 @@ git clone --branch simulation --single-branch https://github.com/Jon-wang6/Hello
 
 - [ROS 2 机器人建模与仿真学习](https://github.com/Jon-wang6/HelloCV/blob/simulation/notes/ROS2机器人建模与仿真学习.md)
 
-## Git 学习与实践
+## 工程工具与 AI 实践
+
+### Git 学习与实践
 
 - [Git 基础学习与四则运算实践](https://gitee.com/Jon-wang6/git_training)
 
   使用单文件 C++ 计算器练习 Git 提交、分支、合并、暂存和远程仓库操作。
 
-## CMake 学习与实践
+### CMake 学习与实践
 
 - [CMake 基础学习与单位转换器实践](https://gitee.com/Jon-wang6/UnitConverter)
 
   使用 CMake 管理主程序和单位转换库，练习源码外构建、库链接与多级项目结构。
+
+### LLM 学习与实践
+
+- [LLM 石头剪刀布决策网关](https://gitee.com/Jon-wang6/LLM_training)
+
+  接入 DeepSeek API，完成 JSON 容错、结果校验、请求重试和本地兜底，并通过 93 项自动测试。
