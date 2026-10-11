@@ -71,3 +71,9 @@ git clone --branch simulation --single-branch https://github.com/Jon-wang6/Hello
 - [Git 基础学习与四则运算实践](https://gitee.com/Jon-wang6/git_training)
 
   使用单文件 C++ 计算器练习 Git 提交、分支、合并、暂存和远程仓库操作。
+
+## CMake 学习与实践
+
+- [CMake 基础学习与单位转换器实践](https://gitee.com/Jon-wang6/UnitConverter)
+
+  使用 CMake 管理主程序和单位转换库，练习源码外构建、库链接与多级项目结构。
