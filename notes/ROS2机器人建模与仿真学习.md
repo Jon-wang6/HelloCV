@@ -266,9 +266,7 @@ IMU 用于测量机器人的角速度和线加速度，可以辅助判断机器�
 ### 6.3 深度相机
 深度相机可以同时获得图像和距离信息，常用于三维感知、避障和目标识别。
 
-图：激光雷达仿真效果  
-
-图：IMU 话题数据  
+<img src="images/1791794728618-ee89ba1b-8ecd-4e6a-af07-8109e5a1daf0.png" width="2327.2726768304506" alt="" title="" crop="0,0,1,1" id="u9a4ce9b5" class="ne-image">
 
 图：深度相机仿真效果
 
@@ -298,7 +296,13 @@ IMU 用于测量机器人的角速度和线加速度，可以辅助判断机器�
 
 使用 `ros2_control` 后，可以减少仿真机器人和真实机器人之间的控制代码差异。
 
-图：ros2_control 配置  
+<img src="images/1791795896953-b38df9d7-1f3b-4962-b276-58bf1c6b092f.png" width="809.0908915543363" alt="" title="" crop="0,0,1,1" id="u7c53c7da" class="ne-image">
+
+图：ros2_control 配置 
+
+<img src="images/1791800594294-8dc6a0f9-b6b8-4a5f-9687-9da1ed1c7acd.png" width="2327.2726768304506" alt="" title="" crop="0,0,1,1" id="u93a52bd1" class="ne-image">图：发布轮子的力并执行 
+
+<img src="images/1791801246394-189ef562-7f47-4e7e-a525-fa246228e313.png" width="2327.2726768304506" alt="" title="" crop="0,0,1,1" id="ue4097819" class="ne-image">
 
 图：控制器运行结果
 
@@ -313,16 +317,14 @@ IMU 用于测量机器人的角速度和线加速度，可以辅助判断机器�
 
 | 文件 | 作用 |
 | --- | --- |
-| [`robot_urdf.xacro`](../src/cpp01_simulation/urdf/robot01/robot_urdf.xacro) | 组合车体、轮子、万向轮、传感器和 Gazebo 插件 |
-| [`base_urdf.xacro`](../src/cpp01_simulation/urdf/robot01/base_urdf.xacro) | 定义机器人底盘 |
-| [`wheel_urdf.xacro`](../src/cpp01_simulation/urdf/robot01/actuator/wheel_urdf.xacro) | 定义左右驱动轮与连续关节 |
-| [`caster_urdf.xacro`](../src/cpp01_simulation/urdf/robot01/actuator/caster_urdf.xacro) | 定义前后万向轮 |
-| [`gazebo_control_plugin.xacro`](../src/cpp01_simulation/urdf/robot01/plugins/gazebo_control_plugin.xacro) | 配置两轮差速控制、里程计和 TF |
-| [`gazebo_sensor_plugin.xacro`](../src/cpp01_simulation/urdf/robot01/plugins/gazebo_sensor_plugin.xacro) | 配置激光雷达与 `/scan` 话题 |
-| [`gazebo_sim_launch.py`](../src/cpp01_simulation/launch/gazebo_sim_launch.py) | 启动 Gazebo、加载世界并生成机器人 |
+| [`robot_urdf.xacro`](../src/cpp01_simulation/urdf/robot01/robot_urdf.xacro) | 组合车体、执行器、传感器和 Gazebo 插件 |
+| [`robot01_ros2_control.xacro`](../src/cpp01_simulation/urdf/robot01/robot01_ros2_control.xacro) | 声明左右轮硬件接口并接入 Gazebo ros2_control |
+| [`robot01_ros2_controller.yaml`](../src/cpp01_simulation/config/robot01_ros2_controller.yaml) | 配置关节状态广播器和轮子力矩控制器 |
+| [`gazebo_sensor_plugin.xacro`](../src/cpp01_simulation/urdf/robot01/plugins/gazebo_sensor_plugin.xacro) | 配置激光雷达、IMU 和深度相机仿真 |
+| [`gazebo_sim_launch.py`](../src/cpp01_simulation/launch/gazebo_sim_launch.py) | 启动 Gazebo、生成机器人并依次激活两个控制器 |
 | [`custom_room.world`](../src/cpp01_simulation/world/custom_room.world) | 自建 Gazebo 仿真场景 |
 
-编译并启动 Gazebo：
+编译并启动：
 
 ```bash
 cd ~/ws03
@@ -331,30 +333,34 @@ source install/setup.bash
 ros2 launch cpp01_simulation gazebo_sim_launch.py
 ```
 
-另开终端发布速度指令：
+启动后会自动激活：
+
+```text
+robot01_joint_state_broadcaster
+robot01_effort_controller
+```
+
+向左右轮分别发送力矩：
 
 ```bash
-ros2 topic pub --rate 10 /cmd_vel geometry_msgs/msg/Twist \
-  "{linear: {x: 0.2}, angular: {z: 0.0}}"
+ros2 topic pub --once \
+  /robot01_effort_controller/commands \
+  std_msgs/msg/Float64MultiArray \
+  "{data: [0.1, 0.1]}"
 ```
 
 常用数据话题：
 
 | 话题 | 内容 |
 | --- | --- |
-| `/cmd_vel` | 机器人线速度和角速度指令 |
-| `/odom` | 两轮差速插件发布的里程计 |
-| `/tf` | 坐标变换关系 |
+| `/joint_states` | 左右轮关节状态 |
 | `/scan` | 激光雷达扫描数据 |
-
-查看 TF 树：
-
-```bash
-ros2 run rqt_tf_tree rqt_tf_tree
-```
+| `/imu` | IMU 数据 |
+| `/camera_sensor/depth/image_raw` | 深度图像 |
+| `/camera_sensor/points` | 深度相机点云 |
 
 ## 九、总结
 
-通过本阶段学习，我完成了机器人底盘、驱动轮、万向轮和传感器的 Xacro 建模，并补充了碰撞、质量与惯性属性。机器人能够加载到自建 Gazebo 世界中，通过 `/cmd_vel` 接收速度指令，由两轮差速插件发布 `/odom` 和 TF，同时通过激光雷达插件发布 `/scan` 数据。
+通过本阶段学习，我完成了机器人底盘、驱动轮、万向轮和传感器的 Xacro 建模，并补充了碰撞、质量与惯性属性。机器人能够加载到自建 Gazebo 世界中，通过 `gazebo_ros2_control` 管理左右轮硬件接口，自动启动关节状态广播器和力矩控制器。
 
-目前已完成 URDF/Xacro 建模、RViz2 显示、Gazebo 世界加载、两轮差速控制和激光雷达仿真；`ros2_control`、IMU 与深度相机仿真将作为后续学习内容继续完善。
+目前已完成 URDF/Xacro 建模、RViz2 显示、Gazebo 世界加载、激光雷达、IMU、深度相机和基础 `ros2_control` 仿真。后续可以继续添加两轮差速控制器，实现更方便的 `/cmd_vel` 速度控制。

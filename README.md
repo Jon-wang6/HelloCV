@@ -15,7 +15,7 @@ cd ws03
 
 | 功能包 | 主要内容 |
 | --- | --- |
-| `cpp01_simulation` | URDF/Xacro 机器人模型、RViz2、Gazebo 世界、两轮差速控制与激光雷达仿真 |
+| `cpp01_simulation` | URDF/Xacro、RViz2、Gazebo 世界、传感器仿真与 ros2_control 轮子控制 |
 
 ## 环境要求
 
@@ -28,6 +28,8 @@ cd ws03
 - `xacro`
 - Gazebo Classic 11
 - `gazebo_ros_pkgs`
+- `gazebo_ros2_control`
+- `ros2_controllers`
 - `rqt_tf_tree`
 
 ## 构建与运行
@@ -52,11 +54,13 @@ ros2 launch cpp01_simulation display_robot_xacro_launch.py
 ros2 launch cpp01_simulation gazebo_sim_launch.py
 ```
 
-另开终端控制机器人：
+启动后会自动加载关节状态广播器和轮子力矩控制器。另开终端向左右轮发布力矩：
 
 ```bash
-ros2 topic pub --rate 10 /cmd_vel geometry_msgs/msg/Twist \
-  "{linear: {x: 0.2}, angular: {z: 0.0}}"
+ros2 topic pub --once \
+  /robot01_effort_controller/commands \
+  std_msgs/msg/Float64MultiArray \
+  "{data: [0.1, 0.1]}"
 ```
 
 ## 目录说明

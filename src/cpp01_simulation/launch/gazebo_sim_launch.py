@@ -45,9 +45,33 @@ def generate_launch_description():
         period=3.0,
         actions=[action_spawn_entity]
     )
+    action_load_joint_state_controller = launch.actions.ExecuteProcess(
+        cmd='ros2 control load_controller robot01_joint_state_broadcaster --set-state active'.split(' '),
+        output='screen'
+    )
+    action_load_effort_controller = launch.actions.ExecuteProcess(
+        cmd='ros2 control load_controller robot01_effort_controller --set-state active'.split(' '),
+        output='screen'
+    )
+    action_load_diff_driver_controller = launch.actions.ExecuteProcess(
+        cmd='ros2 control load_controller robot01_diff_drive_controller --set-state active'.split(' '),
+        output='screen'
+    )
     return launch.LaunchDescription([
         action_declare_arg_mode_path,
         action_robot_state_publisher,
         action_launch_gazebo,
-        action_delay_spawn_entity
+        action_delay_spawn_entity,
+        launch.actions.RegisterEventHandler(
+            event_handler=launch.event_handlers.OnProcessExit(
+                target_action=action_spawn_entity,
+                on_exit=[action_load_joint_state_controller],
+            )
+        ),
+        launch.actions.RegisterEventHandler(
+            event_handler=launch.event_handlers.OnProcessExit(
+                target_action=action_load_joint_state_controller,
+                on_exit=[action_load_diff_driver_controller],
+            )
+        ),
     ])
