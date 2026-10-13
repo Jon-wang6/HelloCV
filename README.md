@@ -83,3 +83,4 @@ ros2 topic pub --rate 10 /cmd_vel geometry_msgs/msg/Twist \
 ## 学习笔记
 
 - [ROS 2 机器人建模与仿真学习](notes/ROS2机器人建模与仿真学习.md)
+- [ROS 2 机器人建模与仿真学习（语雀导入版，图片使用完整网络地址）](notes/ROS2机器人建模与仿真学习_语雀导入版.md)
