@@ -68,3 +68,4 @@ ros2 launch fishbot_navigation2 navigation2.launch.py
 ## 学习笔记
 
 - [ROS 2 移动机器人导航学习](notes/ROS2移动机器人导航学习.md)
+- [ROS 2 移动机器人导航学习（语雀导入版）](notes/ROS2移动机器人导航学习_语雀导入版.md)
