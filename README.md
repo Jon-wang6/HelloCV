@@ -54,14 +54,14 @@ ros2 launch cpp01_simulation display_robot_xacro_launch.py
 ros2 launch cpp01_simulation gazebo_sim_launch.py
 ```
 
-启动后会自动加载关节状态广播器和轮子力矩控制器。另开终端向左右轮发布力矩：
+启动后会自动加载关节状态广播器和两轮差速控制器。另开终端发送底盘速度指令：
 
 ```bash
-ros2 topic pub --once \
-  /robot01_effort_controller/commands \
-  std_msgs/msg/Float64MultiArray \
-  "{data: [0.1, 0.1]}"
+ros2 topic pub --rate 10 /cmd_vel geometry_msgs/msg/Twist \
+  "{linear: {x: 0.1}, angular: {z: 0.0}}"
 ```
+
+运行后可通过 `/joint_states`、`/odom`、`/scan`、`/imu` 和深度相机话题检查关节、里程计及传感器数据。
 
 ## 目录说明
 
