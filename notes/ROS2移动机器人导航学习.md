@@ -72,7 +72,7 @@ AMCL 完成定位
 
 当前教程地图的分辨率为 `0.05 m`，表示一个像素对应现实中的 `5 cm`。
 
-<img src="https://cdn.nlark.com/yuque/0/2026/png/72108465/1791874883450-eb1a140d-c79a-4407-ad19-4d6c3d738836.png" width="346" alt="教程中的房间栅格地图">
+<img src="images/navigation-map.png" width="346" alt="教程中的房间栅格地图">
 
 图：教程中的房间栅格地图
 
@@ -161,7 +161,7 @@ ros2 launch fishbot_navigation2 navigation2.launch.py
 
 启动后将加载教程地图、Nav2 参数、AMCL、代价地图、规划器和 RViz2。
 
-<img src="https://cdn.nlark.com/yuque/0/2026/png/72108465/1791895507891-19083148-5c41-4ef4-b4c6-8d43740579d0.png" width="1200" alt="Navigation2 与 RViz2 启动结果">
+<img src="images/navigation2-rviz-start.png" width="1200" alt="Navigation2 与 RViz2 启动结果">
 
 图：Navigation2 与 RViz2 启动结果
 
@@ -171,7 +171,7 @@ ros2 launch fishbot_navigation2 navigation2.launch.py
 
 点击 RViz2 顶部的 `2D Pose Estimate`，在地图中拖动鼠标设置机器人的位置和朝向。AMCL 随后会根据激光雷达数据进一步修正位置。
 
-<img src="https://cdn.nlark.com/yuque/0/2026/png/72108465/1791897118948-e20fe441-fe64-4a8c-8dc6-4bbcd5f3bd9f.png" width="1200" alt="使用 2D Pose Estimate 设置初始位姿">
+<img src="images/navigation-initial-pose.png" width="1200" alt="使用 2D Pose Estimate 设置初始位姿">
 
 图：使用 `2D Pose Estimate` 设置初始位姿
 
@@ -179,7 +179,7 @@ ros2 launch fishbot_navigation2 navigation2.launch.py
 
 点击 RViz2 顶部的 `Nav2 Goal`，在地图中设置目标位置和目标朝向。Navigation2 会生成全局路径并控制机器人向目标点移动。
 
-<img src="https://cdn.nlark.com/yuque/0/2026/png/72108465/1791900884571-c7d24c21-fd4b-b4c6-8d43740579d0.png" width="1200" alt="使用 Nav2 Goal 设置导航目标">
+<img src="images/navigation-goal.png" width="1200" alt="使用 Nav2 Goal 设置导航目标">
 
 图：使用 `Nav2 Goal` 设置导航目标
 
@@ -187,7 +187,7 @@ ros2 launch fishbot_navigation2 navigation2.launch.py
 
 导航过程中可以观察全局路径、局部轨迹、代价地图、激光数据、AMCL 粒子云和机器人实时位置。
 
-<img src="https://cdn.nlark.com/yuque/0/2026/png/72108465/1791900956498-71a416d3-e851-4619-b3bb-ac5de7397f9c.png" width="1200" alt="机器人自动规划路径并前往目标点">
+<img src="images/navigation-running.png" width="1200" alt="机器人自动规划路径并前往目标点">
 
 图：机器人自动规划路径并前往目标点
 
