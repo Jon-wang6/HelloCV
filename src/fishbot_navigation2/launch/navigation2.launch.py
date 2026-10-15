@@ -15,9 +15,9 @@ def generate_launch_description():
     nav2_bringup_dir = get_package_share_directory('nav2_bringup')
 
     rviz_config_dir = os.path.join(
-        nav2_bringup_dir,
-        'rviz',
-        'nav2_default_view.rviz'
+        fishbot_navigation2_dir,
+        'config',
+        'nav2_stable_view.rviz'
     )
 
     # 创建 Launch 配置
@@ -93,9 +93,15 @@ def generate_launch_description():
             arguments=['-d', rviz_config_dir],
             parameters=[{'use_sim_time': use_sim_time}],
             additional_env={
-                'QT_X11_NO_MITSHM': '1',
-                'LIBGL_ALWAYS_SOFTWARE': '1'
+                # 使用 NVIDIA 桌面 OpenGL，但保留正常的 X11 共享内存路径。
+                '__NV_PRIME_RENDER_OFFLOAD': '1',
+                '__GLX_VENDOR_LIBRARY_NAME': 'nvidia',
+                'QT_OPENGL': 'desktop',
+                'QT_XCB_GL_INTEGRATION': 'xcb_glx'
             },
+            # RViz 若因显卡驱动瞬时异常退出，等待两秒后自动恢复。
+            respawn=True,
+            respawn_delay=2.0,
             output='screen'
         ),
     ])
