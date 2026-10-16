@@ -1,6 +1,6 @@
 # HelloCV
 
-ROS 2 Humble C++ 学习工作区。项目内容按学习主题分别保存在 `ros2-basics`、`ros2-communication`、`launch-rosbag2` 和 `simulation` 分支；`main` 分支仅作为仓库导航首页。
+ROS 2 Humble 学习工作区。项目内容按学习主题分别保存在基础、通信、Launch、仿真、导航和导航进阶分支；`main` 分支作为仓库导航首页。
 
 ## 分支导航
 
@@ -12,6 +12,8 @@ ROS 2 Humble C++ 学习工作区。项目内容按学习主题分别保存在 `r
 | [`ros2-communication`](https://github.com/Jon-wang6/HelloCV/tree/ros2-communication) | `~/ws01` | Topic、Service、Action、Parameter、自定义接口与综合练习 |
 | [`launch-rosbag2`](https://github.com/Jon-wang6/HelloCV/tree/launch-rosbag2) | `~/ws02` | Python/XML/YAML Launch 与 rosbag2 C++ 读写示例 |
 | [`simulation`](https://github.com/Jon-wang6/HelloCV/tree/simulation) | `~/ws03` | URDF、Xacro、RViz2 与 Gazebo 机器人建模仿真 |
+| [`navigation`](https://github.com/Jon-wang6/HelloCV/tree/navigation) | `~/ws04` | SLAM、地图、AMCL 定位与 Navigation2 基础导航 |
+| [`navigation-advanced`](https://github.com/Jon-wang6/HelloCV/tree/navigation-advanced) | `~/ws05` | pluginlib、自定义 Nav2 规划器、控制器与自动巡检 |
 
 ## 克隆工作区
 
@@ -37,6 +39,18 @@ git clone --branch launch-rosbag2 --single-branch https://github.com/Jon-wang6/H
 
 ```bash
 git clone --branch simulation --single-branch https://github.com/Jon-wang6/HelloCV.git ws03
+```
+
+克隆移动机器人导航分支到 `ws04`：
+
+```bash
+git clone --branch navigation --single-branch https://github.com/Jon-wang6/HelloCV.git ws04
+```
+
+克隆导航进阶与插件开发分支到 `ws05`：
+
+```bash
+git clone --branch navigation-advanced --single-branch https://github.com/Jon-wang6/HelloCV.git ws05
 ```
 
 具体的环境配置、构建和运行方法请查看对应分支中的 README。
@@ -65,6 +79,14 @@ git clone --branch simulation --single-branch https://github.com/Jon-wang6/Hello
 ### 机器人建模与仿真（`simulation`）
 
 - [ROS 2 机器人建模与仿真学习](https://github.com/Jon-wang6/HelloCV/blob/simulation/notes/ROS2机器人建模与仿真学习.md)
+
+### 移动机器人导航（`navigation`）
+
+- [ROS 2 移动机器人导航学习](https://github.com/Jon-wang6/HelloCV/blob/navigation/notes/ROS2移动机器人导航学习.md)
+
+### 导航进阶与插件开发（`navigation-advanced`）
+
+- [ROS 2 导航进阶与插件开发学习](https://github.com/Jon-wang6/HelloCV/blob/navigation-advanced/notes/ROS2导航进阶与插件开发学习.md)
 
 ## 工程开发基础与实践
 
