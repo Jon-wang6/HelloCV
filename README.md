@@ -2,7 +2,7 @@
 
 本分支保存 `~/ws04` 中的 ROS 2 移动机器人导航源码与学习笔记，主要用于地图加载、AMCL 定位、Nav2 路径规划和 Gazebo 仿真导航。
 
-分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ros2-basics](https://github.com/Jon-wang6/HelloCV/tree/ros2-basics) · [ros2-communication](https://github.com/Jon-wang6/HelloCV/tree/ros2-communication) · [launch-rosbag2](https://github.com/Jon-wang6/HelloCV/tree/launch-rosbag2) · [simulation](https://github.com/Jon-wang6/HelloCV/tree/simulation) · **navigation**
+分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ros2-basics](https://github.com/Jon-wang6/HelloCV/tree/ros2-basics) · [ros2-communication](https://github.com/Jon-wang6/HelloCV/tree/ros2-communication) · [launch-rosbag2](https://github.com/Jon-wang6/HelloCV/tree/launch-rosbag2) · [simulation](https://github.com/Jon-wang6/HelloCV/tree/simulation) · **navigation** · [navigation-advanced](https://github.com/Jon-wang6/HelloCV/tree/navigation-advanced)
 
 ## 获取本分支
 
