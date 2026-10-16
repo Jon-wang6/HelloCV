@@ -2,7 +2,7 @@
 
 本分支保存 `~/ws03` 中的 ROS 2 机器人建模与仿真源码，主要用于 URDF、Xacro、RViz2 和 Gazebo 入门练习。
 
-分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ros2-basics](https://github.com/Jon-wang6/HelloCV/tree/ros2-basics) · [ros2-communication](https://github.com/Jon-wang6/HelloCV/tree/ros2-communication) · [launch-rosbag2](https://github.com/Jon-wang6/HelloCV/tree/launch-rosbag2) · **simulation**
+分支导航：[main](https://github.com/Jon-wang6/HelloCV/tree/main) · [ros2-basics](https://github.com/Jon-wang6/HelloCV/tree/ros2-basics) · [ros2-communication](https://github.com/Jon-wang6/HelloCV/tree/ros2-communication) · [launch-rosbag2](https://github.com/Jon-wang6/HelloCV/tree/launch-rosbag2) · **simulation** · [navigation](https://github.com/Jon-wang6/HelloCV/tree/navigation) · [navigation-advanced](https://github.com/Jon-wang6/HelloCV/tree/navigation-advanced)
 
 ## 获取本分支
 
